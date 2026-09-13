@@ -71,7 +71,8 @@ async function checkSolana() {
 async function checkSuperteam() {
   const key = process.env.SUPERTTEAM_API_KEY;
   if (!key) return { configured: false };
-  const res = await fetch('https://earn.superteam.fun/api/agents/listings/live', {
+  // Direct host: earn.superteam.fun 308-redirects here and fetch strips auth on cross-host redirects.
+  const res = await fetch('https://superteam.fun/api/agents/listings/live', {
     headers: { authorization: `Bearer ${key}` },
   });
   if (!res.ok) return { configured: true, error: `HTTP ${res.status}` };
