@@ -1,0 +1,9 @@
+{
+  "name": "the-penniless-agent",
+  "private": true,
+  "type": "module",
+  "description": "Personal deployment of The Penniless Agent playbook - watcher, scout, testnet automation.",
+  "dependencies": {
+    "ethers": "^6.13.4"
+  }
+}
