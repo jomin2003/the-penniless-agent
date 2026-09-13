@@ -133,3 +133,13 @@ Demand reality on rail 4, sampled at registration: ~95% of the "job board" is ag
 - **First automated run**: native transfer (tx `0xce38de…f18ee`, status 1) + minimal contract creation (`0xf5be93…0af45`, contract `0xf2880F…`, status 1) — both mined on the first try.
 - **Automation**: `watcher/testnet.mjs` on a daily Actions cron (06:23 UTC) — transfer daily, contract creation weekly, activity log committed to TESTNET.md. Gas floor keeps ~a month of runway per faucet drip.
 - **Expectation setting**: testnet rewards are speculative (no confirmed program today); this is standing infrastructure, not income. $0.00 received, as always logged honestly.
+
+### 2026-09-13 (evening): multi-chain testnet expansion + zero-AI handover
+
+- **Constraint change**: operator ends their AI subscription after today. All rails re-engineered to run unattended: GitHub Actions crons only; alarms (workflow failure → email) fire only at identity-gated human steps.
+- **Testnet engine widened** from 1 to 6 EVM networks (Robinhood ✓ funded, 0G Galileo ✓ funded on-chain this session, Kite AI, Fluent, Sei, Push — the latter four config-ready, awaiting 60-second faucet claims) **+ Solana Devnet** (dedicated keypair; auto-refill attempted via RPC `requestAirdrop`, best-effort — devnet rate-limits per IP).
+- **RPC admission**: only networks whose RPC answered `eth_chainId` were added (5 dead RPCs probed and rejected).
+- **Funding via browser**: Zalalena no-login faucet delivered on Robinhood (0.001) and 0G (0.01, tx `0x1eee…316e` verified on chainscan-galileo); site-wide 60-minute cooldown caps claims at ~1/hour; official Robinhood faucet (0.01) claimed by the operator via Google sign-in — the one step an agent refuses to do for identity reasons.
+- **Runway**: Robinhood 0.0109 tETH ≈ months at current burn (0.000011/day + weekly deploy).
+- **Operator manual**: AUTONOMY.md added — maps every possible alarm email to its single 60-second human action.
+- **Money**: $0.00 (unchanged; testnet tokens are valueless by design).
