@@ -19,10 +19,11 @@ const H = TOKEN ? { authorization: `token ${TOKEN}`, 'user-agent': 'penniless-sc
 // Admission list — every repo here has verifiable payout history:
 //  BasedHardware/omi: contribution guide with paid-bounty program, 76+ merged bounty PRs (checked 2026-09-13)
 //  projectdiscovery/katana: Algora award on record (issue #1367, paid)
-//  tursodatabase/turso: Algora challenge paid $2,500+ to 7 contributors (closed program, spot-check only)
+//  tursodatabase/turso: Algora challenge paid $2,500+ to 7 contributors (checked 2026-09-13)
 const WATCH = [
-  { repo: 'BasedHardware/omi', minStars: 5000, langs: ['python'] },
-  { repo: 'projectdiscovery/katana', minStars: 2000, langs: ['go'] },
+  { repo: 'BasedHardware/omi', minStars: 5000 },
+  { repo: 'projectdiscovery/katana', minStars: 2000 },
+  { repo: 'tursodatabase/turso', minStars: 5000 },
 ];
 
 const BUG_SIGNALS = [
@@ -48,6 +49,9 @@ async function repoAdmitted(repo, minStars) {
   const meta = await gh(`/repos/${repo}`);
   if (meta.stargazers_count < minStars) return { ok: false, why: `stars ${meta.stargazers_count} < ${minStars}` };
   if (meta.archived) return { ok: false, why: 'archived' };
+  // payment-evidence gate: honeypots are young repos; real payers are established
+  const ageDays = (Date.now() - new Date(meta.created_at).getTime()) / 86400000;
+  if (ageDays < 180) return { ok: false, why: `repo only ${Math.floor(ageDays)} days old (honeypot risk)` };
   return { ok: true, meta };
 }
 

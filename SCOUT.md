@@ -1,10 +1,11 @@
 # Bounty scout
 
-Last run: **2026-09-13 07:49 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-13 08:48 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
 | BasedHardware/omi | [#13662](https://github.com/BasedHardware/omi/issues/13662) | Soniox was dropped from the prod streaming chain on a false premise; Velma failures now land on Deepgram, which should only serve BYOK users | 2026-09-12 |
+| tursodatabase/turso | [#8942](https://github.com/tursodatabase/turso/issues/8942) | fts: optimize can exhaust 500 retries during concurrent mvcc updates | 2026-09-11 |
 
 <details><summary>Filter log</summary>
 
@@ -40,5 +41,14 @@ Last run: **2026-09-13 07:49 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #13444: title reads as proposal/question
 
 **projectdiscovery/katana**
+
+**tursodatabase/turso**
+- #8971: title reads as proposal/question
+- #8950: weak bug signal (0/4)
+- #8948: weak bug signal (1/4)
+- #8939: weak bug signal (0/4)
+- #8938: weak bug signal (0/4)
+- #8936: weak bug signal (0/4)
+- #8932: weak bug signal (1/4)
 
 </details>
