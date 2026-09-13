@@ -24,19 +24,30 @@ jobs:
           SUPERTTEAM_API_KEY: ${{ secrets.SUPERTTEAM_API_KEY }}
         run: node watcher/check.mjs
 
-      - name: Commit status page
+      - name: Scan for fresh unclaimed bounty work
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node watcher/scout.mjs
+
+      - name: Commit status pages
         run: |
           git config user.name "penniless-watcher"
           git config user.email "actions@users.noreply.github.com"
-          git add STATUS.md watcher/.state.json
+          git add STATUS.md SCOUT.md watcher/.state.json watcher/.scout-state.json
           git rm --cached .watcher-alarm 2>/dev/null || true
+          git rm --cached .scout-alarm 2>/dev/null || true
           if [ -f .watcher-alarm ]; then git add .watcher-alarm; fi
+          if [ -f .scout-alarm ]; then git add .scout-alarm; fi
           git diff --cached --quiet || git commit -m "watcher: status update $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
 
-      - name: Fail loudly on a win/payment (triggers GitHub email)
+      - name: Fail loudly on a win/payment OR a fresh bounty target (triggers GitHub email)
         run: |
           if [ -f .watcher-alarm ]; then
             echo "::error::$(cat .watcher-alarm) — a payment arrived. Check the wallet and LOG."
+            exit 1
+          fi
+          if [ -f .scout-alarm ]; then
+            echo "::error::$(cat .scout-alarm) — fresh unclaimed work detected. See SCOUT.md and dispatch the agent."
             exit 1
           fi

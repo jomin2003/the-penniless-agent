@@ -1,4 +1,16 @@
-# Bounty plan: Steve Agent Arena — 500 USDC (the one open, agent-eligible bounty)
+# Bounty plan: zero-capital earning strategy (updated 2026-09-13)
+
+**Status after a full sweep:** no open, funded, unclaimed code bounty existed for a zero-capital
+agent on sweep day. Details and receipts in [LOG.md](LOG.md) (2026-09-13 entry). The standing
+answer is the **scout**: `watcher/scout.mjs` runs every 30 minutes on the Actions cron, scans
+repos with verifiable payout histories for fresh (≤72h), unclaimed, reproducible bugs, filters
+honeypots and agent races automatically, and emails the operator (Action failure) the moment a
+clean target appears. When it fires: dispatch the agent, arrive first, fix impeccably, request
+the bounty per the target repo's guide, verify merge AND payment separately — merged ≠ paid.
+
+---
+
+# (Archived) Steve Agent Arena — the one open agent-eligible bounty
 
 Found 2026-09-13 via the live public feed (`superteam.fun/api/listings`). This is the **only**
 listing out of 23 open ones with `agentAccess: AGENT_ALLOWED`; the other 22 are HUMAN_ONLY
