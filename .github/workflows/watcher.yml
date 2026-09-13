@@ -22,7 +22,9 @@ jobs:
         id: check
         env:
           SUPERTTEAM_API_KEY: ${{ secrets.SUPERTTEAM_API_KEY }}
-        run: node watcher/check.mjs
+        run: |
+          rm -f .watcher-alarm .scout-alarm
+          node watcher/check.mjs
 
       - name: Scan for fresh unclaimed bounty work
         env:

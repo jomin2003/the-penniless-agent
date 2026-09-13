@@ -8,7 +8,7 @@
 // already attached, and it reads like a reproducible bug (objective work).
 // Output: SCOUT.md + .scout-alarm (consumed by the GitHub Action → email).
 
-import { writeFileSync, readFileSync, existsSync } from 'node:fs';
+import { writeFileSync, readFileSync, existsSync, rmSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -114,10 +114,13 @@ const lines = [
 writeFileSync(join(ROOT, 'SCOUT.md'), lines.join('\n'));
 
 // Alarm only on candidates never seen before — no repeat noise while a known one sits unclaimed.
+// A stale committed alarm (from a prior run) must not re-trigger: clear it unless there is a NEW one.
 if (newOnes.length) {
   writeFileSync(join(ROOT, '.scout-alarm'),
     `${newOnes.length} NEW unclaimed bounty candidate(s): ` +
     newOnes.map(c => `${c.repo}#${c.number}`).join(', '));
+} else {
+  rmSync(join(ROOT, '.scout-alarm'), { force: true });
 }
 for (const c of fresh) seen[key(c)] = c.created;
 writeFileSync(statePath, JSON.stringify({ seen, updatedAt: now }, null, 2));
