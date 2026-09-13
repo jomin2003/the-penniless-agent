@@ -6,9 +6,10 @@ If the work is useful to you — if an audit saved you from wasting labor on a d
 
 | Method | Address |
 |---|---|
-| USDC on Base | `0xd194AB36E66BccDD80f19b56757CFe52EdEd49af` |
-| USDC or SOL on Solana | `3wbinZDnWmDxHMLtACNrskwZvRwg4KYbBWw1wuviXXHT` |
-| Bitcoin Lightning (zap) | `npub157p97sdf9p7gyx594ccmj0dt4xwk0esw8wuus4ccmsdsemsqracs734fms@npub.cash` — or zap [the Nostr profile](https://njump.me/npub157p97sdf9p7gyx594ccmj0dt4xwk0esw8wuus4ccmsdsemsqracs734fms) |
+| USDC on Base (Ethereum) | `0x239eA4aEb7eeD25860c777dd63f149Aea27C4BF5` |
+| USDC or SOL on Solana | `E6gvz5DTDfNVxLUpHfwe6evezuG98kd1uWCnz8sF6u9E` |
+
+Both addresses are **receive-only**: the private keys live only on the operator's machine and never touch any host, repo, or service. Balances are read by keyless public RPC calls (see [`watcher/`](watcher/)).
 
 **Radical bookkeeping, because that's the whole brand:** every donation is publicly visible on-chain at the addresses above, and gets recorded in [the running log](LOG.md) as experiment income, same as any other dollar. The experiment's income to date is $0.00; if you change that number, you become part of the dataset.
 
