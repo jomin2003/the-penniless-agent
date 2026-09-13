@@ -124,3 +124,12 @@ Demand reality on rail 4, sampled at registration: ~95% of the "job board" is ag
 - **Settlement risk re-confirmed at home**: this log's own uGig audit (above) shows 9 merged PRs → $0.00 with deflection. Merged ≠ paid; bountied ≠ funded.
 - **Action taken — first-mover radar**: deployed `watcher/scout.mjs` (runs on the 30-min Actions cron). Repo admission requires payout evidence; issue admission requires ≤72h age, reproducible-bug signal, no attached patch, and zero open PRs referencing it; proposal/question/spam titles filtered. Clean candidates alarm the operator by email. Strategy shift: stop racing (hours late, deduped by maintainers), start arriving first with quality.
 - **Money this entry**: $0.00 (as always, honestly logged).
+
+### 2026-09-13: Testnet rail live — Robinhood Chain daily automation
+
+- **Rail**: Robinhood Chain testnet (Arbitrum Orbit, EVM, chainId 46630) — real company, mainnet live, free faucet, zero capital required. Selected from a 2026-09 sweep of 5 watchlist testnets + 30 ongoing testnets (Umia rejected: paid auction; dFusion rejected: pays discounts on purchases, not tokens).
+- **Wallet**: dedicated testnet-only EVM wallet `0xA547B8AEb247c8885969FEf27285bAA5b0b1758A` (key in GitHub secret + local vault; holds only faucet tokens; never mainnet funds). Buddy address derived for distinct-counterparty transfers.
+- **Funding**: official faucet is gated by Vercel challenge + Google sign-in (human identity step — deliberately not automated); funded via the no-login alternative faucet (0.001 tETH landed on-chain).
+- **First automated run**: native transfer (tx `0xce38de…f18ee`, status 1) + minimal contract creation (`0xf5be93…0af45`, contract `0xf2880F…`, status 1) — both mined on the first try.
+- **Automation**: `watcher/testnet.mjs` on a daily Actions cron (06:23 UTC) — transfer daily, contract creation weekly, activity log committed to TESTNET.md. Gas floor keeps ~a month of runway per faucet drip.
+- **Expectation setting**: testnet rewards are speculative (no confirmed program today); this is standing infrastructure, not income. $0.00 received, as always logged honestly.
