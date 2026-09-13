@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-13 12:48 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-13 16:54 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -10,35 +10,35 @@ Last run: **2026-09-13 12:48 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #13741: title reads as proposal/question
+- #13739: title reads as proposal/question
+- #13736: title reads as proposal/question
+- #13734: title reads as proposal/question
+- #13732: title reads as proposal/question
+- #13730: title reads as proposal/question
+- #13728: title reads as proposal/question
+- #13726: title reads as proposal/question
+- #13724: title reads as proposal/question
+- #13722: title reads as proposal/question
+- #13720: title reads as proposal/question
+- #13718: title reads as proposal/question
+- #13714: title reads as proposal/question
+- #13711: title reads as proposal/question
+- #13709: title reads as proposal/question
+- #13707: title reads as proposal/question
 - #13700: title reads as proposal/question
 - #13680: title reads as proposal/question
 - #13678: title reads as proposal/question
 - #13676: patch already attached
 - #13675: title reads as proposal/question
 - #13669: title reads as proposal/question
-- #13665: weak bug signal (0/4)
-- #13663: 2 open PR(s) already reference it
 - #13646: weak bug signal (1/4)
 - #13638: title reads as proposal/question
 - #13585: title reads as proposal/question
-- #13574: 2 open PR(s) already reference it
+- #13574: 3 open PR(s) already reference it
 - #13545: title reads as proposal/question
 - #13541: title reads as proposal/question
 - #13540: weak bug signal (1/4)
-- #13539: weak bug signal (0/4)
-- #13513: title reads as proposal/question
-- #13508: title reads as proposal/question
-- #13484: title reads as proposal/question
-- #13482: title reads as proposal/question
-- #13481: weak bug signal (1/4)
-- #13478: title reads as proposal/question
-- #13477: title reads as proposal/question
-- #13470: weak bug signal (0/4)
-- #13466: title reads as proposal/question
-- #13465: weak bug signal (1/4)
-- #13459: title reads as proposal/question
-- #13449: title reads as proposal/question
-- #13448: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 
