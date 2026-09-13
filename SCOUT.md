@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-09-13 21:36 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-13 23:58 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#13774](https://github.com/BasedHardware/omi/issues/13774) | macOS: chat composer drop only highlights/accepts on the border, not the input interior | 2026-09-13 |
 | tursodatabase/turso | [#8942](https://github.com/tursodatabase/turso/issues/8942) | fts: optimize can exhaust 500 retries during concurrent mvcc updates | 2026-09-11 |
 
 <details><summary>Filter log</summary>
@@ -38,7 +39,6 @@ Last run: **2026-09-13 21:36 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #13709: title reads as proposal/question
 - #13707: title reads as proposal/question
 - #13700: title reads as proposal/question
-- #13680: title reads as proposal/question
 
 **projectdiscovery/katana**
 
