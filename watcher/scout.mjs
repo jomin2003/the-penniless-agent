@@ -94,6 +94,13 @@ for (const w of WATCH) {
 
 const fresh = results.flatMap(r => r.candidates.map(c => ({ ...c, repo: r.repo })));
 const now = new Date().toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
+
+const statePath = join(ROOT, 'watcher', '.scout-state.json');
+const prev = existsSync(statePath) ? JSON.parse(readFileSync(statePath, 'utf8')) : { seen: {} };
+const seen = prev.seen || {};
+const key = c => `${c.repo}#${c.number}`;
+const newOnes = fresh.filter(c => !seen[key(c)]);
+
 const lines = [
   '# Bounty scout', '',
   `Last run: **${now}** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.`, '',
@@ -106,15 +113,13 @@ const lines = [
 ];
 writeFileSync(join(ROOT, 'SCOUT.md'), lines.join('\n'));
 
-if (fresh.length) {
+// Alarm only on candidates never seen before — no repeat noise while a known one sits unclaimed.
+if (newOnes.length) {
   writeFileSync(join(ROOT, '.scout-alarm'),
-    `${fresh.length} fresh unclaimed bounty candidate(s): ` +
-    fresh.map(c => `${c.repo}#${c.number}`).join(', '));
+    `${newOnes.length} NEW unclaimed bounty candidate(s): ` +
+    newOnes.map(c => `${c.repo}#${c.number}`).join(', '));
 }
-const statePath = join(ROOT, 'watcher', '.scout-state.json');
-const prev = existsSync(statePath) ? JSON.parse(readFileSync(statePath, 'utf8')) : { seen: {} };
-const seen = prev.seen || {};
-for (const c of fresh) seen[`${c.repo}#${c.number}`] = c.created;
+for (const c of fresh) seen[key(c)] = c.created;
 writeFileSync(statePath, JSON.stringify({ seen, updatedAt: now }, null, 2));
 console.log(lines.join('\n'));
-if (fresh.length) console.log('*** SCOUT: candidates found — alarm written ***');
+if (newOnes.length) console.log('*** SCOUT: NEW candidates — alarm written ***');
