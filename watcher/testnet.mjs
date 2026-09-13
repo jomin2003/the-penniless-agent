@@ -31,15 +31,8 @@ const CHAINS = [
 const statePath = join(ROOT, 'watcher', '.testnet-state.json');
 const state = existsSync(statePath) ? JSON.parse(readFileSync(statePath, 'utf8')) : {};
 
-function buddyAddress(chainKey, wallet) {
-  // deterministic second address: same wallet namespace, state-persisted on first use
-  state[chainKey] ||= {};
-  const s = state[chainKey];
-  if (!s.buddy) s.buddy = Wallet.createRandom().address;
-  return s.buddy;
-}
-
 const now = new Date().toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
+const today = now.slice(0, 10);
 const log = [`## ${now}`, ''];
 
 for (const c of CHAINS) {
@@ -52,7 +45,14 @@ for (const c of CHAINS) {
     const bal = await provider.getBalance(wallet.address);
     const balEth = Number(bal) / 1e18;
     logLines.push(`- wallet \`${wallet.address}\` balance: **${balEth.toFixed(6)} ETH**`);
+    state[c.name] = { ...(state[c.name] || {}), buddy: state[c.name]?.buddy, lastRun: now, lastBalance: balEth };
 
+    if (state[c.name]?.lastTransferDay === today) {
+      logLines.push(`- already active today (${state[c.name].lastTransferDay}) — one entry per day.`);
+      logLines.push('');
+      log.push(...logLines);
+      continue;
+    }
     if (balEth < c.minBalance + c.tip) {
       logLines.push(`- skipped: balance below floor (${c.minBalance}). Claim the faucet, then rerun.`);
       logLines.push('');
@@ -60,7 +60,7 @@ for (const c of CHAINS) {
       continue;
     }
 
-    const buddy = buddyAddress(c.name, wallet);
+    const buddy = state[c.name]?.buddy || Wallet.createRandom().address;
     // 1) native transfer
     const tx1 = await wallet.sendTransaction({ to: buddy, value: BigInt(Math.round(c.tip * 1e18)) });
     const r1 = await tx1.wait();
@@ -74,7 +74,7 @@ for (const c of CHAINS) {
       logLines.push(`- contract creation: tx \`${tx2.hash}\` (block ${r2.blockNumber}, status ${r2.status}, contract ${r2.contractAddress})`);
       state[c.name] = { ...(state[c.name] || {}), lastDeployWeek: week, buddy };
     }
-    state[c.name] = { ...(state[c.name] || {}), buddy, lastRun: now, lastBalance: balEth };
+    state[c.name] = { ...(state[c.name] || {}), buddy, lastRun: now, lastBalance: balEth, lastTransferDay: today };
     logLines.push('');
     log.push(...logLines);
   } catch (e) {
@@ -82,19 +82,17 @@ for (const c of CHAINS) {
   }
 }
 
-// prepend to TESTNET.md (keep last 20 entries)
-let prev = '';
+// rebuild TESTNET.md: header + today's entry + up to 19 previous entries
+const header = '# Testnet activity log\n\nAutomated daily participation on free testnets (dedicated testnet-only wallet, faucet-funded, zero mainnet value).\n';
 const tmPath = join(ROOT, 'TESTNET.md');
+let oldEntries = '';
 if (existsSync(tmPath)) {
-  const lines = readFileSync(tmPath, 'utf8').split('\n');
-  const bodyStart = lines.findIndex(l => l.startsWith('## '));
-  const header = bodyStart === -1 ? lines.slice(0, 2).join('\n') : lines.slice(0, bodyStart).join('\n');
-  const body = bodyStart === -1 ? '' : lines.slice(bodyStart).join('\n');
-  const entries = ('## ' + body.split('\n## ').filter(Boolean).slice(0, 19).join('\n## '));
-  prev = header + '\n\n' + entries + '\n';
-} else {
-  prev = '# Testnet activity log\n\nAutomated daily participation on free testnets (dedicated testnet-only wallet, faucet-funded, zero mainnet value).\n';
+  const txt = readFileSync(tmPath, 'utf8');
+  const idx = txt.indexOf('\n## ');
+  oldEntries = idx === -1 ? '' : txt.slice(idx + 1);
 }
-writeFileSync(tmPath, prev);
+const merged = (log.join('\n') + (oldEntries ? '\n' + oldEntries : '')).split('\n## ').filter(s => s.trim());
+const entries = merged.map(s => (s.startsWith('## ') ? s : '## ' + s)).join('\n');
+writeFileSync(tmPath, header + '\n' + entries + '\n');
 writeFileSync(statePath, JSON.stringify(state, null, 2));
 console.log(log.join('\n'));
