@@ -1,15 +1,20 @@
 # Bounty scout
 
-Last run: **2026-09-13 19:14 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-13 21:36 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#13662](https://github.com/BasedHardware/omi/issues/13662) | Soniox was dropped from the prod streaming chain on a false premise; Velma failures now land on Deepgram, which should only serve BYOK users | 2026-09-12 |
 | tursodatabase/turso | [#8942](https://github.com/tursodatabase/turso/issues/8942) | fts: optimize can exhaust 500 retries during concurrent mvcc updates | 2026-09-11 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #13772: title reads as proposal/question
+- #13770: title reads as proposal/question
+- #13768: title reads as proposal/question
+- #13766: title reads as proposal/question
+- #13764: title reads as proposal/question
+- #13762: title reads as proposal/question
 - #13757: title reads as proposal/question
 - #13755: title reads as proposal/question
 - #13753: title reads as proposal/question
@@ -34,11 +39,6 @@ Last run: **2026-09-13 19:14 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #13707: title reads as proposal/question
 - #13700: title reads as proposal/question
 - #13680: title reads as proposal/question
-- #13678: title reads as proposal/question
-- #13676: patch already attached
-- #13675: title reads as proposal/question
-- #13669: title reads as proposal/question
-- #13646: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 
