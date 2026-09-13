@@ -21,15 +21,27 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Daily testnet activity (dedicated testnet-only wallet)
+      - name: Daily testnet activity (dedicated testnet-only wallets)
         env:
           TESTNET_EVM_KEY: ${{ secrets.TESTNET_EVM_KEY }}
-        run: node watcher/testnet.mjs
+          TESTNET_SOL_KEY: ${{ secrets.TESTNET_SOL_KEY }}
+        run: |
+          rm -f .gas-alarm
+          node watcher/testnet.mjs
 
       - name: Commit activity log
         run: |
           git config user.name "penniless-watcher"
           git config user.email "actions@users.noreply.github.com"
           git add TESTNET.md watcher/.testnet-state.json
+          git rm --cached .gas-alarm 2>/dev/null || true
+          if [ -f .gas-alarm ]; then git add .gas-alarm; fi
           git diff --cached --quiet || git commit -m "testnet: daily activity $(date -u '+%Y-%m-%d')"
           git push
+
+      - name: Fail loudly when a faucet claim is needed (triggers GitHub email)
+        run: |
+          if [ -f .gas-alarm ]; then
+            echo "::error::$(cat .gas-alarm)"
+            exit 1
+          fi
