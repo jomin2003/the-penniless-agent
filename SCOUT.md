@@ -1,15 +1,18 @@
 # Bounty scout
 
-Last run: **2026-09-13 23:58 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-14 04:44 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#13774](https://github.com/BasedHardware/omi/issues/13774) | macOS: chat composer drop only highlights/accepts on the border, not the input interior | 2026-09-13 |
+| tursodatabase/turso | [#8981](https://github.com/tursodatabase/turso/issues/8981) | mvcc passive checkpoint can return an incorrect sum during concurrent transfers | 2026-09-14 |
 | tursodatabase/turso | [#8942](https://github.com/tursodatabase/turso/issues/8942) | fts: optimize can exhaust 500 retries during concurrent mvcc updates | 2026-09-11 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #13777: title reads as proposal/question
+- #13775: 1 open PR(s) already reference it
+- #13774: 1 open PR(s) already reference it
 - #13772: title reads as proposal/question
 - #13770: title reads as proposal/question
 - #13768: title reads as proposal/question
@@ -37,8 +40,6 @@ Last run: **2026-09-13 23:58 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #13714: title reads as proposal/question
 - #13711: title reads as proposal/question
 - #13709: title reads as proposal/question
-- #13707: title reads as proposal/question
-- #13700: title reads as proposal/question
 
 **projectdiscovery/katana**
 
@@ -47,9 +48,5 @@ Last run: **2026-09-13 23:58 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #8971: title reads as proposal/question
 - #8950: weak bug signal (0/4)
 - #8948: weak bug signal (1/4)
-- #8939: weak bug signal (0/4)
-- #8938: weak bug signal (0/4)
-- #8936: weak bug signal (0/4)
-- #8932: weak bug signal (1/4)
 
 </details>
