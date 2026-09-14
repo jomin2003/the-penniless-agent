@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-14 04:44 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-14 10:26 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -10,9 +10,20 @@ Last run: **2026-09-14 04:44 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #13818: title reads as proposal/question
+- #13816: title reads as proposal/question
+- #13814: title reads as proposal/question
+- #13812: title reads as proposal/question
+- #13810: title reads as proposal/question
+- #13808: title reads as proposal/question
+- #13806: title reads as proposal/question
+- #13803: title reads as proposal/question
+- #13801: weak bug signal (0/4)
+- #13800: weak bug signal (0/4)
+- #13793: title reads as proposal/question
+- #13788: title reads as proposal/question
 - #13777: title reads as proposal/question
-- #13775: 1 open PR(s) already reference it
-- #13774: 1 open PR(s) already reference it
+- #13775: 3 open PR(s) already reference it
 - #13772: title reads as proposal/question
 - #13770: title reads as proposal/question
 - #13768: title reads as proposal/question
@@ -29,17 +40,6 @@ Last run: **2026-09-14 04:44 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #13739: title reads as proposal/question
 - #13736: title reads as proposal/question
 - #13734: title reads as proposal/question
-- #13732: title reads as proposal/question
-- #13730: title reads as proposal/question
-- #13728: title reads as proposal/question
-- #13726: title reads as proposal/question
-- #13724: title reads as proposal/question
-- #13722: title reads as proposal/question
-- #13720: title reads as proposal/question
-- #13718: title reads as proposal/question
-- #13714: title reads as proposal/question
-- #13711: title reads as proposal/question
-- #13709: title reads as proposal/question
 
 **projectdiscovery/katana**
 
