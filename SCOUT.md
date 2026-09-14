@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-14 10:26 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-14 16:29 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -10,12 +10,18 @@ Last run: **2026-09-14 10:26 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #13864: title reads as proposal/question
+- #13862: title reads as proposal/question
+- #13860: title reads as proposal/question
+- #13852: title reads as proposal/question
+- #13840: title reads as proposal/question
+- #13838: title reads as proposal/question
+- #13836: title reads as proposal/question
 - #13818: title reads as proposal/question
 - #13816: title reads as proposal/question
 - #13814: title reads as proposal/question
 - #13812: title reads as proposal/question
 - #13810: title reads as proposal/question
-- #13808: title reads as proposal/question
 - #13806: title reads as proposal/question
 - #13803: title reads as proposal/question
 - #13801: weak bug signal (0/4)
@@ -23,8 +29,6 @@ Last run: **2026-09-14 10:26 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #13793: title reads as proposal/question
 - #13788: title reads as proposal/question
 - #13777: title reads as proposal/question
-- #13775: 3 open PR(s) already reference it
-- #13772: title reads as proposal/question
 - #13770: title reads as proposal/question
 - #13768: title reads as proposal/question
 - #13766: title reads as proposal/question
@@ -36,10 +40,6 @@ Last run: **2026-09-14 10:26 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #13751: title reads as proposal/question
 - #13749: title reads as proposal/question
 - #13747: title reads as proposal/question
-- #13741: title reads as proposal/question
-- #13739: title reads as proposal/question
-- #13736: title reads as proposal/question
-- #13734: title reads as proposal/question
 
 **projectdiscovery/katana**
 
