@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-15 21:03 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-15 23:36 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -12,7 +12,8 @@ Last run: **2026-09-15 21:03 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #14126: 1 open PR(s) already reference it
+- #14130: 2 open PR(s) already reference it
+- #14126: 2 open PR(s) already reference it
 - #14118: title reads as proposal/question
 - #14116: title reads as proposal/question
 - #14112: title reads as proposal/question
@@ -20,7 +21,7 @@ Last run: **2026-09-15 21:03 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #14108: title reads as proposal/question
 - #14106: title reads as proposal/question
 - #13987: 1 open PR(s) already reference it
-- #13983: 1 open PR(s) already reference it
+- #13983: 2 open PR(s) already reference it
 - #13980: title reads as proposal/question
 - #13978: title reads as proposal/question
 - #13976: title reads as proposal/question
@@ -41,11 +42,11 @@ Last run: **2026-09-15 21:03 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #13922: title reads as proposal/question
 - #13913: title reads as proposal/question
 - #13909: title reads as proposal/question
-- #13907: title reads as proposal/question
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9034: 1 open PR(s) already reference it
 - #9028: weak bug signal (1/4)
 - #9006: weak bug signal (1/4)
 - #8976: weak bug signal (1/4)
