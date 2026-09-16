@@ -1,48 +1,64 @@
 # Bounty scout
 
-Last run: **2026-09-16 14:19 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-16 18:20 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| tursodatabase/turso | [#9091](https://github.com/tursodatabase/turso/issues/9091) | A NOT IN subquery in a LEFT JOIN ON clause that refers to an earlier LEFT JOIN's table gives wrong rows | 2026-09-16 |
 | tursodatabase/turso | [#9069](https://github.com/tursodatabase/turso/issues/9069) | CDC: the `before` record of an upsert shows the new value instead of the old value | 2026-09-16 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #14223: weak bug signal (1/4)
-- #14217: title reads as proposal/question
-- #14216: title reads as proposal/question
+- #14237: title reads as proposal/question
+- #14235: title reads as proposal/question
 - #14215: title reads as proposal/question
-- #14214: title reads as proposal/question
-- #14210: 1 open PR(s) already reference it
 - #14201: weak bug signal (1/4)
-- #14200: 1 open PR(s) already reference it
+- #14200: 2 open PR(s) already reference it
 - #14196: 1 open PR(s) already reference it
 - #14193: 1 open PR(s) already reference it
 - #14187: title reads as proposal/question
-- #14185: title reads as proposal/question
 - #14183: 1 open PR(s) already reference it
 - #14181: 1 open PR(s) already reference it
-- #14176: title reads as proposal/question
 - #14161: 2 open PR(s) already reference it
 - #14155: weak bug signal (1/4)
-- #14153: title reads as proposal/question
 - #14151: title reads as proposal/question
 - #14146: title reads as proposal/question
 - #14130: 4 open PR(s) already reference it
 - #14126: 3 open PR(s) already reference it
-- #14118: title reads as proposal/question
-- #14116: title reads as proposal/question
 - #14112: title reads as proposal/question
-- #14110: title reads as proposal/question
-- #14108: title reads as proposal/question
-- #14106: title reads as proposal/question
 - #13987: 2 open PR(s) already reference it
 - #13983: 3 open PR(s) already reference it
+- #13980: title reads as proposal/question
+- #13978: title reads as proposal/question
+- #13970: title reads as proposal/question
+- #13966: weak bug signal (1/4)
+- #13958: weak bug signal (1/4)
+- #13948: 3 open PR(s) already reference it
+- #13946: title reads as proposal/question
+- #13944: title reads as proposal/question
+- #13939: 3 open PR(s) already reference it
+- #13935: 2 open PR(s) already reference it
+- #13931: title reads as proposal/question
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9096: weak bug signal (1/4)
+- #9095: weak bug signal (1/4)
+- #9094: weak bug signal (1/4)
+- #9093: weak bug signal (1/4)
+- #9092: weak bug signal (1/4)
+- #9090: weak bug signal (0/4)
+- #9089: weak bug signal (1/4)
+- #9088: weak bug signal (1/4)
+- #9087: weak bug signal (0/4)
+- #9086: weak bug signal (0/4)
+- #9085: weak bug signal (0/4)
+- #9084: weak bug signal (0/4)
+- #9083: weak bug signal (1/4)
+- #9082: weak bug signal (0/4)
+- #9081: weak bug signal (0/4)
 - #9077: weak bug signal (1/4)
 - #9076: weak bug signal (1/4)
 - #9075: weak bug signal (1/4)
@@ -56,21 +72,5 @@ Last run: **2026-09-16 14:19 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9065: weak bug signal (0/4)
 - #9064: weak bug signal (0/4)
 - #9063: weak bug signal (0/4)
-- #9062: weak bug signal (1/4)
-- #9061: weak bug signal (0/4)
-- #9060: weak bug signal (1/4)
-- #9059: weak bug signal (1/4)
-- #9058: weak bug signal (1/4)
-- #9057: weak bug signal (1/4)
-- #9056: weak bug signal (1/4)
-- #9055: weak bug signal (1/4)
-- #9054: weak bug signal (1/4)
-- #9053: weak bug signal (1/4)
-- #9052: weak bug signal (1/4)
-- #9051: weak bug signal (1/4)
-- #9050: weak bug signal (1/4)
-- #9049: weak bug signal (1/4)
-- #9048: weak bug signal (0/4)
-- #9047: weak bug signal (1/4)
 
 </details>
