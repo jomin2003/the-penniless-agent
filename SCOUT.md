@@ -1,26 +1,27 @@
 # Bounty scout
 
-Last run: **2026-09-17 05:09 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-17 10:18 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| tursodatabase/turso | [#9110](https://github.com/tursodatabase/turso/issues/9110) | MVCC passive checkpoint cleanup releases the WAL write lock twice after an I/O error | 2026-09-17 |
 | tursodatabase/turso | [#9091](https://github.com/tursodatabase/turso/issues/9091) | A NOT IN subquery in a LEFT JOIN ON clause that refers to an earlier LEFT JOIN's table gives wrong rows | 2026-09-16 |
 | tursodatabase/turso | [#9069](https://github.com/tursodatabase/turso/issues/9069) | CDC: the `before` record of an upsert shows the new value instead of the old value | 2026-09-16 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #14325: weak bug signal (1/4)
+- #14324: weak bug signal (1/4)
+- #14323: weak bug signal (0/4)
+- #14307: title reads as proposal/question
 - #14295: title reads as proposal/question
 - #14286: title reads as proposal/question
 - #14280: title reads as proposal/question
 - #14274: title reads as proposal/question
 - #14270: title reads as proposal/question
-- #14267: 2 open PR(s) already reference it
 - #14265: title reads as proposal/question
 - #14261: 1 open PR(s) already reference it
-- #14259: 1 open PR(s) already reference it
-- #14257: 1 open PR(s) already reference it
-- #14255: 1 open PR(s) already reference it
 - #14237: title reads as proposal/question
 - #14235: title reads as proposal/question
 - #14215: title reads as proposal/question
@@ -44,6 +45,7 @@ Last run: **2026-09-17 05:09 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9109: weak bug signal (1/4)
 - #9096: weak bug signal (1/4)
 - #9095: weak bug signal (1/4)
 - #9094: weak bug signal (1/4)
@@ -70,7 +72,5 @@ Last run: **2026-09-17 05:09 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9067: weak bug signal (0/4)
 - #9066: weak bug signal (0/4)
 - #9065: weak bug signal (0/4)
-- #9064: weak bug signal (0/4)
-- #9063: weak bug signal (0/4)
 
 </details>
