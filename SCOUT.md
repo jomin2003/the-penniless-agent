@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-17 10:18 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-17 15:13 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -11,20 +11,18 @@ Last run: **2026-09-17 10:18 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #14325: weak bug signal (1/4)
+- #14347: 1 open PR(s) already reference it
+- #14344: title reads as proposal/question
+- #14341: title reads as proposal/question
+- #14340: title reads as proposal/question
 - #14324: weak bug signal (1/4)
-- #14323: weak bug signal (0/4)
 - #14307: title reads as proposal/question
 - #14295: title reads as proposal/question
 - #14286: title reads as proposal/question
-- #14280: title reads as proposal/question
 - #14274: title reads as proposal/question
 - #14270: title reads as proposal/question
 - #14265: title reads as proposal/question
 - #14261: 1 open PR(s) already reference it
-- #14237: title reads as proposal/question
-- #14235: title reads as proposal/question
-- #14215: title reads as proposal/question
 - #14200: 2 open PR(s) already reference it
 - #14196: 1 open PR(s) already reference it
 - #14193: 1 open PR(s) already reference it
@@ -39,8 +37,10 @@ Last run: **2026-09-17 10:18 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #13983: 3 open PR(s) already reference it
 - #13980: title reads as proposal/question
 - #13978: title reads as proposal/question
-- #13970: title reads as proposal/question
 - #13966: weak bug signal (1/4)
+- #13958: weak bug signal (1/4)
+- #13948: 3 open PR(s) already reference it
+- #13946: title reads as proposal/question
 
 **projectdiscovery/katana**
 
