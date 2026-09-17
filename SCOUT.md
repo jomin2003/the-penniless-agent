@@ -1,9 +1,12 @@
 # Bounty scout
 
-Last run: **2026-09-17 15:13 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-17 19:11 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#14380](https://github.com/BasedHardware/omi/issues/14380) | arXiv search drops valid physics and condensed-matter category filters | 2026-09-17 |
+| BasedHardware/omi | [#14376](https://github.com/BasedHardware/omi/issues/14376) | bug(app): PLAUD NotePin S does not appear in iOS device discovery | 2026-09-17 |
+| BasedHardware/omi | [#14357](https://github.com/BasedHardware/omi/issues/14357) | arXiv app rejects valid versioned solv-int paper IDs | 2026-09-17 |
 | tursodatabase/turso | [#9110](https://github.com/tursodatabase/turso/issues/9110) | MVCC passive checkpoint cleanup releases the WAL write lock twice after an I/O error | 2026-09-17 |
 | tursodatabase/turso | [#9091](https://github.com/tursodatabase/turso/issues/9091) | A NOT IN subquery in a LEFT JOIN ON clause that refers to an earlier LEFT JOIN's table gives wrong rows | 2026-09-16 |
 | tursodatabase/turso | [#9069](https://github.com/tursodatabase/turso/issues/9069) | CDC: the `before` record of an upsert shows the new value instead of the old value | 2026-09-16 |
@@ -11,6 +14,9 @@ Last run: **2026-09-17 15:13 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #14363: patch already attached
+- #14351: title reads as proposal/question
+- #14350: title reads as proposal/question
 - #14347: 1 open PR(s) already reference it
 - #14344: title reads as proposal/question
 - #14341: title reads as proposal/question
@@ -27,7 +33,6 @@ Last run: **2026-09-17 15:13 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #14196: 1 open PR(s) already reference it
 - #14193: 1 open PR(s) already reference it
 - #14161: 3 open PR(s) already reference it
-- #14155: weak bug signal (1/4)
 - #14151: title reads as proposal/question
 - #14146: title reads as proposal/question
 - #14130: 4 open PR(s) already reference it
@@ -36,15 +41,12 @@ Last run: **2026-09-17 15:13 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #13987: 2 open PR(s) already reference it
 - #13983: 3 open PR(s) already reference it
 - #13980: title reads as proposal/question
-- #13978: title reads as proposal/question
-- #13966: weak bug signal (1/4)
-- #13958: weak bug signal (1/4)
-- #13948: 3 open PR(s) already reference it
-- #13946: title reads as proposal/question
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9132: weak bug signal (1/4)
+- #9127: weak bug signal (0/4)
 - #9109: weak bug signal (1/4)
 - #9096: weak bug signal (1/4)
 - #9095: weak bug signal (1/4)
@@ -70,7 +72,5 @@ Last run: **2026-09-17 15:13 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9071: weak bug signal (1/4)
 - #9068: weak bug signal (1/4)
 - #9067: weak bug signal (0/4)
-- #9066: weak bug signal (0/4)
-- #9065: weak bug signal (0/4)
 
 </details>
