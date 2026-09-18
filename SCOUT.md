@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-09-17 22:22 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-18 00:41 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#14436](https://github.com/BasedHardware/omi/issues/14436) | iq_rating: a non-object element in the AI score array discards the whole batch's scores | 2026-09-17 |
 | BasedHardware/omi | [#14376](https://github.com/BasedHardware/omi/issues/14376) | bug(app): PLAUD NotePin S does not appear in iOS device discovery | 2026-09-17 |
 | tursodatabase/turso | [#9110](https://github.com/tursodatabase/turso/issues/9110) | MVCC passive checkpoint cleanup releases the WAL write lock twice after an I/O error | 2026-09-17 |
 | tursodatabase/turso | [#9091](https://github.com/tursodatabase/turso/issues/9091) | A NOT IN subquery in a LEFT JOIN ON clause that refers to an earlier LEFT JOIN's table gives wrong rows | 2026-09-16 |
@@ -12,6 +13,13 @@ Last run: **2026-09-17 22:22 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #14434: title reads as proposal/question
+- #14433: 1 open PR(s) already reference it
+- #14430: title reads as proposal/question
+- #14428: title reads as proposal/question
+- #14426: title reads as proposal/question
+- #14423: 1 open PR(s) already reference it
+- #14421: title reads as proposal/question
 - #14384: title reads as proposal/question
 - #14380: 2 open PR(s) already reference it
 - #14363: patch already attached
@@ -33,14 +41,6 @@ Last run: **2026-09-17 22:22 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #14200: 2 open PR(s) already reference it
 - #14196: 1 open PR(s) already reference it
 - #14193: 1 open PR(s) already reference it
-- #14161: 3 open PR(s) already reference it
-- #14151: title reads as proposal/question
-- #14146: title reads as proposal/question
-- #14130: 4 open PR(s) already reference it
-- #14126: 3 open PR(s) already reference it
-- #14112: title reads as proposal/question
-- #13987: 2 open PR(s) already reference it
-- #13983: 3 open PR(s) already reference it
 
 **projectdiscovery/katana**
 
