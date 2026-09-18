@@ -1,10 +1,13 @@
 # Bounty scout
 
-Last run: **2026-09-18 10:53 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-18 14:51 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#14376](https://github.com/BasedHardware/omi/issues/14376) | bug(app): PLAUD NotePin S does not appear in iOS device discovery | 2026-09-17 |
+| tursodatabase/turso | [#9162](https://github.com/tursodatabase/turso/issues/9162) | Differential divergence: Incorrect truthiness evaluation of QUOTE() scalar string expression in WHERE clause | 2026-09-18 |
+| tursodatabase/turso | [#9161](https://github.com/tursodatabase/turso/issues/9161) | Differential divergence: Incorrect OFFSET handling with duplicate positional GROUP BY and constant ORDER BY | 2026-09-18 |
+| tursodatabase/turso | [#9160](https://github.com/tursodatabase/turso/issues/9160) | Differential divergence: Incorrect evaluation of TEXT column truthiness inside CASE WHEN subquery | 2026-09-18 |
+| tursodatabase/turso | [#9158](https://github.com/tursodatabase/turso/issues/9158) | sum() on TEXT column silently returns imprecise float on integer overflow instead of raising error (SQLite compat) | 2026-09-18 |
 | tursodatabase/turso | [#9144](https://github.com/tursodatabase/turso/issues/9144) | REAL→TEXT rendering diverges from SQLite for values in [1e15, 1e17) | 2026-09-18 |
 | tursodatabase/turso | [#9110](https://github.com/tursodatabase/turso/issues/9110) | MVCC passive checkpoint cleanup releases the WAL write lock twice after an I/O error | 2026-09-17 |
 | tursodatabase/turso | [#9091](https://github.com/tursodatabase/turso/issues/9091) | A NOT IN subquery in a LEFT JOIN ON clause that refers to an earlier LEFT JOIN's table gives wrong rows | 2026-09-16 |
@@ -12,11 +15,17 @@ Last run: **2026-09-18 10:53 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #14585: title reads as proposal/question
+- #14582: title reads as proposal/question
+- #14580: title reads as proposal/question
+- #14578: title reads as proposal/question
+- #14576: title reads as proposal/question
+- #14573: title reads as proposal/question
+- #14572: title reads as proposal/question
+- #14563: patch already attached
 - #14552: title reads as proposal/question
 - #14545: title reads as proposal/question
 - #14523: title reads as proposal/question
-- #14515: patch already attached
-- #14511: weak bug signal (1/4)
 - #14505: weak bug signal (1/4)
 - #14490: title reads as proposal/question
 - #14488: weak bug signal (0/4)
@@ -36,11 +45,6 @@ Last run: **2026-09-18 10:53 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #14428: title reads as proposal/question
 - #14426: title reads as proposal/question
 - #14423: 1 open PR(s) already reference it
-- #14421: title reads as proposal/question
-- #14384: title reads as proposal/question
-- #14380: 3 open PR(s) already reference it
-- #14363: patch already attached
-- #14357: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
 
@@ -68,9 +72,5 @@ Last run: **2026-09-18 10:53 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9081: weak bug signal (0/4)
 - #9077: weak bug signal (1/4)
 - #9076: weak bug signal (1/4)
-- #9075: weak bug signal (1/4)
-- #9074: weak bug signal (0/4)
-- #9073: weak bug signal (1/4)
-- #9072: weak bug signal (1/4)
 
 </details>
