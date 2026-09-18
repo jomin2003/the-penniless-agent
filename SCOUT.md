@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-18 00:41 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-18 05:41 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -13,6 +13,21 @@ Last run: **2026-09-18 00:41 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #14511: weak bug signal (1/4)
+- #14505: weak bug signal (1/4)
+- #14490: title reads as proposal/question
+- #14488: weak bug signal (0/4)
+- #14486: weak bug signal (1/4)
+- #14477: title reads as proposal/question
+- #14472: weak bug signal (1/4)
+- #14463: title reads as proposal/question
+- #14462: patch already attached
+- #14455: title reads as proposal/question
+- #14453: title reads as proposal/question
+- #14451: title reads as proposal/question
+- #14446: title reads as proposal/question
+- #14444: title reads as proposal/question
+- #14442: title reads as proposal/question
 - #14434: title reads as proposal/question
 - #14433: 1 open PR(s) already reference it
 - #14430: title reads as proposal/question
@@ -21,30 +36,16 @@ Last run: **2026-09-18 00:41 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #14423: 1 open PR(s) already reference it
 - #14421: title reads as proposal/question
 - #14384: title reads as proposal/question
-- #14380: 2 open PR(s) already reference it
+- #14380: 3 open PR(s) already reference it
 - #14363: patch already attached
 - #14357: 1 open PR(s) already reference it
 - #14351: title reads as proposal/question
 - #14350: title reads as proposal/question
-- #14347: 1 open PR(s) already reference it
-- #14344: title reads as proposal/question
-- #14341: title reads as proposal/question
-- #14340: title reads as proposal/question
-- #14324: weak bug signal (1/4)
-- #14307: title reads as proposal/question
-- #14295: title reads as proposal/question
-- #14286: title reads as proposal/question
-- #14274: title reads as proposal/question
-- #14270: title reads as proposal/question
-- #14265: title reads as proposal/question
-- #14261: 1 open PR(s) already reference it
-- #14200: 2 open PR(s) already reference it
-- #14196: 1 open PR(s) already reference it
-- #14193: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9143: weak bug signal (0/4)
 - #9139: weak bug signal (1/4)
 - #9132: weak bug signal (1/4)
 - #9127: weak bug signal (0/4)
@@ -71,6 +72,5 @@ Last run: **2026-09-18 00:41 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9073: weak bug signal (1/4)
 - #9072: weak bug signal (1/4)
 - #9071: weak bug signal (1/4)
-- #9068: weak bug signal (1/4)
 
 </details>
