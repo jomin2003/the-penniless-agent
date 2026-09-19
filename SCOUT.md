@@ -1,10 +1,9 @@
 # Bounty scout
 
-Last run: **2026-09-18 23:30 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-19 03:57 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#14376](https://github.com/BasedHardware/omi/issues/14376) | bug(app): PLAUD NotePin S does not appear in iOS device discovery | 2026-09-17 |
 | tursodatabase/turso | [#9162](https://github.com/tursodatabase/turso/issues/9162) | Differential divergence: Incorrect truthiness evaluation of QUOTE() scalar string expression in WHERE clause | 2026-09-18 |
 | tursodatabase/turso | [#9161](https://github.com/tursodatabase/turso/issues/9161) | Differential divergence: Incorrect OFFSET handling with duplicate positional GROUP BY and constant ORDER BY | 2026-09-18 |
 | tursodatabase/turso | [#9144](https://github.com/tursodatabase/turso/issues/9144) | REAL→TEXT rendering diverges from SQLite for values in [1e15, 1e17) | 2026-09-18 |
@@ -14,6 +13,11 @@ Last run: **2026-09-18 23:30 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #14690: title reads as proposal/question
+- #14688: weak bug signal (1/4)
+- #14683: title reads as proposal/question
+- #14666: title reads as proposal/question
+- #14623: title reads as proposal/question
 - #14614: weak bug signal (1/4)
 - #14610: title reads as proposal/question
 - #14603: title reads as proposal/question
@@ -37,16 +41,13 @@ Last run: **2026-09-18 23:30 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #14446: title reads as proposal/question
 - #14444: title reads as proposal/question
 - #14442: title reads as proposal/question
-- #14436: 1 open PR(s) already reference it
+- #14436: 2 open PR(s) already reference it
 - #14433: 1 open PR(s) already reference it
-- #14430: title reads as proposal/question
-- #14428: title reads as proposal/question
-- #14423: 1 open PR(s) already reference it
-- #14384: title reads as proposal/question
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9185: weak bug signal (1/4)
 - #9173: weak bug signal (0/4)
 - #9160: weak bug signal (1/4)
 - #9147: title reads as proposal/question
@@ -71,6 +72,5 @@ Last run: **2026-09-18 23:30 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9082: weak bug signal (0/4)
 - #9081: weak bug signal (0/4)
 - #9077: weak bug signal (1/4)
-- #9076: weak bug signal (1/4)
 
 </details>
