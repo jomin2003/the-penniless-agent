@@ -1,10 +1,9 @@
 # Bounty scout
 
-Last run: **2026-09-20 21:27 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-20 23:26 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#15217](https://github.com/BasedHardware/omi/issues/15217) | test: response-decode-migration ratchet is red on main — _errorDetail in speech_profile.dart uses raw jsonDecode | 2026-09-20 |
 | tursodatabase/turso | [#9162](https://github.com/tursodatabase/turso/issues/9162) | Differential divergence: Incorrect truthiness evaluation of QUOTE() scalar string expression in WHERE clause | 2026-09-18 |
 | tursodatabase/turso | [#9161](https://github.com/tursodatabase/turso/issues/9161) | Differential divergence: Incorrect OFFSET handling with duplicate positional GROUP BY and constant ORDER BY | 2026-09-18 |
 | tursodatabase/turso | [#9144](https://github.com/tursodatabase/turso/issues/9144) | REAL→TEXT rendering diverges from SQLite for values in [1e15, 1e17) | 2026-09-18 |
@@ -12,6 +11,8 @@ Last run: **2026-09-20 21:27 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #15298: title reads as proposal/question
+- #15296: title reads as proposal/question
 - #15293: title reads as proposal/question
 - #15290: weak bug signal (0/4)
 - #15288: title reads as proposal/question
@@ -40,7 +41,6 @@ Last run: **2026-09-20 21:27 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #15229: 1 open PR(s) already reference it
 - #15227: weak bug signal (1/4)
 - #15224: weak bug signal (1/4)
-- #15221: title reads as proposal/question
 
 **projectdiscovery/katana**
 
