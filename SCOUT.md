@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-20 06:53 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-20 12:08 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -12,6 +12,19 @@ Last run: **2026-09-20 06:53 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #15139: title reads as proposal/question
+- #15138: title reads as proposal/question
+- #15137: title reads as proposal/question
+- #15136: title reads as proposal/question
+- #15135: title reads as proposal/question
+- #15134: title reads as proposal/question
+- #15126: title reads as proposal/question
+- #15125: title reads as proposal/question
+- #15122: title reads as proposal/question
+- #15120: title reads as proposal/question
+- #15118: title reads as proposal/question
+- #15116: title reads as proposal/question
+- #15112: title reads as proposal/question
 - #15089: title reads as proposal/question
 - #15087: title reads as proposal/question
 - #15085: title reads as proposal/question
@@ -28,19 +41,6 @@ Last run: **2026-09-20 06:53 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #15057: title reads as proposal/question
 - #15054: title reads as proposal/question
 - #15052: title reads as proposal/question
-- #15050: title reads as proposal/question
-- #15048: title reads as proposal/question
-- #15046: title reads as proposal/question
-- #15044: title reads as proposal/question
-- #15042: title reads as proposal/question
-- #15040: title reads as proposal/question
-- #15038: title reads as proposal/question
-- #15035: title reads as proposal/question
-- #15028: title reads as proposal/question
-- #15018: title reads as proposal/question
-- #15016: title reads as proposal/question
-- #15014: title reads as proposal/question
-- #15011: title reads as proposal/question
 
 **projectdiscovery/katana**
 
