@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-19 23:24 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-20 01:28 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -8,11 +8,12 @@ Last run: **2026-09-19 23:24 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#9162](https://github.com/tursodatabase/turso/issues/9162) | Differential divergence: Incorrect truthiness evaluation of QUOTE() scalar string expression in WHERE clause | 2026-09-18 |
 | tursodatabase/turso | [#9161](https://github.com/tursodatabase/turso/issues/9161) | Differential divergence: Incorrect OFFSET handling with duplicate positional GROUP BY and constant ORDER BY | 2026-09-18 |
 | tursodatabase/turso | [#9144](https://github.com/tursodatabase/turso/issues/9144) | REAL→TEXT rendering diverges from SQLite for values in [1e15, 1e17) | 2026-09-18 |
-| tursodatabase/turso | [#9091](https://github.com/tursodatabase/turso/issues/9091) | A NOT IN subquery in a LEFT JOIN ON clause that refers to an earlier LEFT JOIN's table gives wrong rows | 2026-09-16 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #15087: title reads as proposal/question
+- #15085: title reads as proposal/question
 - #15080: title reads as proposal/question
 - #15076: title reads as proposal/question
 - #15074: title reads as proposal/question
@@ -40,8 +41,6 @@ Last run: **2026-09-19 23:24 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #15014: title reads as proposal/question
 - #15011: title reads as proposal/question
 - #15010: title reads as proposal/question
-- #15005: title reads as proposal/question
-- #15004: title reads as proposal/question
 
 **projectdiscovery/katana**
 
@@ -56,21 +55,5 @@ Last run: **2026-09-19 23:24 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9127: weak bug signal (0/4)
 - #9110: 1 open PR(s) already reference it
 - #9109: weak bug signal (1/4)
-- #9096: weak bug signal (1/4)
-- #9095: weak bug signal (1/4)
-- #9094: weak bug signal (1/4)
-- #9093: weak bug signal (1/4)
-- #9092: weak bug signal (1/4)
-- #9090: weak bug signal (0/4)
-- #9089: weak bug signal (1/4)
-- #9088: weak bug signal (1/4)
-- #9087: weak bug signal (0/4)
-- #9086: weak bug signal (0/4)
-- #9085: weak bug signal (0/4)
-- #9084: weak bug signal (0/4)
-- #9083: weak bug signal (1/4)
-- #9082: weak bug signal (0/4)
-- #9081: weak bug signal (0/4)
-- #9077: weak bug signal (1/4)
 
 </details>
