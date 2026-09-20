@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-20 12:08 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-20 16:24 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -12,6 +12,18 @@ Last run: **2026-09-20 12:08 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #15190: title reads as proposal/question
+- #15184: title reads as proposal/question
+- #15182: title reads as proposal/question
+- #15181: title reads as proposal/question
+- #15179: title reads as proposal/question
+- #15178: title reads as proposal/question
+- #15176: title reads as proposal/question
+- #15169: title reads as proposal/question
+- #15165: title reads as proposal/question
+- #15164: title reads as proposal/question
+- #15161: title reads as proposal/question
+- #15153: title reads as proposal/question
 - #15139: title reads as proposal/question
 - #15138: title reads as proposal/question
 - #15137: title reads as proposal/question
@@ -21,26 +33,14 @@ Last run: **2026-09-20 12:08 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #15126: title reads as proposal/question
 - #15125: title reads as proposal/question
 - #15122: title reads as proposal/question
-- #15120: title reads as proposal/question
-- #15118: title reads as proposal/question
 - #15116: title reads as proposal/question
 - #15112: title reads as proposal/question
 - #15089: title reads as proposal/question
-- #15087: title reads as proposal/question
-- #15085: title reads as proposal/question
-- #15080: title reads as proposal/question
-- #15076: title reads as proposal/question
-- #15074: title reads as proposal/question
-- #15071: title reads as proposal/question
-- #15069: title reads as proposal/question
-- #15065: title reads as proposal/question
-- #15064: title reads as proposal/question
 - #15062: title reads as proposal/question
-- #15061: title reads as proposal/question
-- #15059: title reads as proposal/question
-- #15057: title reads as proposal/question
-- #15054: title reads as proposal/question
-- #15052: title reads as proposal/question
+- #15046: title reads as proposal/question
+- #15018: title reads as proposal/question
+- #15014: title reads as proposal/question
+- #15011: title reads as proposal/question
 
 **projectdiscovery/katana**
 
