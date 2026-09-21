@@ -1,9 +1,12 @@
 # Bounty scout
 
-Last run: **2026-09-21 01:30 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-21 07:48 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| tursodatabase/turso | [#9203](https://github.com/tursodatabase/turso/issues/9203) | core: array subscript on a column read through a subquery or CTE returns NULL | 2026-09-21 |
+| tursodatabase/turso | [#9202](https://github.com/tursodatabase/turso/issues/9202) | tursopg: boolean expressions are sent as 0/1 instead of t/f | 2026-09-21 |
+| tursodatabase/turso | [#9201](https://github.com/tursodatabase/turso/issues/9201) | tursopg: UPDATE ... FROM cannot use FROM tables in RETURNING | 2026-09-21 |
 | tursodatabase/turso | [#9162](https://github.com/tursodatabase/turso/issues/9162) | Differential divergence: Incorrect truthiness evaluation of QUOTE() scalar string expression in WHERE clause | 2026-09-18 |
 | tursodatabase/turso | [#9161](https://github.com/tursodatabase/turso/issues/9161) | Differential divergence: Incorrect OFFSET handling with duplicate positional GROUP BY and constant ORDER BY | 2026-09-18 |
 | tursodatabase/turso | [#9144](https://github.com/tursodatabase/turso/issues/9144) | REAL→TEXT rendering diverges from SQLite for values in [1e15, 1e17) | 2026-09-18 |
@@ -11,6 +14,16 @@ Last run: **2026-09-21 01:30 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #15351: title reads as proposal/question
+- #15342: title reads as proposal/question
+- #15337: weak bug signal (1/4)
+- #15332: weak bug signal (1/4)
+- #15327: title reads as proposal/question
+- #15320: title reads as proposal/question
+- #15318: title reads as proposal/question
+- #15316: title reads as proposal/question
+- #15314: title reads as proposal/question
+- #15311: title reads as proposal/question
 - #15307: title reads as proposal/question
 - #15305: title reads as proposal/question
 - #15300: title reads as proposal/question
@@ -31,20 +44,11 @@ Last run: **2026-09-21 01:30 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #15270: weak bug signal (0/4)
 - #15268: title reads as proposal/question
 - #15265: weak bug signal (0/4)
-- #15263: weak bug signal (0/4)
-- #15253: weak bug signal (0/4)
-- #15251: title reads as proposal/question
-- #15248: title reads as proposal/question
-- #15245: title reads as proposal/question
-- #15243: title reads as proposal/question
-- #15241: title reads as proposal/question
-- #15238: title reads as proposal/question
-- #15236: title reads as proposal/question
-- #15232: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9204: weak bug signal (1/4)
 - #9185: weak bug signal (1/4)
 - #9173: weak bug signal (0/4)
 - #9160: weak bug signal (1/4)
