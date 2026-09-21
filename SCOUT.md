@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-21 14:58 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-21 19:57 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -14,36 +14,36 @@ Last run: **2026-09-21 14:58 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #15563: title reads as proposal/question
+- #15559: title reads as proposal/question
+- #15557: title reads as proposal/question
+- #15553: title reads as proposal/question
+- #15549: title reads as proposal/question
+- #15546: title reads as proposal/question
+- #15544: title reads as proposal/question
+- #15542: title reads as proposal/question
+- #15540: title reads as proposal/question
+- #15538: title reads as proposal/question
+- #15529: title reads as proposal/question
+- #15527: title reads as proposal/question
+- #15525: title reads as proposal/question
+- #15523: title reads as proposal/question
+- #15521: title reads as proposal/question
+- #15518: title reads as proposal/question
+- #15512: title reads as proposal/question
+- #15507: title reads as proposal/question
+- #15505: title reads as proposal/question
+- #15503: title reads as proposal/question
+- #15501: weak bug signal (0/4)
+- #15500: weak bug signal (1/4)
+- #15498: title reads as proposal/question
+- #15496: title reads as proposal/question
+- #15494: title reads as proposal/question
 - #15490: title reads as proposal/question
 - #15485: title reads as proposal/question
 - #15477: title reads as proposal/question
-- #15471: title reads as proposal/question
-- #15460: weak bug signal (1/4)
 - #15456: title reads as proposal/question
 - #15454: title reads as proposal/question
-- #15452: title reads as proposal/question
-- #15450: title reads as proposal/question
-- #15448: title reads as proposal/question
-- #15446: title reads as proposal/question
-- #15444: title reads as proposal/question
-- #15441: title reads as proposal/question
-- #15439: title reads as proposal/question
-- #15437: title reads as proposal/question
-- #15435: title reads as proposal/question
-- #15433: title reads as proposal/question
-- #15431: title reads as proposal/question
-- #15427: title reads as proposal/question
-- #15425: title reads as proposal/question
-- #15423: title reads as proposal/question
-- #15422: title reads as proposal/question
-- #15419: title reads as proposal/question
-- #15417: title reads as proposal/question
-- #15415: title reads as proposal/question
-- #15412: title reads as proposal/question
-- #15409: title reads as proposal/question
-- #15407: title reads as proposal/question
-- #15404: title reads as proposal/question
-- #15397: title reads as proposal/question
 
 **projectdiscovery/katana**
 
