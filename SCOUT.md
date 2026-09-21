@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-21 19:57 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-21 23:11 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -14,6 +14,16 @@ Last run: **2026-09-21 19:57 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #15585: title reads as proposal/question
+- #15583: title reads as proposal/question
+- #15581: title reads as proposal/question
+- #15579: title reads as proposal/question
+- #15577: title reads as proposal/question
+- #15575: title reads as proposal/question
+- #15573: title reads as proposal/question
+- #15571: title reads as proposal/question
+- #15569: title reads as proposal/question
+- #15567: title reads as proposal/question
 - #15563: title reads as proposal/question
 - #15559: title reads as proposal/question
 - #15557: title reads as proposal/question
@@ -34,20 +44,11 @@ Last run: **2026-09-21 19:57 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #15507: title reads as proposal/question
 - #15505: title reads as proposal/question
 - #15503: title reads as proposal/question
-- #15501: weak bug signal (0/4)
-- #15500: weak bug signal (1/4)
-- #15498: title reads as proposal/question
-- #15496: title reads as proposal/question
-- #15494: title reads as proposal/question
-- #15490: title reads as proposal/question
-- #15485: title reads as proposal/question
-- #15477: title reads as proposal/question
-- #15456: title reads as proposal/question
-- #15454: title reads as proposal/question
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9213: weak bug signal (0/4)
 - #9204: weak bug signal (1/4)
 - #9185: weak bug signal (1/4)
 - #9173: weak bug signal (0/4)
