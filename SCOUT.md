@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-22 13:14 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-22 17:42 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -11,6 +11,14 @@ Last run: **2026-09-22 13:14 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #15970: weak bug signal (1/4)
+- #15968: weak bug signal (1/4)
+- #15966: title reads as proposal/question
+- #15964: weak bug signal (1/4)
+- #15961: 2 open PR(s) already reference it
+- #15954: title reads as proposal/question
+- #15951: title reads as proposal/question
+- #15945: title reads as proposal/question
 - #15933: title reads as proposal/question
 - #15931: title reads as proposal/question
 - #15929: title reads as proposal/question
@@ -33,18 +41,11 @@ Last run: **2026-09-22 13:14 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #15885: title reads as proposal/question
 - #15882: title reads as proposal/question
 - #15880: title reads as proposal/question
-- #15875: title reads as proposal/question
-- #15869: title reads as proposal/question
-- #15867: title reads as proposal/question
-- #15865: title reads as proposal/question
-- #15863: title reads as proposal/question
-- #15861: title reads as proposal/question
-- #15859: title reads as proposal/question
-- #15857: title reads as proposal/question
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9229: weak bug signal (0/4)
 - #9213: weak bug signal (0/4)
 - #9204: weak bug signal (1/4)
 - #9185: weak bug signal (1/4)
