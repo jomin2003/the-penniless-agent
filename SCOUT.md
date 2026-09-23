@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-22 23:43 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-23 04:06 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -47,11 +47,11 @@ Last run: **2026-09-22 23:43 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
-- #9232: weak bug signal (1/4)
+- #9243: weak bug signal (1/4)
 - #9234: weak bug signal (1/4)
+- #9232: weak bug signal (1/4)
 - #9229: weak bug signal (0/4)
 - #9213: weak bug signal (0/4)
 - #9204: weak bug signal (1/4)
-- #9185: weak bug signal (1/4)
 
 </details>
