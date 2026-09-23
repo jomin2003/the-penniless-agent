@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-09-23 18:32 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-23 22:08 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#17848](https://github.com/BasedHardware/omi/issues/17848) | Mobile task completion silently ignores rejected saves and logs completion after failure | 2026-09-23 |
 | tursodatabase/turso | [#9296](https://github.com/tursodatabase/turso/issues/9296) | Auto-checkpoint on the same connection ends an active SELECT early, and a backward scan panics | 2026-09-23 |
 | tursodatabase/turso | [#9295](https://github.com/tursodatabase/turso/issues/9295) | Backward index scan returns rows again after another cursor writes the same index | 2026-09-23 |
 | tursodatabase/turso | [#9294](https://github.com/tursodatabase/turso/issues/9294) | Self-referencing ON DELETE SET NULL makes DELETE stop after it deletes cell 0 of a leaf page | 2026-09-23 |
@@ -18,6 +19,26 @@ Last run: **2026-09-23 18:32 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #17845: weak bug signal (1/4)
+- #17842: title reads as proposal/question
+- #17841: weak bug signal (1/4)
+- #17838: spam pattern
+- #17836: weak bug signal (0/4)
+- #17833: weak bug signal (1/4)
+- #17831: title reads as proposal/question
+- #17829: title reads as proposal/question
+- #17812: title reads as proposal/question
+- #17811: title reads as proposal/question
+- #17810: title reads as proposal/question
+- #17809: title reads as proposal/question
+- #17808: title reads as proposal/question
+- #17807: title reads as proposal/question
+- #17806: title reads as proposal/question
+- #17805: title reads as proposal/question
+- #17804: title reads as proposal/question
+- #17803: title reads as proposal/question
+- #17802: title reads as proposal/question
+- #17801: title reads as proposal/question
 - #17554: title reads as proposal/question
 - #17551: title reads as proposal/question
 - #17549: title reads as proposal/question
@@ -27,27 +48,6 @@ Last run: **2026-09-23 18:32 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #17339: title reads as proposal/question
 - #17335: title reads as proposal/question
 - #17300: title reads as proposal/question
-- #17295: title reads as proposal/question
-- #16096: title reads as proposal/question
-- #16093: title reads as proposal/question
-- #16035: title reads as proposal/question
-- #16033: title reads as proposal/question
-- #15976: title reads as proposal/question
-- #15954: title reads as proposal/question
-- #15951: title reads as proposal/question
-- #15945: title reads as proposal/question
-- #15933: title reads as proposal/question
-- #15931: title reads as proposal/question
-- #15929: title reads as proposal/question
-- #15927: title reads as proposal/question
-- #15925: title reads as proposal/question
-- #15923: title reads as proposal/question
-- #15920: title reads as proposal/question
-- #15913: title reads as proposal/question
-- #15911: title reads as proposal/question
-- #15909: title reads as proposal/question
-- #15906: title reads as proposal/question
-- #15904: title reads as proposal/question
 
 **projectdiscovery/katana**
 
