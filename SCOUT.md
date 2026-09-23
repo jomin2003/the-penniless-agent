@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-09-23 04:06 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-23 09:27 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#17263](https://github.com/BasedHardware/omi/issues/17263) | Affiliate password reset flow has no completion route | 2026-09-23 |
 | tursodatabase/turso | [#9237](https://github.com/tursodatabase/turso/issues/9237) | MVCC: group commit with synchronous=OFF leader does not sync the log for a FULL waiter | 2026-09-22 |
 | tursodatabase/turso | [#9233](https://github.com/tursodatabase/turso/issues/9233) | Support CREATE INDEX on WITHOUT ROWID tables | 2026-09-22 |
 | tursodatabase/turso | [#9203](https://github.com/tursodatabase/turso/issues/9203) | core: array subscript on a column read through a subquery or CTE returns NULL | 2026-09-21 |
@@ -13,6 +14,7 @@ Last run: **2026-09-23 04:06 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #17270: title reads as proposal/question
 - #16035: title reads as proposal/question
 - #16033: title reads as proposal/question
 - #15981: title reads as proposal/question
@@ -21,8 +23,7 @@ Last run: **2026-09-23 04:06 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #15970: weak bug signal (1/4)
 - #15968: weak bug signal (1/4)
 - #15966: title reads as proposal/question
-- #15964: weak bug signal (1/4)
-- #15961: 2 open PR(s) already reference it
+- #15961: 1 open PR(s) already reference it
 - #15954: title reads as proposal/question
 - #15951: title reads as proposal/question
 - #15945: title reads as proposal/question
@@ -42,7 +43,6 @@ Last run: **2026-09-23 04:06 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #15900: title reads as proposal/question
 - #15898: title reads as proposal/question
 - #15896: title reads as proposal/question
-- #15895: title reads as proposal/question
 
 **projectdiscovery/katana**
 
