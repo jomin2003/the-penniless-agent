@@ -1,12 +1,11 @@
 # Bounty scout
 
-Last run: **2026-09-24 00:45 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-24 05:57 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
 | BasedHardware/omi | [#17852](https://github.com/BasedHardware/omi/issues/17852) | iOS Apple sign-in clears the current session before credentials are obtained and treats cancellation as failure | 2026-09-23 |
 | BasedHardware/omi | [#17851](https://github.com/BasedHardware/omi/issues/17851) | Mobile pairing onboarding bypasses shared Bluetooth permission recovery and skips blocked-state help | 2026-09-23 |
-| BasedHardware/omi | [#17848](https://github.com/BasedHardware/omi/issues/17848) | Mobile task completion silently ignores rejected saves and logs completion after failure | 2026-09-23 |
 | tursodatabase/turso | [#9296](https://github.com/tursodatabase/turso/issues/9296) | Auto-checkpoint on the same connection ends an active SELECT early, and a backward scan panics | 2026-09-23 |
 | tursodatabase/turso | [#9295](https://github.com/tursodatabase/turso/issues/9295) | Backward index scan returns rows again after another cursor writes the same index | 2026-09-23 |
 | tursodatabase/turso | [#9294](https://github.com/tursodatabase/turso/issues/9294) | Self-referencing ON DELETE SET NULL makes DELETE stop after it deletes cell 0 of a leaf page | 2026-09-23 |
@@ -21,9 +20,12 @@ Last run: **2026-09-24 00:45 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #18468: title reads as proposal/question
+- #18435: title reads as proposal/question
 - #17856: title reads as proposal/question
 - #17853: title reads as proposal/question
 - #17850: title reads as proposal/question
+- #17848: 1 open PR(s) already reference it
 - #17845: weak bug signal (1/4)
 - #17842: title reads as proposal/question
 - #17841: weak bug signal (1/4)
@@ -46,8 +48,6 @@ Last run: **2026-09-24 00:45 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #17801: title reads as proposal/question
 - #17554: title reads as proposal/question
 - #17551: title reads as proposal/question
-- #17549: title reads as proposal/question
-- #17547: title reads as proposal/question
 
 **projectdiscovery/katana**
 
