@@ -1,10 +1,9 @@
 # Bounty scout
 
-Last run: **2026-09-24 20:18 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-24 23:19 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#18705](https://github.com/BasedHardware/omi/issues/18705) | bug(app): PLAUD NotePin S still missing from iOS discovery in app version 1.0.552 | 2026-09-24 |
 | tursodatabase/turso | [#9340](https://github.com/tursodatabase/turso/issues/9340) | `wal_insert_begin` on a closed connection returns `Ok` and takes the write lock | 2026-09-24 |
 | tursodatabase/turso | [#9339](https://github.com/tursodatabase/turso/issues/9339) | `wal_insert_frame` does not validate the frame checksum, so a damaged frame gives wrong data | 2026-09-24 |
 | tursodatabase/turso | [#9338](https://github.com/tursodatabase/turso/issues/9338) | `wal_get_frame` can write into the caller buffer after it returns an error | 2026-09-24 |
@@ -24,35 +23,36 @@ Last run: **2026-09-24 20:18 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #18796: title reads as proposal/question
+- #18794: title reads as proposal/question
+- #18792: title reads as proposal/question
+- #18790: title reads as proposal/question
+- #18788: title reads as proposal/question
+- #18786: title reads as proposal/question
+- #18783: title reads as proposal/question
+- #18780: title reads as proposal/question
+- #18777: title reads as proposal/question
+- #18775: title reads as proposal/question
+- #18771: title reads as proposal/question
+- #18768: title reads as proposal/question
+- #18767: title reads as proposal/question
+- #18763: title reads as proposal/question
+- #18762: title reads as proposal/question
+- #18761: title reads as proposal/question
+- #18760: title reads as proposal/question
+- #18759: title reads as proposal/question
+- #18756: title reads as proposal/question
+- #18755: title reads as proposal/question
+- #18753: title reads as proposal/question
+- #18750: title reads as proposal/question
+- #18747: title reads as proposal/question
+- #18742: title reads as proposal/question
+- #18740: title reads as proposal/question
+- #18738: title reads as proposal/question
+- #18736: title reads as proposal/question
 - #18730: title reads as proposal/question
 - #18727: weak bug signal (1/4)
 - #18725: weak bug signal (1/4)
-- #18721: weak bug signal (1/4)
-- #18718: weak bug signal (1/4)
-- #18716: weak bug signal (0/4)
-- #18714: title reads as proposal/question
-- #18712: title reads as proposal/question
-- #18710: title reads as proposal/question
-- #18708: title reads as proposal/question
-- #18704: title reads as proposal/question
-- #18702: title reads as proposal/question
-- #18700: title reads as proposal/question
-- #18698: title reads as proposal/question
-- #18695: title reads as proposal/question
-- #18693: title reads as proposal/question
-- #18691: title reads as proposal/question
-- #18689: title reads as proposal/question
-- #18685: title reads as proposal/question
-- #18683: title reads as proposal/question
-- #18681: title reads as proposal/question
-- #18677: title reads as proposal/question
-- #18674: title reads as proposal/question
-- #18672: title reads as proposal/question
-- #18660: title reads as proposal/question
-- #18630: title reads as proposal/question
-- #18623: title reads as proposal/question
-- #18622: weak bug signal (1/4)
-- #18608: title reads as proposal/question
 
 **projectdiscovery/katana**
 
