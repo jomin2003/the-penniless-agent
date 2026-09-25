@@ -1,9 +1,11 @@
 # Bounty scout
 
-Last run: **2026-09-25 01:46 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-25 07:24 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| tursodatabase/turso | [#9347](https://github.com/tursodatabase/turso/issues/9347) | Planner improvement: recognize literal false as 0 when matching partial-index predicates | 2026-09-25 |
+| tursodatabase/turso | [#9346](https://github.com/tursodatabase/turso/issues/9346) | Planner chooses quadratic join order for ROW_NUMBER CTE (5.4s vs SQLite 5ms) | 2026-09-25 |
 | tursodatabase/turso | [#9345](https://github.com/tursodatabase/turso/issues/9345) | Bound parameter matching a partial-index predicate causes a full scan unlike SQLite | 2026-09-25 |
 | tursodatabase/turso | [#9340](https://github.com/tursodatabase/turso/issues/9340) | `wal_insert_begin` on a closed connection returns `Ok` and takes the write lock | 2026-09-24 |
 | tursodatabase/turso | [#9339](https://github.com/tursodatabase/turso/issues/9339) | `wal_insert_frame` does not validate the frame checksum, so a damaged frame gives wrong data | 2026-09-24 |
@@ -23,6 +25,11 @@ Last run: **2026-09-25 01:46 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #18860: title reads as proposal/question
+- #18857: title reads as proposal/question
+- #18852: title reads as proposal/question
+- #18850: title reads as proposal/question
+- #18847: title reads as proposal/question
 - #18829: title reads as proposal/question
 - #18827: title reads as proposal/question
 - #18814: title reads as proposal/question
@@ -48,11 +55,6 @@ Last run: **2026-09-25 01:46 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #18783: title reads as proposal/question
 - #18780: title reads as proposal/question
 - #18777: title reads as proposal/question
-- #18775: title reads as proposal/question
-- #18771: title reads as proposal/question
-- #18768: title reads as proposal/question
-- #18767: title reads as proposal/question
-- #18763: title reads as proposal/question
 
 **projectdiscovery/katana**
 
@@ -70,7 +72,5 @@ Last run: **2026-09-25 01:46 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9287: weak bug signal (1/4)
 - #9286: weak bug signal (1/4)
 - #9285: weak bug signal (1/4)
-- #9284: 1 open PR(s) already reference it
-- #9283: weak bug signal (0/4)
 
 </details>
