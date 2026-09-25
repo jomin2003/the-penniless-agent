@@ -1,9 +1,11 @@
 # Bounty scout
 
-Last run: **2026-09-25 12:54 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-25 17:51 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#18940](https://github.com/BasedHardware/omi/issues/18940) | Latest firmware update bricked CV1 right after setup. | 2026-09-25 |
+| tursodatabase/turso | [#9368](https://github.com/tursodatabase/turso/issues/9368) | sdk-kit: `finalize` resumes a statement that returned Busy and commits its write | 2026-09-25 |
 | tursodatabase/turso | [#9362](https://github.com/tursodatabase/turso/issues/9362) | multiprocess_wal: a process opening without the flag is not rejected, and its committed writes are lost | 2026-09-25 |
 | tursodatabase/turso | [#9347](https://github.com/tursodatabase/turso/issues/9347) | Planner improvement: recognize literal false as 0 when matching partial-index predicates | 2026-09-25 |
 | tursodatabase/turso | [#9346](https://github.com/tursodatabase/turso/issues/9346) | Planner chooses quadratic join order for ROW_NUMBER CTE (5.4s vs SQLite 5ms) | 2026-09-25 |
@@ -24,6 +26,19 @@ Last run: **2026-09-25 12:54 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #18944: title reads as proposal/question
+- #18939: title reads as proposal/question
+- #18937: title reads as proposal/question
+- #18934: title reads as proposal/question
+- #18931: title reads as proposal/question
+- #18928: title reads as proposal/question
+- #18927: title reads as proposal/question
+- #18924: title reads as proposal/question
+- #18921: title reads as proposal/question
+- #18919: title reads as proposal/question
+- #18915: title reads as proposal/question
+- #18911: title reads as proposal/question
+- #18904: title reads as proposal/question
 - #18895: title reads as proposal/question
 - #18893: title reads as proposal/question
 - #18890: title reads as proposal/question
@@ -40,20 +55,6 @@ Last run: **2026-09-25 12:54 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #18847: title reads as proposal/question
 - #18829: title reads as proposal/question
 - #18827: title reads as proposal/question
-- #18814: title reads as proposal/question
-- #18813: title reads as proposal/question
-- #18812: title reads as proposal/question
-- #18811: title reads as proposal/question
-- #18809: title reads as proposal/question
-- #18808: title reads as proposal/question
-- #18807: title reads as proposal/question
-- #18806: title reads as proposal/question
-- #18805: title reads as proposal/question
-- #18804: title reads as proposal/question
-- #18803: title reads as proposal/question
-- #18802: title reads as proposal/question
-- #18801: title reads as proposal/question
-- #18799: title reads as proposal/question
 
 **projectdiscovery/katana**
 
@@ -71,6 +72,5 @@ Last run: **2026-09-25 12:54 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9293: 1 open PR(s) already reference it
 - #9290: weak bug signal (1/4)
 - #9289: weak bug signal (1/4)
-- #9288: weak bug signal (0/4)
 
 </details>
