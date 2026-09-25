@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-09-24 23:19 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-25 01:46 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| tursodatabase/turso | [#9345](https://github.com/tursodatabase/turso/issues/9345) | Bound parameter matching a partial-index predicate causes a full scan unlike SQLite | 2026-09-25 |
 | tursodatabase/turso | [#9340](https://github.com/tursodatabase/turso/issues/9340) | `wal_insert_begin` on a closed connection returns `Ok` and takes the write lock | 2026-09-24 |
 | tursodatabase/turso | [#9339](https://github.com/tursodatabase/turso/issues/9339) | `wal_insert_frame` does not validate the frame checksum, so a damaged frame gives wrong data | 2026-09-24 |
 | tursodatabase/turso | [#9338](https://github.com/tursodatabase/turso/issues/9338) | `wal_get_frame` can write into the caller buffer after it returns an error | 2026-09-24 |
@@ -18,11 +19,26 @@ Last run: **2026-09-24 23:19 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#9295](https://github.com/tursodatabase/turso/issues/9295) | Backward index scan returns rows again after another cursor writes the same index | 2026-09-23 |
 | tursodatabase/turso | [#9294](https://github.com/tursodatabase/turso/issues/9294) | Self-referencing ON DELETE SET NULL makes DELETE stop after it deletes cell 0 of a leaf page | 2026-09-23 |
 | tursodatabase/turso | [#9293](https://github.com/tursodatabase/turso/issues/9293) | Self-referencing ON DELETE SET NULL makes DELETE keep rows that match (skip_advance is lost on restore) | 2026-09-23 |
-| tursodatabase/turso | [#9282](https://github.com/tursodatabase/turso/issues/9282) | A SQLite file with an FTS or R-Tree table loads only part of the schema, and writes then corrupt its indexes | 2026-09-23 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #18829: title reads as proposal/question
+- #18827: title reads as proposal/question
+- #18814: title reads as proposal/question
+- #18813: title reads as proposal/question
+- #18812: title reads as proposal/question
+- #18811: title reads as proposal/question
+- #18809: title reads as proposal/question
+- #18808: title reads as proposal/question
+- #18807: title reads as proposal/question
+- #18806: title reads as proposal/question
+- #18805: title reads as proposal/question
+- #18804: title reads as proposal/question
+- #18803: title reads as proposal/question
+- #18802: title reads as proposal/question
+- #18801: title reads as proposal/question
+- #18799: title reads as proposal/question
 - #18796: title reads as proposal/question
 - #18794: title reads as proposal/question
 - #18792: title reads as proposal/question
@@ -37,22 +53,6 @@ Last run: **2026-09-24 23:19 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #18768: title reads as proposal/question
 - #18767: title reads as proposal/question
 - #18763: title reads as proposal/question
-- #18762: title reads as proposal/question
-- #18761: title reads as proposal/question
-- #18760: title reads as proposal/question
-- #18759: title reads as proposal/question
-- #18756: title reads as proposal/question
-- #18755: title reads as proposal/question
-- #18753: title reads as proposal/question
-- #18750: title reads as proposal/question
-- #18747: title reads as proposal/question
-- #18742: title reads as proposal/question
-- #18740: title reads as proposal/question
-- #18738: title reads as proposal/question
-- #18736: title reads as proposal/question
-- #18730: title reads as proposal/question
-- #18727: weak bug signal (1/4)
-- #18725: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 
