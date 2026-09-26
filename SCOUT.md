@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-09-26 21:25 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-26 23:46 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| tursodatabase/turso | [#9376](https://github.com/tursodatabase/turso/issues/9376) | Sync pull updates an identical row and trips an append-only trigger | 2026-09-26 |
 | tursodatabase/turso | [#9375](https://github.com/tursodatabase/turso/issues/9375) | bindings/go: processes loading the embedded library at the same time fail with "cached library file hash sum mismatch" | 2026-09-26 |
 | tursodatabase/turso | [#9362](https://github.com/tursodatabase/turso/issues/9362) | multiprocess_wal: a process opening without the flag is not rejected, and its committed writes are lost | 2026-09-25 |
 | tursodatabase/turso | [#9347](https://github.com/tursodatabase/turso/issues/9347) | Planner improvement: recognize literal false as 0 when matching partial-index predicates | 2026-09-25 |
@@ -71,6 +72,5 @@ Last run: **2026-09-26 21:25 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9296: 1 open PR(s) already reference it
 - #9294: 1 open PR(s) already reference it
 - #9293: 1 open PR(s) already reference it
-- #9290: weak bug signal (1/4)
 
 </details>
