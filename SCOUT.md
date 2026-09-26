@@ -1,11 +1,9 @@
 # Bounty scout
 
-Last run: **2026-09-26 10:06 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-26 14:39 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#19041](https://github.com/BasedHardware/omi/issues/19041) | [Bug]: Unhandled TypeError on explicit None size in _finalize_audio_file_group | 2026-09-26 |
-| tursodatabase/turso | [#9368](https://github.com/tursodatabase/turso/issues/9368) | sdk-kit: `finalize` resumes a statement that returned Busy and commits its write | 2026-09-25 |
 | tursodatabase/turso | [#9362](https://github.com/tursodatabase/turso/issues/9362) | multiprocess_wal: a process opening without the flag is not rejected, and its committed writes are lost | 2026-09-25 |
 | tursodatabase/turso | [#9347](https://github.com/tursodatabase/turso/issues/9347) | Planner improvement: recognize literal false as 0 when matching partial-index predicates | 2026-09-25 |
 | tursodatabase/turso | [#9346](https://github.com/tursodatabase/turso/issues/9346) | Planner chooses quadratic join order for ROW_NUMBER CTE (5.4s vs SQLite 5ms) | 2026-09-25 |
@@ -26,10 +24,21 @@ Last run: **2026-09-26 10:06 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #19195: title reads as proposal/question
+- #19193: title reads as proposal/question
+- #19191: title reads as proposal/question
+- #19189: title reads as proposal/question
+- #19186: title reads as proposal/question
+- #19177: 1 open PR(s) already reference it
+- #19174: title reads as proposal/question
+- #19170: weak bug signal (1/4)
+- #19169: title reads as proposal/question
+- #19166: title reads as proposal/question
+- #19160: weak bug signal (1/4)
+- #19159: title reads as proposal/question
 - #19153: title reads as proposal/question
 - #19139: title reads as proposal/question
 - #19122: title reads as proposal/question
-- #19120: title reads as proposal/question
 - #19117: title reads as proposal/question
 - #19115: title reads as proposal/question
 - #19113: title reads as proposal/question
@@ -45,20 +54,11 @@ Last run: **2026-09-26 10:06 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #19080: title reads as proposal/question
 - #19078: title reads as proposal/question
 - #19075: title reads as proposal/question
-- #19072: title reads as proposal/question
-- #19071: title reads as proposal/question
-- #19066: title reads as proposal/question
-- #19058: title reads as proposal/question
-- #19056: title reads as proposal/question
-- #19053: title reads as proposal/question
-- #19050: title reads as proposal/question
-- #19047: 2 open PR(s) already reference it
-- #19044: title reads as proposal/question
-- #19043: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9368: 1 open PR(s) already reference it
 - #9364: weak bug signal (1/4)
 - #9351: weak bug signal (0/4)
 - #9330: 1 open PR(s) already reference it
