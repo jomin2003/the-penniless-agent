@@ -1,76 +1,48 @@
 # Bounty scout
 
-Last run: **2026-09-26 14:39 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-26 18:26 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| tursodatabase/turso | [#9362](https://github.com/tursodatabase/turso/issues/9362) | multiprocess_wal: a process opening without the flag is not rejected, and its committed writes are lost | 2026-09-25 |
-| tursodatabase/turso | [#9347](https://github.com/tursodatabase/turso/issues/9347) | Planner improvement: recognize literal false as 0 when matching partial-index predicates | 2026-09-25 |
-| tursodatabase/turso | [#9346](https://github.com/tursodatabase/turso/issues/9346) | Planner chooses quadratic join order for ROW_NUMBER CTE (5.4s vs SQLite 5ms) | 2026-09-25 |
-| tursodatabase/turso | [#9345](https://github.com/tursodatabase/turso/issues/9345) | Bound parameter matching a partial-index predicate causes a full scan unlike SQLite | 2026-09-25 |
-| tursodatabase/turso | [#9340](https://github.com/tursodatabase/turso/issues/9340) | `wal_insert_begin` on a closed connection returns `Ok` and takes the write lock | 2026-09-24 |
-| tursodatabase/turso | [#9339](https://github.com/tursodatabase/turso/issues/9339) | `wal_insert_frame` does not validate the frame checksum, so a damaged frame gives wrong data | 2026-09-24 |
-| tursodatabase/turso | [#9338](https://github.com/tursodatabase/turso/issues/9338) | `wal_get_frame` can write into the caller buffer after it returns an error | 2026-09-24 |
-| tursodatabase/turso | [#9337](https://github.com/tursodatabase/turso/issues/9337) | `wal_insert_end(false)` does not fsync commit frames that readers already see | 2026-09-24 |
-| tursodatabase/turso | [#9336](https://github.com/tursodatabase/turso/issues/9336) | Raw WAL API returns success with no frames on an MVCC database | 2026-09-24 |
-| tursodatabase/turso | [#9335](https://github.com/tursodatabase/turso/issues/9335) | `wal_get_frame` returns uncommitted frames after the committed `max_frame` | 2026-09-24 |
-| tursodatabase/turso | [#9334](https://github.com/tursodatabase/turso/issues/9334) | `wal_insert_frame` without `wal_insert_begin` overwrites committed frames of other connections | 2026-09-24 |
-| tursodatabase/turso | [#9333](https://github.com/tursodatabase/turso/issues/9333) | `wal_insert_end` releases the write lock before its rollback, and a concurrent writer loses committed changes | 2026-09-24 |
-| tursodatabase/turso | [#9329](https://github.com/tursodatabase/turso/issues/9329) | A write while a table scan waits for IO in a descent fails "save_position: table cursor with has_record=true must be on a leaf" | 2026-09-24 |
-| tursodatabase/turso | [#9327](https://github.com/tursodatabase/turso/issues/9327) | MVCC: a SELECT that continues after COMMIT panics with "transaction should exist in txs map" | 2026-09-24 |
-| tursodatabase/turso | [#9322](https://github.com/tursodatabase/turso/issues/9322) | DROP TABLE succeeds while a SELECT on the table is open, and the SELECT then returns rows of another table | 2026-09-24 |
-| tursodatabase/turso | [#9295](https://github.com/tursodatabase/turso/issues/9295) | Backward index scan returns rows again after another cursor writes the same index | 2026-09-23 |
+| — | — | nothing clean right now | — |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #19251: weak bug signal (0/4)
+- #19247: 1 open PR(s) already reference it
+- #19246: 1 open PR(s) already reference it
+- #19245: 1 open PR(s) already reference it
+- #19244: 1 open PR(s) already reference it
+- #19243: 1 open PR(s) already reference it
+- #19242: 1 open PR(s) already reference it
+- #19241: 1 open PR(s) already reference it
+- #19240: 1 open PR(s) already reference it
+- #19239: 1 open PR(s) already reference it
+- #19238: 1 open PR(s) already reference it
+- #19237: 1 open PR(s) already reference it
+- #19236: 1 open PR(s) already reference it
+- #19235: 1 open PR(s) already reference it
+- #19234: 1 open PR(s) already reference it
+- #19233: 1 open PR(s) already reference it
+- #19232: 1 open PR(s) already reference it
+- #19223: title reads as proposal/question
+- #19219: title reads as proposal/question
+- #19214: title reads as proposal/question
+- #19207: title reads as proposal/question
+- #19205: title reads as proposal/question
+- #19203: title reads as proposal/question
+- #19202: title reads as proposal/question
 - #19195: title reads as proposal/question
 - #19193: title reads as proposal/question
 - #19191: title reads as proposal/question
 - #19189: title reads as proposal/question
 - #19186: title reads as proposal/question
-- #19177: 1 open PR(s) already reference it
 - #19174: title reads as proposal/question
-- #19170: weak bug signal (1/4)
-- #19169: title reads as proposal/question
-- #19166: title reads as proposal/question
-- #19160: weak bug signal (1/4)
-- #19159: title reads as proposal/question
-- #19153: title reads as proposal/question
-- #19139: title reads as proposal/question
-- #19122: title reads as proposal/question
-- #19117: title reads as proposal/question
-- #19115: title reads as proposal/question
-- #19113: title reads as proposal/question
-- #19111: title reads as proposal/question
-- #19108: title reads as proposal/question
-- #19105: title reads as proposal/question
-- #19104: title reads as proposal/question
-- #19101: title reads as proposal/question
-- #19099: title reads as proposal/question
-- #19097: title reads as proposal/question
-- #19096: title reads as proposal/question
-- #19094: title reads as proposal/question
-- #19080: title reads as proposal/question
-- #19078: title reads as proposal/question
-- #19075: title reads as proposal/question
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
-- #9368: 1 open PR(s) already reference it
-- #9364: weak bug signal (1/4)
-- #9351: weak bug signal (0/4)
-- #9330: 1 open PR(s) already reference it
-- #9328: weak bug signal (1/4)
-- #9326: weak bug signal (1/4)
-- #9325: weak bug signal (1/4)
-- #9324: weak bug signal (1/4)
-- #9323: weak bug signal (1/4)
-- #9296: 1 open PR(s) already reference it
-- #9294: 1 open PR(s) already reference it
-- #9293: 1 open PR(s) already reference it
-- #9290: weak bug signal (1/4)
-- #9289: weak bug signal (1/4)
+- GitHub rate limit hit
 
 </details>
