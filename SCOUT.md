@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-09-27 19:11 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-27 22:29 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| tursodatabase/turso | [#9387](https://github.com/tursodatabase/turso/issues/9387) | CREATE TEMP TABLE leaks into permanent main schema via /sync/ /push, leaving unremovable ghost sqlite_master entries and breaking /checkpoint | 2026-09-27 |
 | tursodatabase/turso | [#9383](https://github.com/tursodatabase/turso/issues/9383) | FTS: DROP TABLE leaves an orphaned backing-index page, confirmed by SQLite (0.7.2) | 2026-09-27 |
 | tursodatabase/turso | [#9381](https://github.com/tursodatabase/turso/issues/9381) | limbo_sim: unbounded skip loop grows the plan until OOM when a property is skipped and the next interaction needs an exclusive tx (MVCC) | 2026-09-27 |
 | tursodatabase/turso | [#9377](https://github.com/tursodatabase/turso/issues/9377) | Concurrent calls on a prepared statement can overwrite bound parameters | 2026-09-27 |
@@ -23,7 +24,6 @@ Last run: **2026-09-27 19:11 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#9333](https://github.com/tursodatabase/turso/issues/9333) | `wal_insert_end` releases the write lock before its rollback, and a concurrent writer loses committed changes | 2026-09-24 |
 | tursodatabase/turso | [#9329](https://github.com/tursodatabase/turso/issues/9329) | A write while a table scan waits for IO in a descent fails "save_position: table cursor with has_record=true must be on a leaf" | 2026-09-24 |
 | tursodatabase/turso | [#9327](https://github.com/tursodatabase/turso/issues/9327) | MVCC: a SELECT that continues after COMMIT panics with "transaction should exist in txs map" | 2026-09-24 |
-| tursodatabase/turso | [#9322](https://github.com/tursodatabase/turso/issues/9322) | DROP TABLE succeeds while a SELECT on the table is open, and the SELECT then returns rows of another table | 2026-09-24 |
 
 <details><summary>Filter log</summary>
 
