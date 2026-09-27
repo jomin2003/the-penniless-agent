@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-09-26 23:46 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-27 04:37 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| tursodatabase/turso | [#9377](https://github.com/tursodatabase/turso/issues/9377) | Concurrent calls on a prepared statement can overwrite bound parameters | 2026-09-27 |
 | tursodatabase/turso | [#9376](https://github.com/tursodatabase/turso/issues/9376) | Sync pull updates an identical row and trips an append-only trigger | 2026-09-26 |
 | tursodatabase/turso | [#9375](https://github.com/tursodatabase/turso/issues/9375) | bindings/go: processes loading the embedded library at the same time fail with "cached library file hash sum mismatch" | 2026-09-26 |
 | tursodatabase/turso | [#9362](https://github.com/tursodatabase/turso/issues/9362) | multiprocess_wal: a process opening without the flag is not rejected, and its committed writes are lost | 2026-09-25 |
@@ -21,11 +22,17 @@ Last run: **2026-09-26 23:46 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#9329](https://github.com/tursodatabase/turso/issues/9329) | A write while a table scan waits for IO in a descent fails "save_position: table cursor with has_record=true must be on a leaf" | 2026-09-24 |
 | tursodatabase/turso | [#9327](https://github.com/tursodatabase/turso/issues/9327) | MVCC: a SELECT that continues after COMMIT panics with "transaction should exist in txs map" | 2026-09-24 |
 | tursodatabase/turso | [#9322](https://github.com/tursodatabase/turso/issues/9322) | DROP TABLE succeeds while a SELECT on the table is open, and the SELECT then returns rows of another table | 2026-09-24 |
-| tursodatabase/turso | [#9295](https://github.com/tursodatabase/turso/issues/9295) | Backward index scan returns rows again after another cursor writes the same index | 2026-09-23 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #19326: title reads as proposal/question
+- #19322: title reads as proposal/question
+- #19317: title reads as proposal/question
+- #19315: title reads as proposal/question
+- #19313: title reads as proposal/question
+- #19312: title reads as proposal/question
+- #19310: title reads as proposal/question
 - #19306: title reads as proposal/question
 - #19304: title reads as proposal/question
 - #19302: title reads as proposal/question
@@ -49,13 +56,6 @@ Last run: **2026-09-26 23:46 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #19259: weak bug signal (0/4)
 - #19258: weak bug signal (0/4)
 - #19257: weak bug signal (1/4)
-- #19256: weak bug signal (0/4)
-- #19255: weak bug signal (1/4)
-- #19251: weak bug signal (0/4)
-- #19247: 1 open PR(s) already reference it
-- #19246: 1 open PR(s) already reference it
-- #19245: 1 open PR(s) already reference it
-- #19244: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
 
@@ -69,8 +69,5 @@ Last run: **2026-09-26 23:46 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9325: weak bug signal (1/4)
 - #9324: weak bug signal (1/4)
 - #9323: weak bug signal (1/4)
-- #9296: 1 open PR(s) already reference it
-- #9294: 1 open PR(s) already reference it
-- #9293: 1 open PR(s) already reference it
 
 </details>
