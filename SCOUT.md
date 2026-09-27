@@ -1,9 +1,12 @@
 # Bounty scout
 
-Last run: **2026-09-27 04:37 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-27 10:25 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#19387](https://github.com/BasedHardware/omi/issues/19387) | Markdown action-item exporter treats string "false"/"no"/"0" as completed | 2026-09-27 |
+| BasedHardware/omi | [#19382](https://github.com/BasedHardware/omi/issues/19382) | todo.txt exporter: a bare "x" description becomes completion syntax when metadata is appended | 2026-09-27 |
+| tursodatabase/turso | [#9381](https://github.com/tursodatabase/turso/issues/9381) | limbo_sim: unbounded skip loop grows the plan until OOM when a property is skipped and the next interaction needs an exclusive tx (MVCC) | 2026-09-27 |
 | tursodatabase/turso | [#9377](https://github.com/tursodatabase/turso/issues/9377) | Concurrent calls on a prepared statement can overwrite bound parameters | 2026-09-27 |
 | tursodatabase/turso | [#9376](https://github.com/tursodatabase/turso/issues/9376) | Sync pull updates an identical row and trips an append-only trigger | 2026-09-26 |
 | tursodatabase/turso | [#9375](https://github.com/tursodatabase/turso/issues/9375) | bindings/go: processes loading the embedded library at the same time fail with "cached library file hash sum mismatch" | 2026-09-26 |
@@ -26,33 +29,31 @@ Last run: **2026-09-27 04:37 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #19393: title reads as proposal/question
+- #19389: title reads as proposal/question
+- #19377: title reads as proposal/question
+- #19375: title reads as proposal/question
+- #19373: 1 open PR(s) already reference it
+- #19371: title reads as proposal/question
+- #19369: title reads as proposal/question
+- #19366: title reads as proposal/question
+- #19363: title reads as proposal/question
+- #19360: title reads as proposal/question
+- #19346: title reads as proposal/question
+- #19341: title reads as proposal/question
+- #19335: 1 open PR(s) already reference it
+- #19332: 1 open PR(s) already reference it
+- #19331: title reads as proposal/question
+- #19329: 2 open PR(s) already reference it
 - #19326: title reads as proposal/question
 - #19322: title reads as proposal/question
-- #19317: title reads as proposal/question
 - #19315: title reads as proposal/question
 - #19313: title reads as proposal/question
 - #19312: title reads as proposal/question
 - #19310: title reads as proposal/question
 - #19306: title reads as proposal/question
-- #19304: title reads as proposal/question
-- #19302: title reads as proposal/question
 - #19300: title reads as proposal/question
-- #19298: title reads as proposal/question
-- #19296: title reads as proposal/question
-- #19294: title reads as proposal/question
-- #19292: title reads as proposal/question
-- #19290: title reads as proposal/question
-- #19288: title reads as proposal/question
-- #19286: title reads as proposal/question
-- #19281: title reads as proposal/question
-- #19279: title reads as proposal/question
-- #19277: title reads as proposal/question
 - #19275: title reads as proposal/question
-- #19273: title reads as proposal/question
-- #19268: title reads as proposal/question
-- #19266: title reads as proposal/question
-- #19264: title reads as proposal/question
-- #19261: title reads as proposal/question
 - #19259: weak bug signal (0/4)
 - #19258: weak bug signal (0/4)
 - #19257: weak bug signal (1/4)
@@ -60,6 +61,7 @@ Last run: **2026-09-27 04:37 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9382: weak bug signal (1/4)
 - #9368: 1 open PR(s) already reference it
 - #9364: weak bug signal (1/4)
 - #9351: weak bug signal (0/4)
