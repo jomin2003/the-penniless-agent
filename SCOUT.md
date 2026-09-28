@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-28 01:06 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-28 07:26 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -18,11 +18,22 @@ Last run: **2026-09-28 01:06 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #19536: title reads as proposal/question
+- #19532: title reads as proposal/question
+- #19531: 1 open PR(s) already reference it
+- #19529: title reads as proposal/question
+- #19527: 1 open PR(s) already reference it
+- #19522: title reads as proposal/question
+- #19519: title reads as proposal/question
+- #19514: 1 open PR(s) already reference it
+- #19512: title reads as proposal/question
+- #19510: title reads as proposal/question
+- #19504: weak bug signal (1/4)
+- #19503: title reads as proposal/question
 - #19494: title reads as proposal/question
 - #19492: title reads as proposal/question
 - #19490: title reads as proposal/question
 - #19478: title reads as proposal/question
-- #19465: weak bug signal (1/4)
 - #19463: title reads as proposal/question
 - #19461: title reads as proposal/question
 - #19459: 1 open PR(s) already reference it
@@ -37,21 +48,11 @@ Last run: **2026-09-28 01:06 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #19423: title reads as proposal/question
 - #19413: title reads as proposal/question
 - #19407: title reads as proposal/question
-- #19405: title reads as proposal/question
-- #19401: title reads as proposal/question
-- #19393: title reads as proposal/question
-- #19389: title reads as proposal/question
-- #19377: title reads as proposal/question
-- #19375: title reads as proposal/question
-- #19371: title reads as proposal/question
-- #19369: title reads as proposal/question
-- #19366: title reads as proposal/question
-- #19363: title reads as proposal/question
-- #19360: title reads as proposal/question
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9391: 1 open PR(s) already reference it
 - #9382: weak bug signal (1/4)
 - #9368: 1 open PR(s) already reference it
 - #9364: weak bug signal (1/4)
