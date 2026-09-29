@@ -1,13 +1,9 @@
 # Bounty scout
 
-Last run: **2026-09-29 15:00 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-29 20:09 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#19567](https://github.com/BasedHardware/omi/issues/19567) | Monorepo cleanup Phase 2B: traffic review and removal of legacy routes and pages | 2026-09-28 |
-| BasedHardware/omi | [#19566](https://github.com/BasedHardware/omi/issues/19566) | Tasks overhaul: finish desktop gaps, decide suggestion expiry, and propose the mobile "AI never adds tasks" scope | 2026-09-28 |
-| BasedHardware/omi | [#19565](https://github.com/BasedHardware/omi/issues/19565) | Mobile battery: measure phone energy with the pendant connected and set a battery budget | 2026-09-28 |
-| BasedHardware/omi | [#19563](https://github.com/BasedHardware/omi/issues/19563) | Mobile capture reliability: verify mute and offline-sync durability on physical devices (app-side) | 2026-09-28 |
 | tursodatabase/turso | [#9387](https://github.com/tursodatabase/turso/issues/9387) | CREATE TEMP TABLE leaks into permanent main schema via /sync/ /push, leaving unremovable ghost sqlite_master entries and breaking /checkpoint | 2026-09-27 |
 | tursodatabase/turso | [#9381](https://github.com/tursodatabase/turso/issues/9381) | limbo_sim: unbounded skip loop grows the plan until OOM when a property is skipped and the next interaction needs an exclusive tx (MVCC) | 2026-09-27 |
 | tursodatabase/turso | [#9377](https://github.com/tursodatabase/turso/issues/9377) | Concurrent calls on a prepared statement can overwrite bound parameters | 2026-09-27 |
@@ -17,6 +13,25 @@ Last run: **2026-09-29 15:00 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #19843: 1 open PR(s) already reference it
+- #19840: weak bug signal (0/4)
+- #19835: title reads as proposal/question
+- #19832: weak bug signal (1/4)
+- #19829: weak bug signal (0/4)
+- #19826: weak bug signal (1/4)
+- #19824: title reads as proposal/question
+- #19822: title reads as proposal/question
+- #19820: title reads as proposal/question
+- #19817: title reads as proposal/question
+- #19814: weak bug signal (1/4)
+- #19813: title reads as proposal/question
+- #19810: title reads as proposal/question
+- #19806: title reads as proposal/question
+- #19802: weak bug signal (1/4)
+- #19800: title reads as proposal/question
+- #19798: title reads as proposal/question
+- #19797: weak bug signal (1/4)
+- #19795: title reads as proposal/question
 - #19783: title reads as proposal/question
 - #19781: title reads as proposal/question
 - #19779: title reads as proposal/question
@@ -28,21 +43,6 @@ Last run: **2026-09-29 15:00 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #19709: title reads as proposal/question
 - #19705: 1 open PR(s) already reference it
 - #19698: title reads as proposal/question
-- #19691: title reads as proposal/question
-- #19688: title reads as proposal/question
-- #19664: title reads as proposal/question
-- #19624: title reads as proposal/question
-- #19617: title reads as proposal/question
-- #19606: title reads as proposal/question
-- #19598: title reads as proposal/question
-- #19596: title reads as proposal/question
-- #19590: title reads as proposal/question
-- #19569: weak bug signal (0/4)
-- #19568: title reads as proposal/question
-- #19564: weak bug signal (1/4)
-- #19532: title reads as proposal/question
-- #19529: title reads as proposal/question
-- #19522: title reads as proposal/question
 
 **projectdiscovery/katana**
 
