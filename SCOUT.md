@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-09-28 21:42 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-09-29 01:38 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -12,14 +12,14 @@ Last run: **2026-09-28 21:42 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#9377](https://github.com/tursodatabase/turso/issues/9377) | Concurrent calls on a prepared statement can overwrite bound parameters | 2026-09-27 |
 | tursodatabase/turso | [#9376](https://github.com/tursodatabase/turso/issues/9376) | Sync pull updates an identical row and trips an append-only trigger | 2026-09-26 |
 | tursodatabase/turso | [#9375](https://github.com/tursodatabase/turso/issues/9375) | bindings/go: processes loading the embedded library at the same time fail with "cached library file hash sum mismatch" | 2026-09-26 |
-| tursodatabase/turso | [#9362](https://github.com/tursodatabase/turso/issues/9362) | multiprocess_wal: a process opening without the flag is not rejected, and its committed writes are lost | 2026-09-25 |
-| tursodatabase/turso | [#9347](https://github.com/tursodatabase/turso/issues/9347) | Planner improvement: recognize literal false as 0 when matching partial-index predicates | 2026-09-25 |
-| tursodatabase/turso | [#9346](https://github.com/tursodatabase/turso/issues/9346) | Planner chooses quadratic join order for ROW_NUMBER CTE (5.4s vs SQLite 5ms) | 2026-09-25 |
-| tursodatabase/turso | [#9345](https://github.com/tursodatabase/turso/issues/9345) | Bound parameter matching a partial-index predicate causes a full scan unlike SQLite | 2026-09-25 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #19691: title reads as proposal/question
+- #19688: title reads as proposal/question
+- #19683: title reads as proposal/question
+- #19664: title reads as proposal/question
 - #19642: weak bug signal (1/4)
 - #19624: title reads as proposal/question
 - #19617: title reads as proposal/question
@@ -43,19 +43,13 @@ Last run: **2026-09-28 21:42 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #19512: title reads as proposal/question
 - #19510: title reads as proposal/question
 - #19504: weak bug signal (1/4)
-- #19503: title reads as proposal/question
-- #19494: title reads as proposal/question
-- #19492: title reads as proposal/question
-- #19490: title reads as proposal/question
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9405: weak bug signal (1/4)
 - #9391: 1 open PR(s) already reference it
 - #9383: 1 open PR(s) already reference it
 - #9382: weak bug signal (1/4)
-- #9368: 1 open PR(s) already reference it
-- #9364: weak bug signal (1/4)
-- #9351: weak bug signal (0/4)
 
 </details>
