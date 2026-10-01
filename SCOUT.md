@@ -1,18 +1,25 @@
 # Bounty scout
 
-Last run: **2026-09-30 21:22 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-01 00:44 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#20039](https://github.com/BasedHardware/omi/issues/20039) | Design revision: rewrite the confusing update prompt message | 2026-10-01 |
+| BasedHardware/omi | [#20036](https://github.com/BasedHardware/omi/issues/20036) | Flutter Home: empty conversation icon and hint disappear after loading | 2026-09-30 |
+| BasedHardware/omi | [#20033](https://github.com/BasedHardware/omi/issues/20033) | bug(app): PLAUD NotePin S still missing from iOS discovery in 1.0.553 after #18878 | 2026-09-30 |
 | BasedHardware/omi | [#20001](https://github.com/BasedHardware/omi/issues/20001) | [Bug] App enters infinite loading state and fails to pause recording when "Record and Transcribe Later" is enabled | 2026-09-30 |
+| tursodatabase/turso | [#9433](https://github.com/tursodatabase/turso/issues/9433) | MVCC: JOIN through a secondary index misses rows that exist only in the un-checkpointed log (0.7.2) | 2026-09-30 |
 | tursodatabase/turso | [#9431](https://github.com/tursodatabase/turso/issues/9431) | Trigger execution has no depth bound: a recursive trigger chain overflows the stack and aborts the process | 2026-09-30 |
 | tursodatabase/turso | [#9430](https://github.com/tursodatabase/turso/issues/9430) | MVCC sync does not differentiate between swapped columns | 2026-09-30 |
-| tursodatabase/turso | [#9387](https://github.com/tursodatabase/turso/issues/9387) | CREATE TEMP TABLE leaks into permanent main schema via /sync/ /push, leaving unremovable ghost sqlite_master entries and breaking /checkpoint | 2026-09-27 |
-| tursodatabase/turso | [#9377](https://github.com/tursodatabase/turso/issues/9377) | Concurrent calls on a prepared statement can overwrite bound parameters | 2026-09-27 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #20038: weak bug signal (1/4)
+- #20037: weak bug signal (0/4)
+- #20035: weak bug signal (0/4)
+- #20031: weak bug signal (1/4)
+- #20029: 1 open PR(s) already reference it
 - #20026: weak bug signal (1/4)
 - #20025: weak bug signal (1/4)
 - #20022: title reads as proposal/question
@@ -34,14 +41,6 @@ Last run: **2026-09-30 21:22 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #19903: weak bug signal (1/4)
 - #19902: weak bug signal (0/4)
 - #19894: 3 open PR(s) already reference it
-- #19891: weak bug signal (1/4)
-- #19879: weak bug signal (1/4)
-- #19875: 1 open PR(s) already reference it
-- #19872: title reads as proposal/question
-- #19869: title reads as proposal/question
-- #19866: title reads as proposal/question
-- #19863: title reads as proposal/question
-- #19859: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 
@@ -54,8 +53,5 @@ Last run: **2026-09-30 21:22 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9406: spam pattern
 - #9405: weak bug signal (1/4)
 - #9391: 1 open PR(s) already reference it
-- #9383: 1 open PR(s) already reference it
-- #9382: weak bug signal (1/4)
-- #9381: 1 open PR(s) already reference it
 
 </details>
