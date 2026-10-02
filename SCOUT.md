@@ -1,10 +1,11 @@
 # Bounty scout
 
-Last run: **2026-10-01 20:13 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-02 00:03 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
 | BasedHardware/omi | [#20174](https://github.com/BasedHardware/omi/issues/20174) | Support Custom STT for saved recordings, Transcribe Later, and offline backlog sync | 2026-10-01 |
+| tursodatabase/turso | [#9452](https://github.com/tursodatabase/turso/issues/9452) | Loading `.dump` output changes `TEXT[]` elements and drops `BLOB[]` rows | 2026-10-01 |
 | tursodatabase/turso | [#9440](https://github.com/tursodatabase/turso/issues/9440) | PRAGMA <schema>.auto_vacuum= applies to main instead of the named database | 2026-10-01 |
 | tursodatabase/turso | [#9433](https://github.com/tursodatabase/turso/issues/9433) | MVCC: JOIN through a secondary index misses rows that exist only in the un-checkpointed log (0.7.2) | 2026-09-30 |
 | tursodatabase/turso | [#9431](https://github.com/tursodatabase/turso/issues/9431) | Trigger execution has no depth bound: a recursive trigger chain overflows the stack and aborts the process | 2026-09-30 |
@@ -13,9 +14,8 @@ Last run: **2026-10-01 20:13 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #20225: weak bug signal (1/4)
+- #20239: title reads as proposal/question
 - #20220: weak bug signal (1/4)
-- #20218: weak bug signal (1/4)
 - #20215: weak bug signal (0/4)
 - #20214: weak bug signal (1/4)
 - #20213: weak bug signal (1/4)
@@ -42,10 +42,13 @@ Last run: **2026-10-01 20:13 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #20170: weak bug signal (1/4)
 - #20169: weak bug signal (1/4)
 - #20159: title reads as proposal/question
+- #20149: title reads as proposal/question
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9454: weak bug signal (0/4)
+- #9451: weak bug signal (1/4)
 - #9449: weak bug signal (0/4)
 - #9448: weak bug signal (1/4)
 - #9429: weak bug signal (1/4)
@@ -53,7 +56,5 @@ Last run: **2026-10-01 20:13 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9425: 1 open PR(s) already reference it
 - #9422: weak bug signal (1/4)
 - #9406: spam pattern
-- #9405: weak bug signal (1/4)
-- #9391: 1 open PR(s) already reference it
 
 </details>
