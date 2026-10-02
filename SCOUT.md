@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-02 06:02 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-02 13:02 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -14,6 +14,16 @@ Last run: **2026-10-02 06:02 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #20336: title reads as proposal/question
+- #20334: title reads as proposal/question
+- #20325: title reads as proposal/question
+- #20322: weak bug signal (1/4)
+- #20305: title reads as proposal/question
+- #20301: weak bug signal (0/4)
+- #20299: weak bug signal (0/4)
+- #20296: title reads as proposal/question
+- #20295: title reads as proposal/question
+- #20292: title reads as proposal/question
 - #20288: title reads as proposal/question
 - #20285: title reads as proposal/question
 - #20284: title reads as proposal/question
@@ -22,7 +32,6 @@ Last run: **2026-10-02 06:02 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #20274: title reads as proposal/question
 - #20271: title reads as proposal/question
 - #20270: weak bug signal (1/4)
-- #20268: title reads as proposal/question
 - #20264: title reads as proposal/question
 - #20257: weak bug signal (1/4)
 - #20239: title reads as proposal/question
@@ -34,15 +43,6 @@ Last run: **2026-10-02 06:02 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #20210: weak bug signal (0/4)
 - #20209: weak bug signal (0/4)
 - #20207: weak bug signal (1/4)
-- #20206: weak bug signal (1/4)
-- #20205: weak bug signal (1/4)
-- #20204: weak bug signal (1/4)
-- #20203: weak bug signal (0/4)
-- #20199: weak bug signal (1/4)
-- #20198: weak bug signal (0/4)
-- #20197: weak bug signal (1/4)
-- #20195: weak bug signal (1/4)
-- #20193: title reads as proposal/question
 
 **projectdiscovery/katana**
 
@@ -51,7 +51,6 @@ Last run: **2026-10-02 06:02 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9451: weak bug signal (1/4)
 - #9449: weak bug signal (0/4)
 - #9448: weak bug signal (1/4)
-- #9440: 1 open PR(s) already reference it
 - #9429: weak bug signal (1/4)
 - #9426: 1 open PR(s) already reference it
 - #9425: 1 open PR(s) already reference it
