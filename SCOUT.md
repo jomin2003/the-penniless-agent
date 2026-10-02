@@ -1,15 +1,12 @@
 # Bounty scout
 
-Last run: **2026-10-02 18:38 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-02 22:51 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#20369](https://github.com/BasedHardware/omi/issues/20369) | Black screen after tapping Finish on the live transcript and swiping back | 2026-10-02 |
-| BasedHardware/omi | [#20366](https://github.com/BasedHardware/omi/issues/20366) | Flutter transcription: phone-mic audio has no backup once it is sent | 2026-10-02 |
-| BasedHardware/omi | [#20365](https://github.com/BasedHardware/omi/issues/20365) | Flutter transcription: later conversations on one pendant connection never get their backup tagged, so they are re-uploaded as duplicates | 2026-10-02 |
-| BasedHardware/omi | [#20364](https://github.com/BasedHardware/omi/issues/20364) | Flutter transcription: a partial transcript deletes the pendant's whole audio backup | 2026-10-02 |
 | BasedHardware/omi | [#20358](https://github.com/BasedHardware/omi/issues/20358) | Offline-synced audio can retain content but shift absolute timestamps by ~15 minutes | 2026-10-02 |
 | BasedHardware/omi | [#20251](https://github.com/BasedHardware/omi/issues/20251) | fix(desktop): show installed summary apps first and add search to the app selector | 2026-10-02 |
+| tursodatabase/turso | [#9463](https://github.com/tursodatabase/turso/issues/9463) | Turso fails to build with the latest nightly | 2026-10-02 |
 | tursodatabase/turso | [#9456](https://github.com/tursodatabase/turso/issues/9456) | Whole-table DELETE leaves a materialized view stale when a TEMP table shadows the base table | 2026-10-02 |
 | tursodatabase/turso | [#9452](https://github.com/tursodatabase/turso/issues/9452) | Loading `.dump` output changes `TEXT[]` elements and drops `BLOB[]` rows | 2026-10-01 |
 | tursodatabase/turso | [#9433](https://github.com/tursodatabase/turso/issues/9433) | MVCC: JOIN through a secondary index misses rows that exist only in the un-checkpointed log (0.7.2) | 2026-09-30 |
@@ -19,7 +16,12 @@ Last run: **2026-10-02 18:38 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #20356: weak bug signal (1/4)
+- #20381: weak bug signal (1/4)
+- #20379: weak bug signal (1/4)
+- #20369: 1 open PR(s) already reference it
+- #20366: 3 open PR(s) already reference it
+- #20365: 3 open PR(s) already reference it
+- #20364: 3 open PR(s) already reference it
 - #20353: weak bug signal (1/4)
 - #20336: title reads as proposal/question
 - #20334: title reads as proposal/question
@@ -42,7 +44,6 @@ Last run: **2026-10-02 18:38 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #20257: weak bug signal (1/4)
 - #20239: title reads as proposal/question
 - #20220: weak bug signal (1/4)
-- #20215: weak bug signal (0/4)
 
 **projectdiscovery/katana**
 
