@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-03 01:48 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-03 07:49 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -16,12 +16,13 @@ Last run: **2026-10-03 01:48 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #20413: title reads as proposal/question
+- #20401: title reads as proposal/question
 - #20381: weak bug signal (1/4)
 - #20379: weak bug signal (1/4)
 - #20369: 1 open PR(s) already reference it
-- #20366: 3 open PR(s) already reference it
-- #20365: 3 open PR(s) already reference it
-- #20364: 3 open PR(s) already reference it
+- #20366: 2 open PR(s) already reference it
+- #20365: 2 open PR(s) already reference it
 - #20353: weak bug signal (1/4)
 - #20336: title reads as proposal/question
 - #20334: title reads as proposal/question
@@ -43,7 +44,6 @@ Last run: **2026-10-03 01:48 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #20264: title reads as proposal/question
 - #20257: weak bug signal (1/4)
 - #20239: title reads as proposal/question
-- #20220: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 
