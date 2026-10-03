@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-02 22:51 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-03 01:48 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -56,6 +56,5 @@ Last run: **2026-10-02 22:51 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9426: 1 open PR(s) already reference it
 - #9425: 1 open PR(s) already reference it
 - #9422: weak bug signal (1/4)
-- #9406: spam pattern
 
 </details>
