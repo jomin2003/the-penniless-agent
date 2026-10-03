@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-03 20:49 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-03 23:37 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -12,6 +12,7 @@ Last run: **2026-10-03 20:49 UTC** — fresh (≤72h), unclaimed, reproducible b
 | BasedHardware/omi | [#20459](https://github.com/BasedHardware/omi/issues/20459) | iOS: phone-mic recording shows live transcript, then vanishes after Finish | 2026-10-03 |
 | BasedHardware/omi | [#20455](https://github.com/BasedHardware/omi/issues/20455) | Investigate developer webhooks still silent after Unlimited upgrade from exhausted quota | 2026-10-03 |
 | BasedHardware/omi | [#20358](https://github.com/BasedHardware/omi/issues/20358) | Offline-synced audio can retain content but shift absolute timestamps by ~15 minutes | 2026-10-02 |
+| tursodatabase/turso | [#9474](https://github.com/tursodatabase/turso/issues/9474) | `PRAGMA wal_checkpoint(TRUNCATE)` fails with "database is locked" right after switching to MVCC when the database has an AUTOINCREMENT table | 2026-10-03 |
 | tursodatabase/turso | [#9469](https://github.com/tursodatabase/turso/issues/9469) | `array_to_string` crashes Turso when called with single argument on `text[]` column | 2026-10-03 |
 | tursodatabase/turso | [#9463](https://github.com/tursodatabase/turso/issues/9463) | Turso fails to build with the latest nightly | 2026-10-02 |
 | tursodatabase/turso | [#9456](https://github.com/tursodatabase/turso/issues/9456) | Whole-table DELETE leaves a materialized view stale when a TEMP table shadows the base table | 2026-10-02 |
@@ -48,6 +49,7 @@ Last run: **2026-10-03 20:49 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9475: weak bug signal (1/4)
 - #9471: weak bug signal (0/4)
 - #9470: weak bug signal (0/4)
 - #9454: weak bug signal (0/4)
