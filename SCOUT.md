@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-04 15:56 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-04 19:27 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -21,8 +21,6 @@ Last run: **2026-10-04 15:56 UTC** — fresh (≤72h), unclaimed, reproducible b
 | BasedHardware/omi | [#20606](https://github.com/BasedHardware/omi/issues/20606) | bug(chat): generic assistant error reported on web and phone | 2026-10-04 |
 | BasedHardware/omi | [#20603](https://github.com/BasedHardware/omi/issues/20603) | bug(android): original conversations remain after merged conversation appears | 2026-10-04 |
 | BasedHardware/omi | [#20602](https://github.com/BasedHardware/omi/issues/20602) | bug(windows): chat shows generic failure despite validated BYOK keys | 2026-10-04 |
-| BasedHardware/omi | [#20595](https://github.com/BasedHardware/omi/issues/20595) | iOS: extracted action items appear in a conversation but not in Tasks | 2026-10-04 |
-| BasedHardware/omi | [#20590](https://github.com/BasedHardware/omi/issues/20590) | Android: Unlimited plan shown in Stats while an older conversation remains locked | 2026-10-04 |
 | tursodatabase/turso | [#9486](https://github.com/tursodatabase/turso/issues/9486) | Update the tracked SQLite version to support table aliases in trigger bodies | 2026-10-04 |
 | tursodatabase/turso | [#9474](https://github.com/tursodatabase/turso/issues/9474) | `PRAGMA wal_checkpoint(TRUNCATE)` fails with "database is locked" right after switching to MVCC when the database has an AUTOINCREMENT table | 2026-10-03 |
 | tursodatabase/turso | [#9463](https://github.com/tursodatabase/turso/issues/9463) | Turso fails to build with the latest nightly | 2026-10-02 |
@@ -32,6 +30,8 @@ Last run: **2026-10-04 15:56 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #20686: 2 open PR(s) already reference it
+- #20674: weak bug signal (1/4)
 - #20632: weak bug signal (1/4)
 - #20631: weak bug signal (0/4)
 - #20630: weak bug signal (0/4)
@@ -47,6 +47,7 @@ Last run: **2026-10-04 15:56 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9487: patch already attached
 - #9484: weak bug signal (1/4)
 - #9475: weak bug signal (1/4)
 - #9471: weak bug signal (0/4)
