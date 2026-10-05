@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-04 22:28 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-05 01:11 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -24,7 +24,6 @@ Last run: **2026-10-04 22:28 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#9474](https://github.com/tursodatabase/turso/issues/9474) | `PRAGMA wal_checkpoint(TRUNCATE)` fails with "database is locked" right after switching to MVCC when the database has an AUTOINCREMENT table | 2026-10-03 |
 | tursodatabase/turso | [#9463](https://github.com/tursodatabase/turso/issues/9463) | Turso fails to build with the latest nightly | 2026-10-02 |
 | tursodatabase/turso | [#9456](https://github.com/tursodatabase/turso/issues/9456) | Whole-table DELETE leaves a materialized view stale when a TEMP table shadows the base table | 2026-10-02 |
-| tursodatabase/turso | [#9452](https://github.com/tursodatabase/turso/issues/9452) | Loading `.dump` output changes `TEXT[]` elements and drops `BLOB[]` rows | 2026-10-01 |
 
 <details><summary>Filter log</summary>
 
@@ -53,9 +52,5 @@ Last run: **2026-10-04 22:28 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9471: weak bug signal (0/4)
 - #9470: weak bug signal (0/4)
 - #9469: 1 open PR(s) already reference it
-- #9454: weak bug signal (0/4)
-- #9451: weak bug signal (1/4)
-- #9449: weak bug signal (0/4)
-- #9448: weak bug signal (1/4)
 
 </details>
