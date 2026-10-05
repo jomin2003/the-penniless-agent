@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-10-05 07:33 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-05 16:58 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#20719](https://github.com/BasedHardware/omi/issues/20719) | v2 cleaner UX: land the redesign as 9 small PRs (tracking) | 2026-10-05 |
 | BasedHardware/omi | [#20628](https://github.com/BasedHardware/omi/issues/20628) | bug(ios): 17 hours of wearable recordings do not download to phone | 2026-10-04 |
 | BasedHardware/omi | [#20627](https://github.com/BasedHardware/omi/issues/20627) | bug: Omi requests sometimes give no response or arrive 5–10 minutes late | 2026-10-04 |
 | BasedHardware/omi | [#20626](https://github.com/BasedHardware/omi/issues/20626) | bug(android): Limitless reconnects after BLE range loss but recording stays silent | 2026-10-04 |
@@ -20,22 +21,17 @@ Last run: **2026-10-05 07:33 UTC** — fresh (≤72h), unclaimed, reproducible b
 | BasedHardware/omi | [#20606](https://github.com/BasedHardware/omi/issues/20606) | bug(chat): generic assistant error reported on web and phone | 2026-10-04 |
 | BasedHardware/omi | [#20603](https://github.com/BasedHardware/omi/issues/20603) | bug(android): original conversations remain after merged conversation appears | 2026-10-04 |
 | BasedHardware/omi | [#20602](https://github.com/BasedHardware/omi/issues/20602) | bug(windows): chat shows generic failure despite validated BYOK keys | 2026-10-04 |
-| BasedHardware/omi | [#20595](https://github.com/BasedHardware/omi/issues/20595) | iOS: extracted action items appear in a conversation but not in Tasks | 2026-10-04 |
-| tursodatabase/turso | [#9486](https://github.com/tursodatabase/turso/issues/9486) | Update the tracked SQLite version to support table aliases in trigger bodies | 2026-10-04 |
-| tursodatabase/turso | [#9474](https://github.com/tursodatabase/turso/issues/9474) | `PRAGMA wal_checkpoint(TRUNCATE)` fails with "database is locked" right after switching to MVCC when the database has an AUTOINCREMENT table | 2026-10-03 |
-| tursodatabase/turso | [#9463](https://github.com/tursodatabase/turso/issues/9463) | Turso fails to build with the latest nightly | 2026-10-02 |
-| tursodatabase/turso | [#9456](https://github.com/tursodatabase/turso/issues/9456) | Whole-table DELETE leaves a materialized view stale when a TEMP table shadows the base table | 2026-10-02 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #20738: weak bug signal (1/4)
+- #20712: weak bug signal (1/4)
 - #20686: 1 open PR(s) already reference it
-- #20666: 1 open PR(s) already reference it
 - #20632: weak bug signal (1/4)
 - #20631: weak bug signal (0/4)
 - #20630: weak bug signal (0/4)
 - #20629: weak bug signal (1/4)
-- #20621: 1 open PR(s) already reference it
 - #20620: weak bug signal (1/4)
 - #20619: weak bug signal (1/4)
 - #20618: weak bug signal (0/4)
@@ -46,11 +42,6 @@ Last run: **2026-10-05 07:33 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
-- #9487: patch already attached
-- #9484: weak bug signal (1/4)
-- #9475: weak bug signal (1/4)
-- #9471: weak bug signal (0/4)
-- #9470: weak bug signal (0/4)
-- #9469: 1 open PR(s) already reference it
+- GitHub rate limit hit
 
 </details>
