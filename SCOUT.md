@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-06 17:05 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-06 21:49 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -12,12 +12,12 @@ Last run: **2026-10-06 17:05 UTC** — fresh (≤72h), unclaimed, reproducible b
 | BasedHardware/omi | [#20777](https://github.com/BasedHardware/omi/issues/20777) | A saved pendant that is out of range at launch never reconnects capture after the 60 s attempt times out | 2026-10-06 |
 | BasedHardware/omi | [#20774](https://github.com/BasedHardware/omi/issues/20774) | Session expiry keeps AI consent and onboarding, so the next account to sign in skips both | 2026-10-06 |
 | BasedHardware/omi | [#20628](https://github.com/BasedHardware/omi/issues/20628) | bug(ios): 17 hours of wearable recordings do not download to phone | 2026-10-04 |
-| BasedHardware/omi | [#20627](https://github.com/BasedHardware/omi/issues/20627) | bug: Omi requests sometimes give no response or arrive 5–10 minutes late | 2026-10-04 |
-| BasedHardware/omi | [#20626](https://github.com/BasedHardware/omi/issues/20626) | bug(android): Limitless reconnects after BLE range loss but recording stays silent | 2026-10-04 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #20850: weak bug signal (0/4)
+- #20848: weak bug signal (1/4)
 - #20828: title reads as proposal/question
 - #20790: 2 open PR(s) already reference it
 - #20789: title reads as proposal/question
