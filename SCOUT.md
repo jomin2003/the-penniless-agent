@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-08 07:09 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-08 14:49 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -11,6 +11,8 @@ Last run: **2026-10-08 07:09 UTC** — fresh (≤72h), unclaimed, reproducible b
 | BasedHardware/omi | [#20785](https://github.com/BasedHardware/omi/issues/20785) | Onboarding: Back from the graph, or relaunching on "You're all set", restarts the voice introduction and can save the goal twice | 2026-10-06 |
 | BasedHardware/omi | [#20778](https://github.com/BasedHardware/omi/issues/20778) | iOS: after a firmware update, Done returns Home with the pendant disconnected and no reconnect | 2026-10-06 |
 | BasedHardware/omi | [#20777](https://github.com/BasedHardware/omi/issues/20777) | A saved pendant that is out of range at launch never reconnects capture after the 60 s attempt times out | 2026-10-06 |
+| projectdiscovery/katana | [#1878](https://github.com/projectdiscovery/katana/issues/1878) | -system-chrome is ignored with -headless, so headless crawls in the Docker image find nothing | 2026-10-07 |
+| tursodatabase/turso | [#9648](https://github.com/tursodatabase/turso/issues/9648) | Panic when a correlated subquery in WHERE reads a table of a join that has LIMIT and a hash build input | 2026-10-08 |
 | tursodatabase/turso | [#9626](https://github.com/tursodatabase/turso/issues/9626) | tursopg: a qualified column uses an outer table when the nearest table with that name has no such column | 2026-10-07 |
 | tursodatabase/turso | [#9624](https://github.com/tursodatabase/turso/issues/9624) | A correlated aggregate subquery with no matching rows reads the outer column of an earlier row | 2026-10-07 |
 | tursodatabase/turso | [#9620](https://github.com/tursodatabase/turso/issues/9620) | MVCC: a failed INSERT OR ROLLBACK during a read panics with "transaction should exist in txs map" | 2026-10-07 |
@@ -19,13 +21,14 @@ Last run: **2026-10-08 07:09 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #20940: 1 open PR(s) already reference it
+- #20969: weak bug signal (1/4)
+- #20956: 2 open PR(s) already reference it
+- #20954: weak bug signal (1/4)
+- #20940: 2 open PR(s) already reference it
 - #20939: weak bug signal (1/4)
 - #20938: weak bug signal (1/4)
-- #20934: weak bug signal (1/4)
 - #20933: weak bug signal (1/4)
 - #20909: weak bug signal (1/4)
-- #20904: weak bug signal (1/4)
 - #20897: title reads as proposal/question
 - #20878: weak bug signal (1/4)
 - #20850: weak bug signal (0/4)
@@ -40,12 +43,9 @@ Last run: **2026-10-08 07:09 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #20781: 1 open PR(s) already reference it
 - #20780: 2 open PR(s) already reference it
 - #20779: 1 open PR(s) already reference it
-- #20776: 2 open PR(s) already reference it
 - #20775: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
-- #1878: 1 open PR(s) already reference it
-- #1877: 1 open PR(s) already reference it
 
 **tursodatabase/turso**
 - #9625: 1 open PR(s) already reference it
@@ -73,6 +73,5 @@ Last run: **2026-10-08 07:09 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9598: weak bug signal (1/4)
 - #9597: weak bug signal (0/4)
 - #9596: weak bug signal (1/4)
-- #9595: weak bug signal (1/4)
 
 </details>
