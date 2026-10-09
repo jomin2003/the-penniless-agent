@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-08 20:35 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-09 01:04 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -9,7 +9,6 @@ Last run: **2026-10-08 20:35 UTC** — fresh (≤72h), unclaimed, reproducible b
 | BasedHardware/omi | [#20792](https://github.com/BasedHardware/omi/issues/20792) | Voice introduction: if a memory save commits but the reply fails, the answer stays editable; unchecking keeps it, editing saves a copy | 2026-10-06 |
 | BasedHardware/omi | [#20791](https://github.com/BasedHardware/omi/issues/20791) | Onboarding: "Here is what I know about you" opens with the graph mostly outside the panel | 2026-10-06 |
 | BasedHardware/omi | [#20785](https://github.com/BasedHardware/omi/issues/20785) | Onboarding: Back from the graph, or relaunching on "You're all set", restarts the voice introduction and can save the goal twice | 2026-10-06 |
-| BasedHardware/omi | [#20778](https://github.com/BasedHardware/omi/issues/20778) | iOS: after a firmware update, Done returns Home with the pendant disconnected and no reconnect | 2026-10-06 |
 | projectdiscovery/katana | [#1878](https://github.com/projectdiscovery/katana/issues/1878) | -system-chrome is ignored with -headless, so headless crawls in the Docker image find nothing | 2026-10-07 |
 | tursodatabase/turso | [#9657](https://github.com/tursodatabase/turso/issues/9657) | shared_wal_coordination tests fail on Windows without experimental_win_iocp: WindowsIO has no shared_wal_lock_byte | 2026-10-08 |
 | tursodatabase/turso | [#9651](https://github.com/tursodatabase/turso/issues/9651) | An aggregate of the outer query in a subquery in WHERE, ON, or FROM returns a row of NULLs instead of an error | 2026-10-08 |
@@ -22,6 +21,7 @@ Last run: **2026-10-08 20:35 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #21002: weak bug signal (1/4)
 - #20994: 1 open PR(s) already reference it
 - #20991: title reads as proposal/question
 - #20969: weak bug signal (1/4)
@@ -50,6 +50,9 @@ Last run: **2026-10-08 20:35 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9665: weak bug signal (1/4)
+- #9664: weak bug signal (1/4)
+- #9663: weak bug signal (1/4)
 - #9625: 1 open PR(s) already reference it
 - #9621: weak bug signal (1/4)
 - #9618: weak bug signal (1/4)
@@ -70,8 +73,5 @@ Last run: **2026-10-08 20:35 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9603: weak bug signal (1/4)
 - #9602: weak bug signal (0/4)
 - #9601: weak bug signal (0/4)
-- #9600: weak bug signal (1/4)
-- #9599: weak bug signal (1/4)
-- #9598: weak bug signal (1/4)
 
 </details>
