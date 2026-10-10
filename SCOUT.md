@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-10-10 12:55 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-10 17:43 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#21031](https://github.com/BasedHardware/omi/issues/21031) | Python CLI: conversation Markdown export aborts with Unicode under legacy stdio | 2026-10-09 |
 | BasedHardware/omi | [#20942](https://github.com/BasedHardware/omi/issues/20942) | test: deflake capture_containment CPU-time first-test trip (chip task_61501c5d) | 2026-10-08 |
 | BasedHardware/omi | [#20941](https://github.com/BasedHardware/omi/issues/20941) | chore(deploy): reusable deploy ancestry guard + verify script (chip task_53b2277f) | 2026-10-08 |
 | tursodatabase/turso | [#9763](https://github.com/tursodatabase/turso/issues/9763) | [BUG] linux-arm64: cannot open any file-backed database — statfs shared WAL coordination path: entity not found | 2026-10-10 |
@@ -16,10 +17,8 @@ Last run: **2026-10-10 12:55 UTC** — fresh (≤72h), unclaimed, reproducible b
 
 **BasedHardware/omi**
 - #21122: weak bug signal (1/4)
-- #21110: weak bug signal (1/4)
 - #21096: 1 open PR(s) already reference it
 - #21060: weak bug signal (1/4)
-- #21031: 1 open PR(s) already reference it
 - #21007: weak bug signal (1/4)
 - #21002: weak bug signal (1/4)
 - #20994: 2 open PR(s) already reference it
