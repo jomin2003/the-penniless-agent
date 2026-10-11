@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-11 18:21 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-11 22:19 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -16,7 +16,7 @@ Last run: **2026-10-11 18:21 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #21231: weak bug signal (1/4)
+- #21255: weak bug signal (1/4)
 - #21223: title reads as proposal/question
 - #21220: title reads as proposal/question
 - #21218: title reads as proposal/question
