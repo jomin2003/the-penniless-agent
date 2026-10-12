@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-11 22:19 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-12 01:36 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -8,14 +8,16 @@ Last run: **2026-10-11 22:19 UTC** — fresh (≤72h), unclaimed, reproducible b
 | BasedHardware/omi | [#21217](https://github.com/BasedHardware/omi/issues/21217) | Offline backlog older than 30 days is permanently refused with no bulk export or recovery path | 2026-10-11 |
 | BasedHardware/omi | [#21216](https://github.com/BasedHardware/omi/issues/21216) | Paid users repeatedly hit 'Omi servers are busy' during sync and their offline backlog keeps growing | 2026-10-11 |
 | BasedHardware/omi | [#21169](https://github.com/BasedHardware/omi/issues/21169) | Watch recording lost when watch and phone kept disconnecting, never showed up in the app | 2026-10-11 |
-| BasedHardware/omi | [#21031](https://github.com/BasedHardware/omi/issues/21031) | Python CLI: conversation Markdown export aborts with Unicode under legacy stdio | 2026-10-09 |
 | tursodatabase/turso | [#9763](https://github.com/tursodatabase/turso/issues/9763) | [BUG] linux-arm64: cannot open any file-backed database — statfs shared WAL coordination path: entity not found | 2026-10-10 |
 | tursodatabase/turso | [#9679](https://github.com/tursodatabase/turso/issues/9679) | Database with an unknown collation in its schema fails to open | 2026-10-09 |
-| tursodatabase/turso | [#9657](https://github.com/tursodatabase/turso/issues/9657) | shared_wal_coordination tests fail on Windows without experimental_win_iocp: WindowsIO has no shared_wal_lock_byte | 2026-10-08 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #21267: weak bug signal (1/4)
+- #21266: weak bug signal (1/4)
+- #21264: patch already attached
+- #21262: patch already attached
 - #21255: weak bug signal (1/4)
 - #21223: title reads as proposal/question
 - #21220: title reads as proposal/question
@@ -38,9 +40,6 @@ Last run: **2026-10-11 22:19 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #21122: weak bug signal (1/4)
 - #21096: 2 open PR(s) already reference it
 - #21060: weak bug signal (1/4)
-- #21007: weak bug signal (1/4)
-- #21002: weak bug signal (1/4)
-- #20994: 2 open PR(s) already reference it
 
 **projectdiscovery/katana**
 - #1880: weak bug signal (1/4)
