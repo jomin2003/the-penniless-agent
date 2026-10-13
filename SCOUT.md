@@ -1,13 +1,13 @@
 # Bounty scout
 
-Last run: **2026-10-13 08:15 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-13 16:18 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
 | BasedHardware/omi | [#21378](https://github.com/BasedHardware/omi/issues/21378) | Android: referral Google signup blank and integration connection status hangs | 2026-10-13 |
-| BasedHardware/omi | [#21279](https://github.com/BasedHardware/omi/issues/21279) | Offline Sync: server jobs stay "queued" 0% forever, Pending grows every ~10s, and job-status polling floods 429s (persists after full reinstall) | 2026-10-12 |
 | BasedHardware/omi | [#21225](https://github.com/BasedHardware/omi/issues/21225) | MCP get_action_items pagination skips and repeats tasks past ~133 active items (unordered bounded scan) | 2026-10-11 |
 | BasedHardware/omi | [#21169](https://github.com/BasedHardware/omi/issues/21169) | Watch recording lost when watch and phone kept disconnecting, never showed up in the app | 2026-10-11 |
+| tursodatabase/turso | [#9814](https://github.com/tursodatabase/turso/issues/9814) | mimalloc: error: mi_free: pointer does not point to a valid heap space | 2026-10-13 |
 | tursodatabase/turso | [#9807](https://github.com/tursodatabase/turso/issues/9807) | FTS: ORDER BY fts_score is ignored when WHERE has an extra predicate, so LIMIT drops the best matches | 2026-10-13 |
 | tursodatabase/turso | [#9799](https://github.com/tursodatabase/turso/issues/9799) | Sync pull can assign pending insert values to the wrong columns after remote DROP/ADD COLUMN | 2026-10-12 |
 | tursodatabase/turso | [#9763](https://github.com/tursodatabase/turso/issues/9763) | [BUG] linux-arm64: cannot open any file-backed database — statfs shared WAL coordination path: entity not found | 2026-10-10 |
@@ -15,11 +15,10 @@ Last run: **2026-10-13 08:15 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #21402: weak bug signal (1/4)
 - #21360: 1 open PR(s) already reference it
 - #21295: 1 open PR(s) already reference it
-- #21278: 1 open PR(s) already reference it
 - #21264: patch already attached
-- #21262: patch already attached
 - #21223: title reads as proposal/question
 - #21220: title reads as proposal/question
 - #21218: title reads as proposal/question
@@ -45,12 +44,14 @@ Last run: **2026-10-13 08:15 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9816: 1 open PR(s) already reference it
+- #9810: 1 open PR(s) already reference it
+- #9809: weak bug signal (1/4)
 - #9796: weak bug signal (1/4)
 - #9793: weak bug signal (0/4)
 - #9791: 1 open PR(s) already reference it
 - #9776: weak bug signal (0/4)
 - #9774: 1 open PR(s) already reference it
-- #9773: 2 open PR(s) already reference it
 - #9771: weak bug signal (1/4)
 
 </details>
