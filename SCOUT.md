@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-10-14 05:57 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-14 11:39 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#21472](https://github.com/BasedHardware/omi/issues/21472) | Conversation playback through the phone speaker is transcribed back into the live conversation | 2026-10-14 |
 | BasedHardware/omi | [#21378](https://github.com/BasedHardware/omi/issues/21378) | Android: referral Google signup blank and integration connection status hangs | 2026-10-13 |
 | BasedHardware/omi | [#21169](https://github.com/BasedHardware/omi/issues/21169) | Watch recording lost when watch and phone kept disconnecting, never showed up in the app | 2026-10-11 |
 | tursodatabase/turso | [#9855](https://github.com/tursodatabase/turso/issues/9855) | serverless/javascript: queued operations survive close or switch transaction owner on reconnect | 2026-10-14 |
@@ -13,18 +14,17 @@ Last run: **2026-10-14 05:57 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#9850](https://github.com/tursodatabase/turso/issues/9850) | RIGHT JOIN followed by LEFT JOIN: a subquery in the later ON clause is not re-evaluated for unmatched right rows (panic or wrong result) | 2026-10-14 |
 | tursodatabase/turso | [#9849](https://github.com/tursodatabase/turso/issues/9849) | Text-to-REAL conversion through column affinity and sum()/total()/avg() gives a different double than CAST or a literal | 2026-10-14 |
 | tursodatabase/turso | [#9847](https://github.com/tursodatabase/turso/issues/9847) | Panic "duplicate cursor key" when a RIGHT/FULL JOIN query has a WHERE subquery over a table-valued function | 2026-10-14 |
-| tursodatabase/turso | [#9839](https://github.com/tursodatabase/turso/issues/9839) | json_each/json_tree error "number too large to fit in target type" on integers outside the i64 range | 2026-10-14 |
-| tursodatabase/turso | [#9836](https://github.com/tursodatabase/turso/issues/9836) | `x -> x` and `x ->> x` panic (index out of bounds) when both operands are the same expression | 2026-10-14 |
 | tursodatabase/turso | [#9830](https://github.com/tursodatabase/turso/issues/9830) | Ordered full scan of a rowid table counts each table page two times | 2026-10-13 |
 | tursodatabase/turso | [#9826](https://github.com/tursodatabase/turso/issues/9826) | Join optimizer never returns `best_ordered_plan`, so ORDER BY sorts when another join order gives the order | 2026-10-13 |
 | tursodatabase/turso | [#9825](https://github.com/tursodatabase/turso/issues/9825) | serverless/javascript: partial pipeline response loses transaction stream ownership | 2026-10-13 |
 | tursodatabase/turso | [#9814](https://github.com/tursodatabase/turso/issues/9814) | mimalloc: error: mi_free: pointer does not point to a valid heap space | 2026-10-13 |
 | tursodatabase/turso | [#9807](https://github.com/tursodatabase/turso/issues/9807) | FTS: ORDER BY fts_score is ignored when WHERE has an extra predicate, so LIMIT drops the best matches | 2026-10-13 |
-| tursodatabase/turso | [#9799](https://github.com/tursodatabase/turso/issues/9799) | Sync pull can assign pending insert values to the wrong columns after remote DROP/ADD COLUMN | 2026-10-12 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #21483: weak bug signal (1/4)
+- #21469: 1 open PR(s) already reference it
 - #21461: weak bug signal (1/4)
 - #21427: weak bug signal (1/4)
 - #21360: 1 open PR(s) already reference it
@@ -50,11 +50,11 @@ Last run: **2026-10-14 05:57 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #21189: title reads as proposal/question
 - #21177: weak bug signal (1/4)
 - #21168: 2 open PR(s) already reference it
-- #21162: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9869: 1 open PR(s) already reference it
 - #9848: weak bug signal (1/4)
 - #9845: weak bug signal (1/4)
 - #9844: weak bug signal (1/4)
@@ -62,8 +62,10 @@ Last run: **2026-10-14 05:57 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9842: weak bug signal (1/4)
 - #9841: weak bug signal (1/4)
 - #9840: weak bug signal (1/4)
+- #9839: 1 open PR(s) already reference it
 - #9838: weak bug signal (1/4)
 - #9837: weak bug signal (1/4)
+- #9836: 1 open PR(s) already reference it
 - #9829: weak bug signal (1/4)
 - #9823: weak bug signal (1/4)
 - #9821: weak bug signal (1/4)
