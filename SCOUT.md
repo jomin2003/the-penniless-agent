@@ -1,11 +1,9 @@
 # Bounty scout
 
-Last run: **2026-10-14 20:31 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-14 23:47 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#21596](https://github.com/BasedHardware/omi/issues/21596) | macOS: Load older conversations skips a conversation after deleting or unstarring a loaded row | 2026-10-14 |
-| BasedHardware/omi | [#21526](https://github.com/BasedHardware/omi/issues/21526) | Android 1.0.558 (Play Store, Oct 8): pairing OMI Glass never opens a BLE connection; 60 s spinner, no error (nRF Connect connects fine) | 2026-10-14 |
 | BasedHardware/omi | [#21472](https://github.com/BasedHardware/omi/issues/21472) | Conversation playback through the phone speaker is transcribed back into the live conversation | 2026-10-14 |
 | BasedHardware/omi | [#21378](https://github.com/BasedHardware/omi/issues/21378) | Android: referral Google signup blank and integration connection status hangs | 2026-10-13 |
 | tursodatabase/turso | [#9926](https://github.com/tursodatabase/turso/issues/9926) | Panic "column N of table tN is not stored in the index and the table cursor is not open" with a partial index and a BETWEEN that implies its WHERE | 2026-10-14 |
@@ -20,9 +18,11 @@ Last run: **2026-10-14 20:31 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #21596: 1 open PR(s) already reference it
 - #21577: 1 open PR(s) already reference it
 - #21573: 1 open PR(s) already reference it
 - #21572: 1 open PR(s) already reference it
+- #21526: 1 open PR(s) already reference it
 - #21508: weak bug signal (1/4)
 - #21461: weak bug signal (1/4)
 - #21427: weak bug signal (1/4)
@@ -50,6 +50,7 @@ Last run: **2026-10-14 20:31 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9929: weak bug signal (1/4)
 - #9927: weak bug signal (1/4)
 - #9925: weak bug signal (0/4)
 - #9924: weak bug signal (0/4)
@@ -71,6 +72,5 @@ Last run: **2026-10-14 20:31 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9879: weak bug signal (1/4)
 - #9869: 1 open PR(s) already reference it
 - #9850: 1 open PR(s) already reference it
-- #9848: weak bug signal (1/4)
 
 </details>
