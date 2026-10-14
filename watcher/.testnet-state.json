@@ -2,35 +2,35 @@
   "Robinhood Chain Testnet": {
     "buddy": "0x952c8497dcAD23821895965d50F1E95B67d6609f",
     "lastDeployWeek": 2962,
-    "lastRun": "2026-10-13 14:17 UTC",
-    "lastBalance": 0.01066823121,
-    "lastTransferDay": "2026-10-13"
+    "lastRun": "2026-10-14 11:59 UTC",
+    "lastBalance": 0.01065802121,
+    "lastTransferDay": "2026-10-14"
   },
   "0G Galileo Testnet": {
-    "lastRun": "2026-10-13 14:17 UTC",
-    "lastBalance": 0.00582615999295828,
+    "lastRun": "2026-10-14 11:59 UTC",
+    "lastBalance": 0.00573715999281128,
     "lastDeployWeek": 2962,
     "buddy": "0x9C9c25757e031Cf864B8b4EDd52D923859fDcf86",
-    "lastTransferDay": "2026-10-13"
+    "lastTransferDay": "2026-10-14"
   },
   "Kite AI Testnet": {
-    "lastRun": "2026-10-13 14:17 UTC",
+    "lastRun": "2026-10-14 11:59 UTC",
     "lastBalance": 0
   },
   "Fluent Testnet": {
-    "lastRun": "2026-10-13 14:17 UTC",
+    "lastRun": "2026-10-14 11:59 UTC",
     "lastBalance": 0
   },
   "Sei Atlantic-2 EVM": {
-    "lastRun": "2026-10-13 14:17 UTC",
+    "lastRun": "2026-10-14 11:59 UTC",
     "lastBalance": 0
   },
   "Solana Devnet": {
-    "lastRun": "2026-10-13 14:17 UTC",
+    "lastRun": "2026-10-14 11:59 UTC",
     "lastBalance": 0
   },
   "Push Chain Testnet": {
-    "lastRun": "2026-10-13 14:17 UTC",
+    "lastRun": "2026-10-14 11:59 UTC",
     "lastBalance": 0
   }
 }
