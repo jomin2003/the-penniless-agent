@@ -1,11 +1,20 @@
 # Bounty scout
 
-Last run: **2026-10-14 00:32 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-14 05:57 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
 | BasedHardware/omi | [#21378](https://github.com/BasedHardware/omi/issues/21378) | Android: referral Google signup blank and integration connection status hangs | 2026-10-13 |
 | BasedHardware/omi | [#21169](https://github.com/BasedHardware/omi/issues/21169) | Watch recording lost when watch and phone kept disconnecting, never showed up in the app | 2026-10-11 |
+| tursodatabase/turso | [#9855](https://github.com/tursodatabase/turso/issues/9855) | serverless/javascript: queued operations survive close or switch transaction owner on reconnect | 2026-10-14 |
+| tursodatabase/turso | [#9854](https://github.com/tursodatabase/turso/issues/9854) | serverless/javascript: public same-Connection positional raw-cursor API | 2026-10-14 |
+| tursodatabase/turso | [#9852](https://github.com/tursodatabase/turso/issues/9852) | Panic "a WITHOUT ROWID table has no secondary index to drive its loop" in a RIGHT/FULL JOIN on a SQLite-created file | 2026-10-14 |
+| tursodatabase/turso | [#9851](https://github.com/tursodatabase/turso/issues/9851) | An uncorrelated scalar subquery runs before the scan, so it raises errors SQLite never reaches | 2026-10-14 |
+| tursodatabase/turso | [#9850](https://github.com/tursodatabase/turso/issues/9850) | RIGHT JOIN followed by LEFT JOIN: a subquery in the later ON clause is not re-evaluated for unmatched right rows (panic or wrong result) | 2026-10-14 |
+| tursodatabase/turso | [#9849](https://github.com/tursodatabase/turso/issues/9849) | Text-to-REAL conversion through column affinity and sum()/total()/avg() gives a different double than CAST or a literal | 2026-10-14 |
+| tursodatabase/turso | [#9847](https://github.com/tursodatabase/turso/issues/9847) | Panic "duplicate cursor key" when a RIGHT/FULL JOIN query has a WHERE subquery over a table-valued function | 2026-10-14 |
+| tursodatabase/turso | [#9839](https://github.com/tursodatabase/turso/issues/9839) | json_each/json_tree error "number too large to fit in target type" on integers outside the i64 range | 2026-10-14 |
+| tursodatabase/turso | [#9836](https://github.com/tursodatabase/turso/issues/9836) | `x -> x` and `x ->> x` panic (index out of bounds) when both operands are the same expression | 2026-10-14 |
 | tursodatabase/turso | [#9830](https://github.com/tursodatabase/turso/issues/9830) | Ordered full scan of a rowid table counts each table page two times | 2026-10-13 |
 | tursodatabase/turso | [#9826](https://github.com/tursodatabase/turso/issues/9826) | Join optimizer never returns `best_ordered_plan`, so ORDER BY sorts when another join order gives the order | 2026-10-13 |
 | tursodatabase/turso | [#9825](https://github.com/tursodatabase/turso/issues/9825) | serverless/javascript: partial pipeline response loses transaction stream ownership | 2026-10-13 |
@@ -16,7 +25,7 @@ Last run: **2026-10-14 00:32 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #21444: weak bug signal (1/4)
+- #21461: weak bug signal (1/4)
 - #21427: weak bug signal (1/4)
 - #21360: 1 open PR(s) already reference it
 - #21295: 1 open PR(s) already reference it
@@ -46,16 +55,20 @@ Last run: **2026-10-14 00:32 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #9848: weak bug signal (1/4)
+- #9845: weak bug signal (1/4)
+- #9844: weak bug signal (1/4)
+- #9843: weak bug signal (1/4)
+- #9842: weak bug signal (1/4)
+- #9841: weak bug signal (1/4)
+- #9840: weak bug signal (1/4)
+- #9838: weak bug signal (1/4)
+- #9837: weak bug signal (1/4)
 - #9829: weak bug signal (1/4)
 - #9823: weak bug signal (1/4)
 - #9821: weak bug signal (1/4)
 - #9820: 1 open PR(s) already reference it
 - #9816: 1 open PR(s) already reference it
 - #9809: weak bug signal (1/4)
-- #9796: weak bug signal (1/4)
-- #9793: weak bug signal (0/4)
-- #9791: 1 open PR(s) already reference it
-- #9776: weak bug signal (0/4)
-- #9774: 1 open PR(s) already reference it
 
 </details>
