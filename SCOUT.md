@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-13 21:27 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-14 00:32 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -12,14 +12,12 @@ Last run: **2026-10-13 21:27 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#9814](https://github.com/tursodatabase/turso/issues/9814) | mimalloc: error: mi_free: pointer does not point to a valid heap space | 2026-10-13 |
 | tursodatabase/turso | [#9807](https://github.com/tursodatabase/turso/issues/9807) | FTS: ORDER BY fts_score is ignored when WHERE has an extra predicate, so LIMIT drops the best matches | 2026-10-13 |
 | tursodatabase/turso | [#9799](https://github.com/tursodatabase/turso/issues/9799) | Sync pull can assign pending insert values to the wrong columns after remote DROP/ADD COLUMN | 2026-10-12 |
-| tursodatabase/turso | [#9763](https://github.com/tursodatabase/turso/issues/9763) | [BUG] linux-arm64: cannot open any file-backed database — statfs shared WAL coordination path: entity not found | 2026-10-10 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #21429: weak bug signal (0/4)
+- #21444: weak bug signal (1/4)
 - #21427: weak bug signal (1/4)
-- #21402: weak bug signal (1/4)
 - #21360: 1 open PR(s) already reference it
 - #21295: 1 open PR(s) already reference it
 - #21264: patch already attached
@@ -42,9 +40,8 @@ Last run: **2026-10-13 21:27 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #21190: title reads as proposal/question
 - #21189: title reads as proposal/question
 - #21177: weak bug signal (1/4)
-- #21168: 1 open PR(s) already reference it
+- #21168: 2 open PR(s) already reference it
 - #21162: weak bug signal (1/4)
-- #21122: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 
@@ -60,6 +57,5 @@ Last run: **2026-10-13 21:27 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9791: 1 open PR(s) already reference it
 - #9776: weak bug signal (0/4)
 - #9774: 1 open PR(s) already reference it
-- #9771: weak bug signal (1/4)
 
 </details>
