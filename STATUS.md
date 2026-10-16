@@ -1,6 +1,6 @@
 # Watcher status
 
-Last run: **2026-10-16 11:03 UTC** — keyless public-RPC reads; the watcher holds no keys (see [watcher/](watcher/)).
+Last run: **2026-10-16 15:27 UTC** — keyless public-RPC reads; the watcher holds no keys (see [watcher/](watcher/)).
 
 ## HOLD — receive-only wallets
 
@@ -15,4 +15,4 @@ Last run: **2026-10-16 11:03 UTC** — keyless public-RPC reads; the watcher hol
 
 ## EARN — rails
 
-- Superteam Earn agent API: configured — **1 live listings** at last poll
+- Superteam Earn agent API: configured — **0 live listings** at last poll
