@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-16 18:57 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-16 22:00 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -9,14 +9,10 @@ Last run: **2026-10-16 18:57 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#10021](https://github.com/tursodatabase/turso/issues/10021) | every array of a range-checked element type (smallint[]) rejects arrays that contain NULL elements, on INSERT, INSERT…SE | 2026-10-16 |
 | tursodatabase/turso | [#9944](https://github.com/tursodatabase/turso/issues/9944) | serverless/javascript: batch discards affected-row counts for writes with RETURNING | 2026-10-15 |
 | tursodatabase/turso | [#9911](https://github.com/tursodatabase/turso/issues/9911) | Concurrent transactions can pin the sequence watermark too low | 2026-10-14 |
-| tursodatabase/turso | [#9855](https://github.com/tursodatabase/turso/issues/9855) | serverless/javascript: queued operations survive close or switch transaction owner on reconnect | 2026-10-14 |
-| tursodatabase/turso | [#9854](https://github.com/tursodatabase/turso/issues/9854) | serverless/javascript: public same-Connection positional raw-cursor API | 2026-10-14 |
-| tursodatabase/turso | [#9851](https://github.com/tursodatabase/turso/issues/9851) | An uncorrelated scalar subquery runs before the scan, so it raises errors SQLite never reaches | 2026-10-14 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #21926: weak bug signal (1/4)
 - #21916: title reads as proposal/question
 - #21914: title reads as proposal/question
 - #21911: title reads as proposal/question
@@ -25,7 +21,6 @@ Last run: **2026-10-16 18:57 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #21901: title reads as proposal/question
 - #21899: title reads as proposal/question
 - #21895: title reads as proposal/question
-- #21894: weak bug signal (1/4)
 - #21892: title reads as proposal/question
 - #21878: title reads as proposal/question
 - #21875: title reads as proposal/question
@@ -46,10 +41,17 @@ Last run: **2026-10-16 18:57 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #21802: weak bug signal (1/4)
 - #21759: weak bug signal (1/4)
 - #21722: weak bug signal (1/4)
+- #21721: weak bug signal (1/4)
+- #21678: title reads as proposal/question
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #10038: weak bug signal (1/4)
+- #10036: 1 open PR(s) already reference it
+- #10034: weak bug signal (1/4)
+- #10033: weak bug signal (1/4)
+- #10032: 1 open PR(s) already reference it
 - #10027: weak bug signal (1/4)
 - #10025: weak bug signal (1/4)
 - #10024: weak bug signal (1/4)
@@ -70,7 +72,5 @@ Last run: **2026-10-16 18:57 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9888: weak bug signal (1/4)
 - #9885: weak bug signal (0/4)
 - #9879: weak bug signal (1/4)
-- #9869: 1 open PR(s) already reference it
-- #9850: 1 open PR(s) already reference it
 
 </details>
