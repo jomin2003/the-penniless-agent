@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-10-17 19:07 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-17 21:38 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| tursodatabase/turso | [#10069](https://github.com/tursodatabase/turso/issues/10069) | Scanning small columns of a table with large TEXT values is 20x+ slower than SQLite | 2026-10-17 |
 | tursodatabase/turso | [#10057](https://github.com/tursodatabase/turso/issues/10057) | LEFT JOIN with a materialized view on the nullable side panics in set_null_flag | 2026-10-17 |
 | tursodatabase/turso | [#10028](https://github.com/tursodatabase/turso/issues/10028) | A trigger that inserts NEW.<custom-type array column> into another custom-type array column fails with an error | 2026-10-16 |
 | tursodatabase/turso | [#10022](https://github.com/tursodatabase/turso/issues/10022) | an index seek on an encoded-element array column applies the element ENCODE/range check to the whole array literal inste | 2026-10-16 |
@@ -12,7 +13,6 @@ Last run: **2026-10-17 19:07 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #22047: weak bug signal (1/4)
 - #22043: weak bug signal (1/4)
 - #22017: title reads as proposal/question
 - #21990: title reads as proposal/question
@@ -42,6 +42,7 @@ Last run: **2026-10-17 19:07 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #21802: weak bug signal (1/4)
 - #21759: weak bug signal (1/4)
 - #21722: weak bug signal (1/4)
+- #21721: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 
@@ -71,6 +72,5 @@ Last run: **2026-10-17 19:07 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9967: weak bug signal (1/4)
 - #9963: weak bug signal (1/4)
 - #9962: weak bug signal (0/4)
-- #9957: weak bug signal (0/4)
 
 </details>
