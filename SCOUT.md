@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-10-16 22:00 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-17 00:41 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#21943](https://github.com/BasedHardware/omi/issues/21943) | Offline sync has been stuck since 2026-10-15 ~21:00 KST. | 2026-10-16 |
 | tursodatabase/turso | [#10028](https://github.com/tursodatabase/turso/issues/10028) | A trigger that inserts NEW.<custom-type array column> into another custom-type array column fails with an error | 2026-10-16 |
 | tursodatabase/turso | [#10022](https://github.com/tursodatabase/turso/issues/10022) | an index seek on an encoded-element array column applies the element ENCODE/range check to the whole array literal inste | 2026-10-16 |
 | tursodatabase/turso | [#10021](https://github.com/tursodatabase/turso/issues/10021) | every array of a range-checked element type (smallint[]) rejects arrays that contain NULL elements, on INSERT, INSERT…SE | 2026-10-16 |
@@ -13,6 +14,7 @@ Last run: **2026-10-16 22:00 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #21953: title reads as proposal/question
 - #21916: title reads as proposal/question
 - #21914: title reads as proposal/question
 - #21911: title reads as proposal/question
@@ -41,8 +43,6 @@ Last run: **2026-10-16 22:00 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #21802: weak bug signal (1/4)
 - #21759: weak bug signal (1/4)
 - #21722: weak bug signal (1/4)
-- #21721: weak bug signal (1/4)
-- #21678: title reads as proposal/question
 
 **projectdiscovery/katana**
 
