@@ -1,10 +1,10 @@
 # Bounty scout
 
-Last run: **2026-10-17 05:24 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-17 09:36 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#21943](https://github.com/BasedHardware/omi/issues/21943) | Offline sync has been stuck since 2026-10-15 ~21:00 KST. | 2026-10-16 |
+| tursodatabase/turso | [#10057](https://github.com/tursodatabase/turso/issues/10057) | LEFT JOIN with a materialized view on the nullable side panics in set_null_flag | 2026-10-17 |
 | tursodatabase/turso | [#10028](https://github.com/tursodatabase/turso/issues/10028) | A trigger that inserts NEW.<custom-type array column> into another custom-type array column fails with an error | 2026-10-16 |
 | tursodatabase/turso | [#10022](https://github.com/tursodatabase/turso/issues/10022) | an index seek on an encoded-element array column applies the element ENCODE/range check to the whole array literal inste | 2026-10-16 |
 | tursodatabase/turso | [#10021](https://github.com/tursodatabase/turso/issues/10021) | every array of a range-checked element type (smallint[]) rejects arrays that contain NULL elements, on INSERT, INSERT…SE | 2026-10-16 |
@@ -14,8 +14,10 @@ Last run: **2026-10-17 05:24 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #22000: weak bug signal (1/4)
 - #21990: title reads as proposal/question
 - #21953: title reads as proposal/question
+- #21943: 1 open PR(s) already reference it
 - #21916: title reads as proposal/question
 - #21914: title reads as proposal/question
 - #21911: title reads as proposal/question
@@ -42,11 +44,14 @@ Last run: **2026-10-17 05:24 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #21722: weak bug signal (1/4)
 - #21721: weak bug signal (1/4)
 - #21678: title reads as proposal/question
-- #21596: 2 open PR(s) already reference it
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #10056: weak bug signal (1/4)
+- #10054: 1 open PR(s) already reference it
+- #10052: weak bug signal (0/4)
+- #10050: 1 open PR(s) already reference it
 - #10038: weak bug signal (1/4)
 - #10036: 1 open PR(s) already reference it
 - #10034: weak bug signal (1/4)
@@ -67,10 +72,5 @@ Last run: **2026-10-17 05:24 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9957: weak bug signal (0/4)
 - #9955: weak bug signal (1/4)
 - #9939: title reads as proposal/question
-- #9907: weak bug signal (0/4)
-- #9895: 1 open PR(s) already reference it
-- #9888: weak bug signal (1/4)
-- #9885: weak bug signal (0/4)
-- #9879: weak bug signal (1/4)
 
 </details>
