@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-17 16:55 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-17 19:07 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -8,15 +8,13 @@ Last run: **2026-10-17 16:55 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#10028](https://github.com/tursodatabase/turso/issues/10028) | A trigger that inserts NEW.<custom-type array column> into another custom-type array column fails with an error | 2026-10-16 |
 | tursodatabase/turso | [#10022](https://github.com/tursodatabase/turso/issues/10022) | an index seek on an encoded-element array column applies the element ENCODE/range check to the whole array literal inste | 2026-10-16 |
 | tursodatabase/turso | [#10021](https://github.com/tursodatabase/turso/issues/10021) | every array of a range-checked element type (smallint[]) rejects arrays that contain NULL elements, on INSERT, INSERT…SE | 2026-10-16 |
-| tursodatabase/turso | [#9944](https://github.com/tursodatabase/turso/issues/9944) | serverless/javascript: batch discards affected-row counts for writes with RETURNING | 2026-10-15 |
-| tursodatabase/turso | [#9911](https://github.com/tursodatabase/turso/issues/9911) | Concurrent transactions can pin the sequence watermark too low | 2026-10-14 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #22047: weak bug signal (1/4)
 - #22043: weak bug signal (1/4)
 - #22017: title reads as proposal/question
-- #22000: weak bug signal (1/4)
 - #21990: title reads as proposal/question
 - #21953: title reads as proposal/question
 - #21943: 1 open PR(s) already reference it
@@ -48,6 +46,10 @@ Last run: **2026-10-17 16:55 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #10068: patch already attached
+- #10065: weak bug signal (1/4)
+- #10062: 1 open PR(s) already reference it
+- #10061: 1 open PR(s) already reference it
 - #10056: weak bug signal (1/4)
 - #10054: 1 open PR(s) already reference it
 - #10052: weak bug signal (0/4)
@@ -70,7 +72,5 @@ Last run: **2026-10-17 16:55 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #9963: weak bug signal (1/4)
 - #9962: weak bug signal (0/4)
 - #9957: weak bug signal (0/4)
-- #9955: weak bug signal (1/4)
-- #9939: title reads as proposal/question
 
 </details>
