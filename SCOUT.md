@@ -1,10 +1,12 @@
 # Bounty scout
 
-Last run: **2026-10-18 13:05 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-18 16:45 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#22079](https://github.com/BasedHardware/omi/issues/22079) | docs: AppSetup and app/README still say `make dev-init` uses whatever `python3` resolves to | 2026-10-18 |
+| tursodatabase/turso | [#10114](https://github.com/tursodatabase/turso/issues/10114) | multiprocess_wal: two simultaneous opens, both flagged, race — one is rejected with an inverted "already open without experimental multiprocess WAL" error | 2026-10-18 |
+| tursodatabase/turso | [#10113](https://github.com/tursodatabase/turso/issues/10113) | auto_vacuum=INCREMENTAL: CREATE TABLE/INDEX fail with "Internal error: Incremental auto-vacuum is not supported"; a fresh file is left poisoned | 2026-10-18 |
+| tursodatabase/turso | [#10112](https://github.com/tursodatabase/turso/issues/10112) | core: a vtab DDL with a double-quoted argument containing a single quote makes the whole database unopenable | 2026-10-18 |
 | tursodatabase/turso | [#10104](https://github.com/tursodatabase/turso/issues/10104) | USING/NATURAL joins where the common column appears more than once on one side are accepted instead of rejected | 2026-10-18 |
 | tursodatabase/turso | [#10103](https://github.com/tursodatabase/turso/issues/10103) | tursopg: alias on a parenthesized join is ignored | 2026-10-18 |
 | tursodatabase/turso | [#10094](https://github.com/tursodatabase/turso/issues/10094) | ALTER TABLE ADD COLUMN of a domain column on a STRICT table: in the same session, an INSERT that uses a non-text default | 2026-10-18 |
@@ -12,15 +14,20 @@ Last run: **2026-10-18 13:05 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#10088](https://github.com/tursodatabase/turso/issues/10088) | tursopg panics on INSERT ... VALUES (DEFAULT) when DEFAULT is the only value | 2026-10-18 |
 | tursodatabase/turso | [#10087](https://github.com/tursodatabase/turso/issues/10087) | ALTER TABLE ... ALTER COLUMN ... TYPE saves the column with an empty name | 2026-10-18 |
 | tursodatabase/turso | [#10080](https://github.com/tursodatabase/turso/issues/10080) | Dropping an attached-db INSERT whose checkpoint is paused at BeforePublishWindow (after the pager commit) leaves unused  | 2026-10-18 |
-| tursodatabase/turso | [#10028](https://github.com/tursodatabase/turso/issues/10028) | A trigger that inserts NEW.<custom-type array column> into another custom-type array column fails with an error | 2026-10-16 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #22191: weak bug signal (1/4)
+- #22181: title reads as proposal/question
+- #22174: title reads as proposal/question
+- #22168: title reads as proposal/question
+- #22162: title reads as proposal/question
 - #22144: title reads as proposal/question
 - #22126: weak bug signal (0/4)
 - #22103: weak bug signal (1/4)
 - #22091: title reads as proposal/question
+- #22079: 1 open PR(s) already reference it
 - #22017: title reads as proposal/question
 - #21990: title reads as proposal/question
 - #21953: title reads as proposal/question
@@ -41,11 +48,6 @@ Last run: **2026-10-18 13:05 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #21854: title reads as proposal/question
 - #21844: title reads as proposal/question
 - #21841: title reads as proposal/question
-- #21838: title reads as proposal/question
-- #21833: title reads as proposal/question
-- #21824: title reads as proposal/question
-- #21809: title reads as proposal/question
-- #21802: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 
@@ -70,7 +72,5 @@ Last run: **2026-10-18 13:05 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #10038: weak bug signal (1/4)
 - #10036: 1 open PR(s) already reference it
 - #10034: weak bug signal (1/4)
-- #10033: weak bug signal (1/4)
-- #10027: weak bug signal (1/4)
 
 </details>
