@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-19 00:00 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-19 05:07 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -9,36 +9,36 @@ Last run: **2026-10-19 00:00 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #22278: 1 open PR(s) already reference it
-- #22276: 1 open PR(s) already reference it
-- #22274: 1 open PR(s) already reference it
-- #22272: 1 open PR(s) already reference it
-- #22269: 1 open PR(s) already reference it
-- #22263: 1 open PR(s) already reference it
-- #22260: 1 open PR(s) already reference it
-- #22258: 1 open PR(s) already reference it
-- #22256: 1 open PR(s) already reference it
-- #22254: 1 open PR(s) already reference it
-- #22250: 2 open PR(s) already reference it
-- #22235: weak bug signal (1/4)
-- #22234: title reads as proposal/question
-- #22232: weak bug signal (1/4)
-- #22227: title reads as proposal/question
-- #22181: title reads as proposal/question
-- #22174: title reads as proposal/question
-- #22168: title reads as proposal/question
-- #22162: title reads as proposal/question
-- #22144: title reads as proposal/question
-- #22126: weak bug signal (0/4)
-- #22103: weak bug signal (1/4)
-- #22091: title reads as proposal/question
-- #22079: 1 open PR(s) already reference it
-- #22017: title reads as proposal/question
-- #21990: title reads as proposal/question
-- #21953: title reads as proposal/question
-- #21943: 1 open PR(s) already reference it
-- #21916: title reads as proposal/question
-- #21914: title reads as proposal/question
+- #22386: 1 open PR(s) already reference it
+- #22383: 1 open PR(s) already reference it
+- #22381: 1 open PR(s) already reference it
+- #22379: 1 open PR(s) already reference it
+- #22377: 1 open PR(s) already reference it
+- #22374: 1 open PR(s) already reference it
+- #22369: 1 open PR(s) already reference it
+- #22366: 1 open PR(s) already reference it
+- #22363: 1 open PR(s) already reference it
+- #22360: 1 open PR(s) already reference it
+- #22355: 1 open PR(s) already reference it
+- #22353: 1 open PR(s) already reference it
+- #22350: 1 open PR(s) already reference it
+- #22348: 1 open PR(s) already reference it
+- #22346: 1 open PR(s) already reference it
+- #22343: 1 open PR(s) already reference it
+- #22341: weak bug signal (1/4)
+- #22339: 1 open PR(s) already reference it
+- #22337: 1 open PR(s) already reference it
+- #22335: weak bug signal (0/4)
+- #22334: weak bug signal (1/4)
+- #22332: 1 open PR(s) already reference it
+- #22330: 1 open PR(s) already reference it
+- #22328: 1 open PR(s) already reference it
+- #22325: 1 open PR(s) already reference it
+- #22322: 1 open PR(s) already reference it
+- #22319: 1 open PR(s) already reference it
+- #22316: 1 open PR(s) already reference it
+- #22313: 2 open PR(s) already reference it
+- #22312: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
 
