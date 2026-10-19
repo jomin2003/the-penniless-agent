@@ -1,10 +1,12 @@
 # Bounty scout
 
-Last run: **2026-10-19 17:40 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-19 22:09 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
 | BasedHardware/omi | [#22487](https://github.com/BasedHardware/omi/issues/22487) | [iOS][Bug] Transcribe Later misrecognizes Japanese as English when Automatic Translation is enabled | 2026-10-19 |
+| tursodatabase/turso | [#10168](https://github.com/tursodatabase/turso/issues/10168) | Sync: adding `url` to a local-only database hides the remote data | 2026-10-19 |
+| tursodatabase/turso | [#10166](https://github.com/tursodatabase/turso/issues/10166) | bindings/react-native: Database.exec() applies a remainder-relative tailIdx to the original SQL, corrupting multi-statement input | 2026-10-19 |
 | tursodatabase/turso | [#10140](https://github.com/tursodatabase/turso/issues/10140) | A failed row still bumps the AUTOINCREMENT counter | 2026-10-19 |
 | tursodatabase/turso | [#10138](https://github.com/tursodatabase/turso/issues/10138) | An aggregate over an outer column placed inside a FROM subquery of a scalar subquery is rejected with 'misuse of aggrega | 2026-10-19 |
 | tursodatabase/turso | [#10137](https://github.com/tursodatabase/turso/issues/10137) | Inside BEGIN CONCURRENT, an AUTOINCREMENT insert fails with WriteWriteConflict and aborts the whole outer transaction wh | 2026-10-19 |
@@ -20,14 +22,15 @@ Last run: **2026-10-19 17:40 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #22648: weak bug signal (1/4)
+- #22641: weak bug signal (1/4)
+- #22638: title reads as proposal/question
+- #22636: title reads as proposal/question
+- #22620: title reads as proposal/question
+- #22614: title reads as proposal/question
+- #22611: title reads as proposal/question
+- #22598: title reads as proposal/question
 - #22593: title reads as proposal/question
-- #22591: weak bug signal (1/4)
-- #22590: weak bug signal (1/4)
-- #22589: weak bug signal (1/4)
-- #22588: weak bug signal (1/4)
-- #22587: weak bug signal (1/4)
-- #22586: weak bug signal (1/4)
-- #22585: weak bug signal (1/4)
 - #22582: title reads as proposal/question
 - #22562: weak bug signal (1/4)
 - #22557: weak bug signal (1/4)
@@ -48,11 +51,13 @@ Last run: **2026-10-19 17:40 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #22509: title reads as proposal/question
 - #22506: title reads as proposal/question
 - #22499: title reads as proposal/question
-- #22485: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #10171: weak bug signal (1/4)
+- #10170: weak bug signal (0/4)
+- #10169: weak bug signal (1/4)
 - #10154: weak bug signal (0/4)
 - #10152: weak bug signal (0/4)
 - #10151: weak bug signal (1/4)
@@ -67,10 +72,5 @@ Last run: **2026-10-19 17:40 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #10119: 1 open PR(s) already reference it
 - #10118: 1 open PR(s) already reference it
 - #10112: 1 open PR(s) already reference it
-- #10102: weak bug signal (1/4)
-- #10100: weak bug signal (1/4)
-- #10099: weak bug signal (1/4)
-- #10096: weak bug signal (1/4)
-- #10095: weak bug signal (1/4)
 
 </details>
