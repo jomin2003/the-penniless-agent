@@ -1,10 +1,9 @@
 # Bounty scout
 
-Last run: **2026-10-20 20:20 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-20 23:18 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| tursodatabase/turso | [#10225](https://github.com/tursodatabase/turso/issues/10225) | A correlated subquery in an aggregate query without rows gives the value of an earlier outer row | 2026-10-20 |
 | tursodatabase/turso | [#10221](https://github.com/tursodatabase/turso/issues/10221) | sqlite3_open_v2 ignores missing SQLITE_OPEN_CREATE and does not reject flags without READONLY or READWRITE: it creates t | 2026-10-20 |
 | tursodatabase/turso | [#10218](https://github.com/tursodatabase/turso/issues/10218) | turso_core fails to build on current nightly: branches 0.4.3 calls removed core::intrinsics::abort | 2026-10-20 |
 | tursodatabase/turso | [#10208](https://github.com/tursodatabase/turso/issues/10208) | tursopg: HAVING without GROUP BY and with no aggregate of the query's own errors instead of acting as one group | 2026-10-20 |
@@ -18,14 +17,15 @@ Last run: **2026-10-20 20:20 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #22952: weak bug signal (1/4)
+- #22942: title reads as proposal/question
+- #22940: title reads as proposal/question
 - #22927: title reads as proposal/question
 - #22918: 1 open PR(s) already reference it
 - #22916: 1 open PR(s) already reference it
 - #22914: 1 open PR(s) already reference it
 - #22912: weak bug signal (1/4)
-- #22911: weak bug signal (1/4)
 - #22870: weak bug signal (1/4)
-- #22869: weak bug signal (1/4)
 - #22860: title reads as proposal/question
 - #22849: 2 open PR(s) already reference it
 - #22843: 1 open PR(s) already reference it
@@ -37,7 +37,6 @@ Last run: **2026-10-20 20:20 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #22793: weak bug signal (1/4)
 - #22791: weak bug signal (0/4)
 - #22789: weak bug signal (0/4)
-- #22787: weak bug signal (1/4)
 - #22785: weak bug signal (1/4)
 - #22778: weak bug signal (1/4)
 - #22776: weak bug signal (0/4)
@@ -57,6 +56,7 @@ Last run: **2026-10-20 20:20 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #10229: weak bug signal (0/4)
 - #10227: weak bug signal (0/4)
 - #10226: weak bug signal (0/4)
+- #10225: 1 open PR(s) already reference it
 - #10211: weak bug signal (1/4)
 - #10210: weak bug signal (1/4)
 - #10209: weak bug signal (1/4)
