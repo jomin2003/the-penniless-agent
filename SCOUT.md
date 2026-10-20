@@ -1,11 +1,11 @@
 # Bounty scout
 
-Last run: **2026-10-20 11:58 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-20 16:48 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| tursodatabase/turso | [#10195](https://github.com/tursodatabase/turso/issues/10195) | CDC: switching the capture table name makes every later write fail with no such table | 2026-10-20 |
-| tursodatabase/turso | [#10179](https://github.com/tursodatabase/turso/issues/10179) | Sync (TursoDB): a generated column in the remote log leaves an empty local database after the first connect() fails | 2026-10-20 |
+| tursodatabase/turso | [#10218](https://github.com/tursodatabase/turso/issues/10218) | turso_core fails to build on current nightly: branches 0.4.3 calls removed core::intrinsics::abort | 2026-10-20 |
+| tursodatabase/turso | [#10208](https://github.com/tursodatabase/turso/issues/10208) | tursopg: HAVING without GROUP BY and with no aggregate of the query's own errors instead of acting as one group | 2026-10-20 |
 | tursodatabase/turso | [#10178](https://github.com/tursodatabase/turso/issues/10178) | Sync: push() commits the batch after a failed statement, so a table rebuild loses the table | 2026-10-20 |
 | tursodatabase/turso | [#10168](https://github.com/tursodatabase/turso/issues/10168) | Sync: adding `url` to a local-only database hides the remote data | 2026-10-19 |
 | tursodatabase/turso | [#10140](https://github.com/tursodatabase/turso/issues/10140) | A failed row still bumps the AUTOINCREMENT counter | 2026-10-19 |
@@ -19,8 +19,10 @@ Last run: **2026-10-20 11:58 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #22849: 1 open PR(s) already reference it
-- #22847: 1 open PR(s) already reference it
+- #22870: weak bug signal (1/4)
+- #22869: weak bug signal (1/4)
+- #22860: title reads as proposal/question
+- #22849: 2 open PR(s) already reference it
 - #22843: 1 open PR(s) already reference it
 - #22808: title reads as proposal/question
 - #22806: 1 open PR(s) already reference it
@@ -47,30 +49,28 @@ Last run: **2026-10-20 11:58 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #22614: title reads as proposal/question
 - #22611: title reads as proposal/question
 - #22598: title reads as proposal/question
-- #22593: title reads as proposal/question
-- #22582: title reads as proposal/question
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #10211: weak bug signal (1/4)
+- #10210: weak bug signal (1/4)
+- #10209: weak bug signal (1/4)
 - #10198: weak bug signal (1/4)
-- #10197: weak bug signal (1/4)
-- #10187: weak bug signal (1/4)
-- #10186: weak bug signal (0/4)
-- #10185: weak bug signal (1/4)
-- #10184: 1 open PR(s) already reference it
+- #10195: 1 open PR(s) already reference it
 - #10180: 1 open PR(s) already reference it
+- #10179: 1 open PR(s) already reference it
 - #10171: weak bug signal (1/4)
 - #10170: weak bug signal (0/4)
 - #10169: weak bug signal (1/4)
 - #10166: 1 open PR(s) already reference it
 - #10151: weak bug signal (1/4)
 - #10150: weak bug signal (1/4)
-- #10149: weak bug signal (1/4)
 - #10147: weak bug signal (1/4)
 - #10135: weak bug signal (1/4)
 - #10132: weak bug signal (1/4)
 - #10120: weak bug signal (1/4)
 - #10119: 1 open PR(s) already reference it
+- #10118: 1 open PR(s) already reference it
 
 </details>
