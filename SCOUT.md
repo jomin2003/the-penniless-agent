@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-20 23:18 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-21 01:53 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -12,16 +12,16 @@ Last run: **2026-10-20 23:18 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#10138](https://github.com/tursodatabase/turso/issues/10138) | An aggregate over an outer column placed inside a FROM subquery of a scalar subquery is rejected with 'misuse of aggrega | 2026-10-19 |
 | tursodatabase/turso | [#10137](https://github.com/tursodatabase/turso/issues/10137) | Inside BEGIN CONCURRENT, an AUTOINCREMENT insert fails with WriteWriteConflict and aborts the whole outer transaction wh | 2026-10-19 |
 | tursodatabase/turso | [#10136](https://github.com/tursodatabase/turso/issues/10136) | Statement.bind() in the promise API always throws because it passes the lazy wrapper instead of the native statement to  | 2026-10-19 |
-| tursodatabase/turso | [#10134](https://github.com/tursodatabase/turso/issues/10134) | CDC logs changes in ATTACHed databases as main-table changes | 2026-10-19 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #22963: weak bug signal (1/4)
 - #22952: weak bug signal (1/4)
 - #22942: title reads as proposal/question
 - #22940: title reads as proposal/question
 - #22927: title reads as proposal/question
-- #22918: 1 open PR(s) already reference it
+- #22918: 2 open PR(s) already reference it
 - #22916: 1 open PR(s) already reference it
 - #22914: 1 open PR(s) already reference it
 - #22912: weak bug signal (1/4)
@@ -46,12 +46,12 @@ Last run: **2026-10-20 23:18 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #22755: weak bug signal (1/4)
 - #22672: title reads as proposal/question
 - #22660: title reads as proposal/question
-- #22641: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 - #1899: weak bug signal (1/4)
 
 **tursodatabase/turso**
+- #10246: weak bug signal (0/4)
 - #10230: weak bug signal (0/4)
 - #10229: weak bug signal (0/4)
 - #10227: weak bug signal (0/4)
