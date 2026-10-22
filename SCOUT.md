@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-21 21:54 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-22 00:30 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -8,11 +8,13 @@ Last run: **2026-10-21 21:54 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#10389](https://github.com/tursodatabase/turso/issues/10389) | "Parse error: subquery not found" for a WHERE subquery that reads a table outside a materialized hash build input | 2026-10-21 |
 | tursodatabase/turso | [#10388](https://github.com/tursodatabase/turso/issues/10388) | Correlated subquery in the SELECT list reads NULL for a hash-build-side table when the probe side is a LEFT JOIN (outer-join case of #8226) | 2026-10-21 |
 | tursodatabase/turso | [#10352](https://github.com/tursodatabase/turso/issues/10352) | group_concat() over a sliding window frame panics ("GroupConcat accumulator is Text after a non-NULL xStep") when the frame holds an empty string | 2026-10-21 |
-| tursodatabase/turso | [#10330](https://github.com/tursodatabase/turso/issues/10330) | PRAGMA recursive_triggers=on is ignored: a trigger that inserts into its own table fires only one level deep | 2026-10-21 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #23151: weak bug signal (1/4)
+- #23149: title reads as proposal/question
+- #23148: title reads as proposal/question
 - #23145: title reads as proposal/question
 - #23143: title reads as proposal/question
 - #23140: title reads as proposal/question
@@ -40,15 +42,13 @@ Last run: **2026-10-21 21:54 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #22996: 2 open PR(s) already reference it
 - #22984: title reads as proposal/question
 - #22982: title reads as proposal/question
-- #22980: title reads as proposal/question
-- #22972: 1 open PR(s) already reference it
-- #22942: title reads as proposal/question
 
 **projectdiscovery/katana**
-- #1901: weak bug signal (0/4)
 - #1899: weak bug signal (1/4)
 
 **tursodatabase/turso**
+- #10401: weak bug signal (1/4)
+- #10400: weak bug signal (1/4)
 - #10399: weak bug signal (0/4)
 - #10398: weak bug signal (1/4)
 - #10397: weak bug signal (1/4)
@@ -73,6 +73,5 @@ Last run: **2026-10-21 21:54 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #10338: weak bug signal (1/4)
 - #10337: weak bug signal (1/4)
 - #10335: weak bug signal (1/4)
-- #10334: weak bug signal (1/4)
 
 </details>
