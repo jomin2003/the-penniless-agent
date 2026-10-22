@@ -1,51 +1,56 @@
 # Bounty scout
 
-Last run: **2026-10-22 11:27 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-22 15:59 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| tursodatabase/turso | [#10518](https://github.com/tursodatabase/turso/issues/10518) | a serial column in a schema whose name has a dot or a single quote cannot be created or used | 2026-10-22 |
+| BasedHardware/omi | [#22755](https://github.com/BasedHardware/omi/issues/22755) | Sync uploads merged into live conversations duplicate lines and renumber speakers (3-person dinner shows 101 speakers) | 2026-10-20 |
+| tursodatabase/turso | [#10536](https://github.com/tursodatabase/turso/issues/10536) | tursopg COPY text: backslash before delimiter or line end not treated as escape (lines/fields split before decoding) | 2026-10-22 |
+| tursodatabase/turso | [#10534](https://github.com/tursodatabase/turso/issues/10534) | Class contents go verbatim to the Rust regex engine, where '[' nests a class and '&&', '~~', '--' are set operators, and | 2026-10-22 |
 | tursodatabase/turso | [#10496](https://github.com/tursodatabase/turso/issues/10496) | UPDATE that changes no key column fails with mismatch when some FK into the table cannot be resolved | 2026-10-22 |
 | tursodatabase/turso | [#10495](https://github.com/tursodatabase/turso/issues/10495) | UPDATE/DELETE of a parent key with no UNIQUE index does not report foreign key mismatch | 2026-10-22 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #23276: title reads as proposal/question
+- #23307: title reads as proposal/question
+- #23305: title reads as proposal/question
+- #23301: 2 open PR(s) already reference it
+- #23300: 1 open PR(s) already reference it
+- #23299: 1 open PR(s) already reference it
+- #23298: 1 open PR(s) already reference it
+- #23297: title reads as proposal/question
+- #23294: title reads as proposal/question
+- #23292: title reads as proposal/question
+- #23287: title reads as proposal/question
 - #23275: 1 open PR(s) already reference it
-- #23273: title reads as proposal/question
-- #23253: title reads as proposal/question
-- #23251: title reads as proposal/question
-- #23249: title reads as proposal/question
-- #23245: title reads as proposal/question
-- #23243: title reads as proposal/question
-- #23241: title reads as proposal/question
-- #23239: title reads as proposal/question
-- #23235: title reads as proposal/question
-- #23231: title reads as proposal/question
-- #23226: title reads as proposal/question
-- #23224: title reads as proposal/question
 - #23223: 1 open PR(s) already reference it
-- #23221: title reads as proposal/question
-- #23219: title reads as proposal/question
-- #23217: title reads as proposal/question
-- #23215: title reads as proposal/question
-- #23211: title reads as proposal/question
-- #23210: title reads as proposal/question
-- #23205: title reads as proposal/question
-- #23204: title reads as proposal/question
-- #23202: title reads as proposal/question
-- #23199: title reads as proposal/question
-- #23196: title reads as proposal/question
-- #23191: title reads as proposal/question
 - #23190: weak bug signal (0/4)
-- #23189: title reads as proposal/question
-- #23187: title reads as proposal/question
+- #23177: 1 open PR(s) already reference it
+- #23055: weak bug signal (0/4)
+- #23049: weak bug signal (1/4)
+- #23032: weak bug signal (1/4)
+- #22996: 2 open PR(s) already reference it
+- #22972: 1 open PR(s) already reference it
+- #22927: title reads as proposal/question
+- #22870: weak bug signal (1/4)
+- #22803: 1 open PR(s) already reference it
+- #22778: weak bug signal (1/4)
+- #22776: weak bug signal (0/4)
+- #22772: weak bug signal (0/4)
+- #22641: weak bug signal (1/4)
+- #22562: weak bug signal (1/4)
+- #22557: weak bug signal (1/4)
+- #22554: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 - #1899: weak bug signal (1/4)
 
 **tursodatabase/turso**
+- #10537: weak bug signal (1/4)
+- #10533: weak bug signal (1/4)
+- #10525: weak bug signal (1/4)
+- #10518: 1 open PR(s) already reference it
 - #10516: weak bug signal (1/4)
 - #10515: weak bug signal (1/4)
 - #10514: 2 open PR(s) already reference it
@@ -68,10 +73,5 @@ Last run: **2026-10-22 11:27 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #10477: weak bug signal (0/4)
 - #10476: weak bug signal (0/4)
 - #10475: weak bug signal (0/4)
-- #10474: weak bug signal (0/4)
-- #10473: weak bug signal (0/4)
-- #10472: weak bug signal (0/4)
-- #10471: weak bug signal (1/4)
-- #10470: weak bug signal (1/4)
 
 </details>
