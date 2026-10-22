@@ -1,20 +1,15 @@
 # Bounty scout
 
-Last run: **2026-10-22 19:59 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-22 23:14 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#23341](https://github.com/BasedHardware/omi/issues/23341) | backend-sync retries oversized conversation docs forever: Firestore 1 MiB InvalidArgument on /v2/sync-jobs/run and /v1/conversation-finalization-jobs/run | 2026-10-22 |
-| tursodatabase/turso | [#10556](https://github.com/tursodatabase/turso/issues/10556) | FTS: accept the Tantivy en_stem tokenizer (and options for diacritic folding / long tokens) | 2026-10-22 |
-| tursodatabase/turso | [#10554](https://github.com/tursodatabase/turso/issues/10554) | sqlite3-created WITHOUT ROWID table with UNIQUE column besides PK cannot be opened | 2026-10-22 |
-| tursodatabase/turso | [#10552](https://github.com/tursodatabase/turso/issues/10552) | A DELETE that removes both a parent row and the child row referencing it through an immediate self-referencing NO ACTION | 2026-10-22 |
-| tursodatabase/turso | [#10551](https://github.com/tursodatabase/turso/issues/10551) | A self-referencing ON DELETE CASCADE chain a few hundred rows deep overflows the native stack and aborts the process, wh | 2026-10-22 |
-| tursodatabase/turso | [#10542](https://github.com/tursodatabase/turso/issues/10542) | tursopg accepts CREATE VIEW that reads a missing column or table | 2026-10-22 |
-| tursodatabase/turso | [#10495](https://github.com/tursodatabase/turso/issues/10495) | UPDATE/DELETE of a parent key with no UNIQUE index does not report foreign key mismatch | 2026-10-22 |
+| — | — | nothing clean right now | — |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #23341: 2 open PR(s) already reference it
 - #23337: title reads as proposal/question
 - #23328: title reads as proposal/question
 - #23307: title reads as proposal/question
@@ -49,29 +44,6 @@ Last run: **2026-10-22 19:59 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #1899: weak bug signal (1/4)
 
 **tursodatabase/turso**
-- #10553: weak bug signal (1/4)
-- #10537: weak bug signal (1/4)
-- #10536: 1 open PR(s) already reference it
-- #10534: 1 open PR(s) already reference it
-- #10533: weak bug signal (1/4)
-- #10525: weak bug signal (1/4)
-- #10518: 1 open PR(s) already reference it
-- #10516: weak bug signal (1/4)
-- #10515: weak bug signal (1/4)
-- #10514: 2 open PR(s) already reference it
-- #10513: weak bug signal (1/4)
-- #10496: 1 open PR(s) already reference it
-- #10493: weak bug signal (1/4)
-- #10491: weak bug signal (1/4)
-- #10490: weak bug signal (0/4)
-- #10489: weak bug signal (1/4)
-- #10488: weak bug signal (1/4)
-- #10487: weak bug signal (0/4)
-- #10486: weak bug signal (0/4)
-- #10485: weak bug signal (1/4)
-- #10484: weak bug signal (1/4)
-- #10483: weak bug signal (0/4)
-- #10482: weak bug signal (0/4)
-- #10481: weak bug signal (0/4)
+- GitHub rate limit hit
 
 </details>
