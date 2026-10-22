@@ -1,15 +1,26 @@
 # Bounty scout
 
-Last run: **2026-10-22 05:52 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-22 11:27 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| tursodatabase/turso | [#10518](https://github.com/tursodatabase/turso/issues/10518) | a serial column in a schema whose name has a dot or a single quote cannot be created or used | 2026-10-22 |
 | tursodatabase/turso | [#10496](https://github.com/tursodatabase/turso/issues/10496) | UPDATE that changes no key column fails with mismatch when some FK into the table cannot be resolved | 2026-10-22 |
 | tursodatabase/turso | [#10495](https://github.com/tursodatabase/turso/issues/10495) | UPDATE/DELETE of a parent key with no UNIQUE index does not report foreign key mismatch | 2026-10-22 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #23276: title reads as proposal/question
+- #23275: 1 open PR(s) already reference it
+- #23273: title reads as proposal/question
+- #23253: title reads as proposal/question
+- #23251: title reads as proposal/question
+- #23249: title reads as proposal/question
+- #23245: title reads as proposal/question
+- #23243: title reads as proposal/question
+- #23241: title reads as proposal/question
+- #23239: title reads as proposal/question
 - #23235: title reads as proposal/question
 - #23231: title reads as proposal/question
 - #23226: title reads as proposal/question
@@ -30,24 +41,16 @@ Last run: **2026-10-22 05:52 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #23190: weak bug signal (0/4)
 - #23189: title reads as proposal/question
 - #23187: title reads as proposal/question
-- #23184: title reads as proposal/question
-- #23183: title reads as proposal/question
-- #23177: 1 open PR(s) already reference it
-- #23171: title reads as proposal/question
-- #23169: title reads as proposal/question
-- #23167: title reads as proposal/question
-- #23164: weak bug signal (1/4)
-- #23163: weak bug signal (1/4)
-- #23160: weak bug signal (1/4)
-- #23151: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 - #1899: weak bug signal (1/4)
 
 **tursodatabase/turso**
-- #10503: weak bug signal (0/4)
+- #10516: weak bug signal (1/4)
+- #10515: weak bug signal (1/4)
+- #10514: 2 open PR(s) already reference it
+- #10513: weak bug signal (1/4)
 - #10493: weak bug signal (1/4)
-- #10492: weak bug signal (1/4)
 - #10491: weak bug signal (1/4)
 - #10490: weak bug signal (0/4)
 - #10489: weak bug signal (1/4)
@@ -70,8 +73,5 @@ Last run: **2026-10-22 05:52 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #10472: weak bug signal (0/4)
 - #10471: weak bug signal (1/4)
 - #10470: weak bug signal (1/4)
-- #10469: weak bug signal (1/4)
-- #10468: weak bug signal (1/4)
-- #10467: weak bug signal (1/4)
 
 </details>
