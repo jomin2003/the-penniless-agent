@@ -1,77 +1,77 @@
 # Bounty scout
 
-Last run: **2026-10-22 00:30 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-22 05:52 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| tursodatabase/turso | [#10390](https://github.com/tursodatabase/turso/issues/10390) | Panic "cursor id N is None" in a RIGHT JOIN's unmatched-rows pass when a WHERE subquery has a FROM subquery and a nested subquery that reads it | 2026-10-21 |
-| tursodatabase/turso | [#10389](https://github.com/tursodatabase/turso/issues/10389) | "Parse error: subquery not found" for a WHERE subquery that reads a table outside a materialized hash build input | 2026-10-21 |
-| tursodatabase/turso | [#10388](https://github.com/tursodatabase/turso/issues/10388) | Correlated subquery in the SELECT list reads NULL for a hash-build-side table when the probe side is a LEFT JOIN (outer-join case of #8226) | 2026-10-21 |
-| tursodatabase/turso | [#10352](https://github.com/tursodatabase/turso/issues/10352) | group_concat() over a sliding window frame panics ("GroupConcat accumulator is Text after a non-NULL xStep") when the frame holds an empty string | 2026-10-21 |
+| tursodatabase/turso | [#10496](https://github.com/tursodatabase/turso/issues/10496) | UPDATE that changes no key column fails with mismatch when some FK into the table cannot be resolved | 2026-10-22 |
+| tursodatabase/turso | [#10495](https://github.com/tursodatabase/turso/issues/10495) | UPDATE/DELETE of a parent key with no UNIQUE index does not report foreign key mismatch | 2026-10-22 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #23235: title reads as proposal/question
+- #23231: title reads as proposal/question
+- #23226: title reads as proposal/question
+- #23224: title reads as proposal/question
+- #23223: 1 open PR(s) already reference it
+- #23221: title reads as proposal/question
+- #23219: title reads as proposal/question
+- #23217: title reads as proposal/question
+- #23215: title reads as proposal/question
+- #23211: title reads as proposal/question
+- #23210: title reads as proposal/question
+- #23205: title reads as proposal/question
+- #23204: title reads as proposal/question
+- #23202: title reads as proposal/question
+- #23199: title reads as proposal/question
+- #23196: title reads as proposal/question
+- #23191: title reads as proposal/question
+- #23190: weak bug signal (0/4)
+- #23189: title reads as proposal/question
+- #23187: title reads as proposal/question
+- #23184: title reads as proposal/question
+- #23183: title reads as proposal/question
+- #23177: 1 open PR(s) already reference it
+- #23171: title reads as proposal/question
+- #23169: title reads as proposal/question
+- #23167: title reads as proposal/question
+- #23164: weak bug signal (1/4)
+- #23163: weak bug signal (1/4)
+- #23160: weak bug signal (1/4)
 - #23151: weak bug signal (1/4)
-- #23149: title reads as proposal/question
-- #23148: title reads as proposal/question
-- #23145: title reads as proposal/question
-- #23143: title reads as proposal/question
-- #23140: title reads as proposal/question
-- #23138: title reads as proposal/question
-- #23130: title reads as proposal/question
-- #23127: title reads as proposal/question
-- #23124: title reads as proposal/question
-- #23120: title reads as proposal/question
-- #23115: title reads as proposal/question
-- #23113: title reads as proposal/question
-- #23112: title reads as proposal/question
-- #23109: title reads as proposal/question
-- #23106: title reads as proposal/question
-- #23104: title reads as proposal/question
-- #23101: title reads as proposal/question
-- #23098: title reads as proposal/question
-- #23095: title reads as proposal/question
-- #23093: title reads as proposal/question
-- #23089: title reads as proposal/question
-- #23055: weak bug signal (0/4)
-- #23049: weak bug signal (1/4)
-- #23034: title reads as proposal/question
-- #23032: weak bug signal (1/4)
-- #23021: title reads as proposal/question
-- #22996: 2 open PR(s) already reference it
-- #22984: title reads as proposal/question
-- #22982: title reads as proposal/question
 
 **projectdiscovery/katana**
 - #1899: weak bug signal (1/4)
 
 **tursodatabase/turso**
-- #10401: weak bug signal (1/4)
-- #10400: weak bug signal (1/4)
-- #10399: weak bug signal (0/4)
-- #10398: weak bug signal (1/4)
-- #10397: weak bug signal (1/4)
-- #10396: weak bug signal (1/4)
-- #10395: weak bug signal (1/4)
-- #10394: weak bug signal (1/4)
-- #10393: weak bug signal (1/4)
-- #10392: weak bug signal (1/4)
-- #10391: weak bug signal (1/4)
-- #10387: weak bug signal (0/4)
-- #10378: weak bug signal (0/4)
-- #10370: weak bug signal (1/4)
-- #10356: weak bug signal (0/4)
-- #10355: weak bug signal (1/4)
-- #10354: weak bug signal (0/4)
-- #10353: weak bug signal (1/4)
-- #10343: weak bug signal (1/4)
-- #10342: weak bug signal (1/4)
-- #10341: weak bug signal (1/4)
-- #10340: weak bug signal (1/4)
-- #10339: weak bug signal (1/4)
-- #10338: weak bug signal (1/4)
-- #10337: weak bug signal (1/4)
-- #10335: weak bug signal (1/4)
+- #10503: weak bug signal (0/4)
+- #10493: weak bug signal (1/4)
+- #10492: weak bug signal (1/4)
+- #10491: weak bug signal (1/4)
+- #10490: weak bug signal (0/4)
+- #10489: weak bug signal (1/4)
+- #10488: weak bug signal (1/4)
+- #10487: weak bug signal (0/4)
+- #10486: weak bug signal (0/4)
+- #10485: weak bug signal (1/4)
+- #10484: weak bug signal (1/4)
+- #10483: weak bug signal (0/4)
+- #10482: weak bug signal (0/4)
+- #10481: weak bug signal (0/4)
+- #10480: weak bug signal (0/4)
+- #10479: weak bug signal (0/4)
+- #10478: weak bug signal (0/4)
+- #10477: weak bug signal (0/4)
+- #10476: weak bug signal (0/4)
+- #10475: weak bug signal (0/4)
+- #10474: weak bug signal (0/4)
+- #10473: weak bug signal (0/4)
+- #10472: weak bug signal (0/4)
+- #10471: weak bug signal (1/4)
+- #10470: weak bug signal (1/4)
+- #10469: weak bug signal (1/4)
+- #10468: weak bug signal (1/4)
+- #10467: weak bug signal (1/4)
 
 </details>
