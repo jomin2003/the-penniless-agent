@@ -1,16 +1,16 @@
 # Bounty scout
 
-Last run: **2026-10-24 17:16 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-24 19:41 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#23511](https://github.com/BasedHardware/omi/issues/23511) | Limitless Pendant: explicit bounded metadata query on the existing session | 2026-10-24 |
 | BasedHardware/omi | [#23275](https://github.com/BasedHardware/omi/issues/23275) | Watch Stop control is hidden and one-minute recovery backups flood Home | 2026-10-22 |
 | BasedHardware/omi | [#23223](https://github.com/BasedHardware/omi/issues/23223) | Startup sync recovery skips discovery and completed-conversation delivery before any upload | 2026-10-22 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #23511: 1 open PR(s) already reference it
 - #23485: weak bug signal (1/4)
 - #23483: weak bug signal (1/4)
 - #23481: 2 open PR(s) already reference it
