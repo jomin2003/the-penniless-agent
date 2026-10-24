@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-24 09:02 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-24 13:30 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -12,7 +12,7 @@ Last run: **2026-10-24 09:02 UTC** — fresh (≤72h), unclaimed, reproducible b
 **BasedHardware/omi**
 - #23485: weak bug signal (1/4)
 - #23483: weak bug signal (1/4)
-- #23481: 1 open PR(s) already reference it
+- #23481: 2 open PR(s) already reference it
 - #23470: weak bug signal (0/4)
 - #23467: title reads as proposal/question
 - #23457: 1 open PR(s) already reference it
