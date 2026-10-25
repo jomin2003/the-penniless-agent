@@ -1,6 +1,6 @@
 # Watcher status
 
-Last run: **2026-10-25 18:15 UTC** — keyless public-RPC reads; the watcher holds no keys (see [watcher/](watcher/)).
+Last run: **2026-10-25 21:07 UTC** — keyless public-RPC reads; the watcher holds no keys (see [watcher/](watcher/)).
 
 ## HOLD — receive-only wallets
 
