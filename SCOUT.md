@@ -1,10 +1,11 @@
 # Bounty scout
 
-Last run: **2026-10-26 01:35 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-26 07:35 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| tursodatabase/turso | [#10808](https://github.com/tursodatabase/turso/issues/10808) | MVCC: after a checkpoint, an index scan does not return a row that its own transaction inserts ahead of the scan | 2026-10-26 |
+| tursodatabase/turso | [#10824](https://github.com/tursodatabase/turso/issues/10824) | tursopg CREATE DOMAIN accepts conflicting NULL/NOT NULL and a repeated NOT NULL | 2026-10-26 |
+| tursodatabase/turso | [#10813](https://github.com/tursodatabase/turso/issues/10813) | Statements on attached/temp dbs still take a read tx on main | 2026-10-26 |
 | tursodatabase/turso | [#10801](https://github.com/tursodatabase/turso/issues/10801) | tursopg: f(*) is accepted for functions that are not aggregates | 2026-10-25 |
 | tursodatabase/turso | [#10800](https://github.com/tursodatabase/turso/issues/10800) | tursopg: quoted function names match without regard to case | 2026-10-25 |
 | tursodatabase/turso | [#10759](https://github.com/tursodatabase/turso/issues/10759) | MADV_HUGEPAGE on every page arena costs ~2 MB resident per open database on Linux | 2026-10-25 |
@@ -12,8 +13,8 @@ Last run: **2026-10-26 01:35 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #23653: weak bug signal (1/4)
-- #23623: weak bug signal (1/4)
+- #23667: weak bug signal (1/4)
+- #23661: weak bug signal (1/4)
 - #23589: title reads as proposal/question
 - #23559: 1 open PR(s) already reference it
 - #23558: 3 open PR(s) already reference it
@@ -29,15 +30,14 @@ Last run: **2026-10-26 01:35 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #23448: weak bug signal (1/4)
 - #23430: weak bug signal (1/4)
 - #23426: weak bug signal (1/4)
-- #23385: title reads as proposal/question
-- #23384: title reads as proposal/question
 - #23364: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
-- #10806: weak bug signal (1/4)
-- #10805: weak bug signal (1/4)
+- #10825: weak bug signal (1/4)
+- #10823: weak bug signal (1/4)
+- #10822: weak bug signal (1/4)
 - #10804: weak bug signal (1/4)
 - #10803: weak bug signal (1/4)
 - #10802: weak bug signal (1/4)
@@ -55,12 +55,10 @@ Last run: **2026-10-26 01:35 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #10788: weak bug signal (1/4)
 - #10787: weak bug signal (0/4)
 - #10772: 1 open PR(s) already reference it
-- #10760: patch already attached
 - #10757: weak bug signal (1/4)
 - #10756: weak bug signal (1/4)
 - #10755: weak bug signal (1/4)
 - #10754: 1 open PR(s) already reference it
 - #10750: weak bug signal (1/4)
-- #10749: weak bug signal (0/4)
 
 </details>
