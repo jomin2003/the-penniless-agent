@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-26 15:00 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-26 20:25 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -18,15 +18,11 @@ Last run: **2026-10-26 15:00 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#10827](https://github.com/tursodatabase/turso/issues/10827) | postgres: json/jsonb input not validated as strict JSON | 2026-10-26 |
 | tursodatabase/turso | [#10824](https://github.com/tursodatabase/turso/issues/10824) | tursopg CREATE DOMAIN accepts conflicting NULL/NOT NULL and a repeated NOT NULL | 2026-10-26 |
 | tursodatabase/turso | [#10813](https://github.com/tursodatabase/turso/issues/10813) | Statements on attached/temp dbs still take a read tx on main | 2026-10-26 |
-| tursodatabase/turso | [#10801](https://github.com/tursodatabase/turso/issues/10801) | tursopg: f(*) is accepted for functions that are not aggregates | 2026-10-25 |
-| tursodatabase/turso | [#10800](https://github.com/tursodatabase/turso/issues/10800) | tursopg: quoted function names match without regard to case | 2026-10-25 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #23730: weak bug signal (1/4)
 - #23720: title reads as proposal/question
-- #23695: weak bug signal (1/4)
 - #23667: weak bug signal (1/4)
 - #23661: weak bug signal (1/4)
 - #23589: title reads as proposal/question
@@ -40,15 +36,29 @@ Last run: **2026-10-26 15:00 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #23470: weak bug signal (0/4)
 - #23467: title reads as proposal/question
 - #23457: 2 open PR(s) already reference it
-- #23455: 2 open PR(s) already reference it
+- #23455: 3 open PR(s) already reference it
 - #23448: weak bug signal (1/4)
 - #23430: weak bug signal (1/4)
 - #23426: weak bug signal (1/4)
 - #23364: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
+- #1935: weak bug signal (0/4)
+- #1934: weak bug signal (0/4)
+- #1933: weak bug signal (1/4)
+- #1929: weak bug signal (0/4)
+- #1928: weak bug signal (1/4)
+- #1927: weak bug signal (0/4)
+- #1926: weak bug signal (0/4)
+- #1925: weak bug signal (1/4)
+- #1924: weak bug signal (0/4)
+- #1923: weak bug signal (0/4)
+- #1922: weak bug signal (0/4)
+- #1921: weak bug signal (0/4)
+- #1920: weak bug signal (1/4)
 
 **tursodatabase/turso**
+- #10853: weak bug signal (1/4)
 - #10850: weak bug signal (1/4)
 - #10849: weak bug signal (1/4)
 - #10844: weak bug signal (1/4)
@@ -57,12 +67,13 @@ Last run: **2026-10-26 15:00 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #10822: weak bug signal (1/4)
 - #10803: weak bug signal (1/4)
 - #10802: weak bug signal (1/4)
+- #10801: 1 open PR(s) already reference it
+- #10800: 1 open PR(s) already reference it
 - #10799: weak bug signal (1/4)
 - #10798: weak bug signal (1/4)
 - #10797: weak bug signal (1/4)
 - #10796: weak bug signal (1/4)
 - #10795: weak bug signal (1/4)
 - #10794: weak bug signal (1/4)
-- #10793: weak bug signal (1/4)
 
 </details>
