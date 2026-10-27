@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-26 20:25 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-27 00:01 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -10,7 +10,6 @@ Last run: **2026-10-26 20:25 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#10845](https://github.com/tursodatabase/turso/issues/10845) | Internal SQL that Turso builds puts database/schema names in without quoting | 2026-10-26 |
 | tursodatabase/turso | [#10842](https://github.com/tursodatabase/turso/issues/10842) | In a subquery, the ORDER BY clause can refer to columns of outer queries | 2026-10-26 |
 | tursodatabase/turso | [#10841](https://github.com/tursodatabase/turso/issues/10841) | With --experimental-multiprocess-wal, when one process opens a brand-new… | 2026-10-26 |
-| tursodatabase/turso | [#10836](https://github.com/tursodatabase/turso/issues/10836) | PG frontend has no assignment cast from double precision to integer columns | 2026-10-26 |
 | tursodatabase/turso | [#10833](https://github.com/tursodatabase/turso/issues/10833) | `<tbl>.*` reports ambiguity when two FROM items share a name but no column | 2026-10-26 |
 | tursodatabase/turso | [#10832](https://github.com/tursodatabase/turso/issues/10832) | auto_vacuum=FULL writes no pointer-map entries for overflow pages | 2026-10-26 |
 | tursodatabase/turso | [#10831](https://github.com/tursodatabase/turso/issues/10831) | VACUUM INTO ignores pending PRAGMA auto_vacuum (no db->nextAutovac equivalent) | 2026-10-26 |
@@ -26,7 +25,7 @@ Last run: **2026-10-26 20:25 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #23667: weak bug signal (1/4)
 - #23661: weak bug signal (1/4)
 - #23589: title reads as proposal/question
-- #23559: 1 open PR(s) already reference it
+- #23559: 2 open PR(s) already reference it
 - #23558: 3 open PR(s) already reference it
 - #23541: weak bug signal (1/4)
 - #23511: 1 open PR(s) already reference it
@@ -37,10 +36,6 @@ Last run: **2026-10-26 20:25 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #23467: title reads as proposal/question
 - #23457: 2 open PR(s) already reference it
 - #23455: 3 open PR(s) already reference it
-- #23448: weak bug signal (1/4)
-- #23430: weak bug signal (1/4)
-- #23426: weak bug signal (1/4)
-- #23364: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
 - #1935: weak bug signal (0/4)
@@ -62,6 +57,7 @@ Last run: **2026-10-26 20:25 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #10850: weak bug signal (1/4)
 - #10849: weak bug signal (1/4)
 - #10844: weak bug signal (1/4)
+- #10836: 1 open PR(s) already reference it
 - #10825: weak bug signal (1/4)
 - #10823: weak bug signal (1/4)
 - #10822: weak bug signal (1/4)
