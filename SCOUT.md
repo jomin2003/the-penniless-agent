@@ -1,10 +1,12 @@
 # Bounty scout
 
-Last run: **2026-10-27 00:01 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-27 05:26 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
 | BasedHardware/omi | [#23723](https://github.com/BasedHardware/omi/issues/23723) | Browser control fails: "The client uses an unsupported protocol version" (bundled @playwright/mcp 0.0.68 is outdated) | 2026-10-26 |
+| tursodatabase/turso | [#10880](https://github.com/tursodatabase/turso/issues/10880) | ALTER TABLE RENAME COLUMN does not rewrite column names inside FTS WITH… | 2026-10-27 |
+| tursodatabase/turso | [#10879](https://github.com/tursodatabase/turso/issues/10879) | core/translate statement-journal decision ignores that index-method cursor… | 2026-10-27 |
 | tursodatabase/turso | [#10851](https://github.com/tursodatabase/turso/issues/10851) | Databases from sqlite3 whose column type has more than 7 `[]` cannot be opened | 2026-10-26 |
 | tursodatabase/turso | [#10846](https://github.com/tursodatabase/turso/issues/10846) | The sequence made for a serial column is not dropped when its table is dropped | 2026-10-26 |
 | tursodatabase/turso | [#10845](https://github.com/tursodatabase/turso/issues/10845) | Internal SQL that Turso builds puts database/schema names in without quoting | 2026-10-26 |
@@ -21,6 +23,7 @@ Last run: **2026-10-27 00:01 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #23761: 1 open PR(s) already reference it
 - #23720: title reads as proposal/question
 - #23667: weak bug signal (1/4)
 - #23661: weak bug signal (1/4)
@@ -64,10 +67,8 @@ Last run: **2026-10-27 00:01 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #10803: weak bug signal (1/4)
 - #10802: weak bug signal (1/4)
 - #10801: 1 open PR(s) already reference it
-- #10800: 1 open PR(s) already reference it
 - #10799: weak bug signal (1/4)
 - #10798: weak bug signal (1/4)
-- #10797: weak bug signal (1/4)
 - #10796: weak bug signal (1/4)
 - #10795: weak bug signal (1/4)
 - #10794: weak bug signal (1/4)
