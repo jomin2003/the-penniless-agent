@@ -1,10 +1,9 @@
 # Bounty scout
 
-Last run: **2026-10-28 19:00 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-28 23:26 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#23911](https://github.com/BasedHardware/omi/issues/23911) | [loop-c] main CI red: gha-raise requests.exceptions.ReadTimeout('late GCS failure') | 2026-10-28 |
 | BasedHardware/omi | [#23723](https://github.com/BasedHardware/omi/issues/23723) | Browser control fails: "The client uses an unsupported protocol version" (bundled @playwright/mcp 0.0.68 is outdated) | 2026-10-26 |
 | tursodatabase/turso | [#10979](https://github.com/tursodatabase/turso/issues/10979) | postgres: COMMIT/ROLLBACK with no transaction should warn, not error | 2026-10-28 |
 | tursodatabase/turso | [#10975](https://github.com/tursodatabase/turso/issues/10975) | Statement rollback in an explicit transaction does not restore the connection… | 2026-10-28 |
@@ -16,14 +15,11 @@ Last run: **2026-10-28 19:00 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#10883](https://github.com/tursodatabase/turso/issues/10883) | An expression-index key matches an expression with the comparison operands… | 2026-10-27 |
 | tursodatabase/turso | [#10880](https://github.com/tursodatabase/turso/issues/10880) | ALTER TABLE RENAME COLUMN does not rewrite column names inside FTS WITH… | 2026-10-27 |
 | tursodatabase/turso | [#10879](https://github.com/tursodatabase/turso/issues/10879) | core/translate statement-journal decision ignores that index-method cursor… | 2026-10-27 |
-| tursodatabase/turso | [#10851](https://github.com/tursodatabase/turso/issues/10851) | Databases from sqlite3 whose column type has more than 7 `[]` cannot be opened | 2026-10-26 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #23916: weak bug signal (1/4)
-- #23914: weak bug signal (1/4)
-- #23907: weak bug signal (1/4)
+- #23923: weak bug signal (1/4)
 - #23905: weak bug signal (1/4)
 - #23843: weak bug signal (1/4)
 - #23840: 1 open PR(s) already reference it
@@ -49,6 +45,7 @@ Last run: **2026-10-28 19:00 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #1920: weak bug signal (1/4)
 
 **tursodatabase/turso**
+- #10993: 1 open PR(s) already reference it
 - #10981: weak bug signal (0/4)
 - #10977: weak bug signal (1/4)
 - #10976: weak bug signal (1/4)
