@@ -1,11 +1,10 @@
 # Bounty scout
 
-Last run: **2026-10-27 20:52 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-28 00:20 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
 | BasedHardware/omi | [#23723](https://github.com/BasedHardware/omi/issues/23723) | Browser control fails: "The client uses an unsupported protocol version" (bundled @playwright/mcp 0.0.68 is outdated) | 2026-10-26 |
-| tursodatabase/turso | [#10938](https://github.com/tursodatabase/turso/issues/10938) | Foreign-key actions on a `main` table resolve the child through `temp`: a shadowing TEMP table receives the action, a TEMP view makes the write fail | 2026-10-27 |
 | tursodatabase/turso | [#10935](https://github.com/tursodatabase/turso/issues/10935) | MVCC: after switching a WAL database to MVCC, captured changes are numbered from 1 again and replace existing turso_cdc rows | 2026-10-27 |
 | tursodatabase/turso | [#10934](https://github.com/tursodatabase/turso/issues/10934) | ALTER TABLE RENAME COLUMN does not rewrite temp views that read the renamed… | 2026-10-27 |
 | tursodatabase/turso | [#10932](https://github.com/tursodatabase/turso/issues/10932) | postgres: Statement::step() blocks on IO instead of returning StepResult::IO (serial columns, CREATE SCHEMA, COPY FROM) | 2026-10-27 |
@@ -23,23 +22,14 @@ Last run: **2026-10-27 20:52 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #23836: weak bug signal (1/4)
 - #23827: weak bug signal (1/4)
-- #23821: weak bug signal (1/4)
 - #23761: 3 open PR(s) already reference it
 - #23720: title reads as proposal/question
 - #23667: weak bug signal (1/4)
 - #23589: title reads as proposal/question
 - #23559: 2 open PR(s) already reference it
 - #23558: 3 open PR(s) already reference it
-- #23541: weak bug signal (1/4)
-- #23511: 1 open PR(s) already reference it
-- #23485: weak bug signal (1/4)
-- #23483: weak bug signal (1/4)
-- #23481: 3 open PR(s) already reference it
-- #23470: weak bug signal (0/4)
-- #23467: title reads as proposal/question
-- #23457: 2 open PR(s) already reference it
-- #23455: 3 open PR(s) already reference it
 
 **projectdiscovery/katana**
 - #1946: weak bug signal (1/4)
@@ -56,6 +46,7 @@ Last run: **2026-10-27 20:52 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #1920: weak bug signal (1/4)
 
 **tursodatabase/turso**
+- #10938: 1 open PR(s) already reference it
 - #10931: weak bug signal (1/4)
 - #10909: 1 open PR(s) already reference it
 - #10908: weak bug signal (0/4)
