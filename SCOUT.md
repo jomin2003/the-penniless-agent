@@ -1,10 +1,12 @@
 # Bounty scout
 
-Last run: **2026-10-28 23:26 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-29 02:43 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#23723](https://github.com/BasedHardware/omi/issues/23723) | Browser control fails: "The client uses an unsupported protocol version" (bundled @playwright/mcp 0.0.68 is outdated) | 2026-10-26 |
+| tursodatabase/turso | [#10999](https://github.com/tursodatabase/turso/issues/10999) | A subquery in the LIMIT clause cannot see the statement's CTEs and fails with… | 2026-10-29 |
+| tursodatabase/turso | [#10998](https://github.com/tursodatabase/turso/issues/10998) | Any VALUES list used as an operand of UNION/INTERSECT/EXCEPT in tursopg fails… | 2026-10-29 |
+| tursodatabase/turso | [#10997](https://github.com/tursodatabase/turso/issues/10997) | Index-method attachments keep the old table name after ALTER TABLE RENAME TO | 2026-10-29 |
 | tursodatabase/turso | [#10979](https://github.com/tursodatabase/turso/issues/10979) | postgres: COMMIT/ROLLBACK with no transaction should warn, not error | 2026-10-28 |
 | tursodatabase/turso | [#10975](https://github.com/tursodatabase/turso/issues/10975) | Statement rollback in an explicit transaction does not restore the connection… | 2026-10-28 |
 | tursodatabase/turso | [#10966](https://github.com/tursodatabase/turso/issues/10966) | FK ON DELETE/UPDATE actions do not re-check child rows that the action's own… | 2026-10-28 |
@@ -13,8 +15,6 @@ Last run: **2026-10-28 23:26 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#10887](https://github.com/tursodatabase/turso/issues/10887) | postgres: text-to-bool cast and date + int operator give wrong values | 2026-10-27 |
 | tursodatabase/turso | [#10885](https://github.com/tursodatabase/turso/issues/10885) | json_each/json_tree with a non-NULL, non-text path rejects it with 'root path… | 2026-10-27 |
 | tursodatabase/turso | [#10883](https://github.com/tursodatabase/turso/issues/10883) | An expression-index key matches an expression with the comparison operands… | 2026-10-27 |
-| tursodatabase/turso | [#10880](https://github.com/tursodatabase/turso/issues/10880) | ALTER TABLE RENAME COLUMN does not rewrite column names inside FTS WITH… | 2026-10-27 |
-| tursodatabase/turso | [#10879](https://github.com/tursodatabase/turso/issues/10879) | core/translate statement-journal decision ignores that index-method cursor… | 2026-10-27 |
 
 <details><summary>Filter log</summary>
 
@@ -23,12 +23,9 @@ Last run: **2026-10-28 23:26 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #23905: weak bug signal (1/4)
 - #23843: weak bug signal (1/4)
 - #23840: 1 open PR(s) already reference it
-- #23761: 4 open PR(s) already reference it
+- #23761: 2 open PR(s) already reference it
 - #23720: title reads as proposal/question
 - #23667: weak bug signal (1/4)
-- #23589: title reads as proposal/question
-- #23559: 2 open PR(s) already reference it
-- #23558: 3 open PR(s) already reference it
 
 **projectdiscovery/katana**
 - #1946: weak bug signal (1/4)
@@ -45,7 +42,9 @@ Last run: **2026-10-28 23:26 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #1920: weak bug signal (1/4)
 
 **tursodatabase/turso**
-- #10993: 1 open PR(s) already reference it
+- #11001: weak bug signal (1/4)
+- #11000: weak bug signal (1/4)
+- #10993: 2 open PR(s) already reference it
 - #10981: weak bug signal (0/4)
 - #10977: weak bug signal (1/4)
 - #10976: weak bug signal (1/4)
@@ -59,11 +58,8 @@ Last run: **2026-10-28 23:26 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #10909: 1 open PR(s) already reference it
 - #10899: weak bug signal (1/4)
 - #10896: weak bug signal (1/4)
-- #10894: 1 open PR(s) already reference it
-- #10893: 1 open PR(s) already reference it
 - #10891: weak bug signal (0/4)
 - #10886: weak bug signal (1/4)
 - #10882: weak bug signal (1/4)
-- #10853: weak bug signal (1/4)
 
 </details>
