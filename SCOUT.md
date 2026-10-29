@@ -1,10 +1,12 @@
 # Bounty scout
 
-Last run: **2026-10-29 16:46 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-29 21:41 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
 | BasedHardware/omi | [#23940](https://github.com/BasedHardware/omi/issues/23940) | bug(firmware): CV1 OTA update from 3.0.18 to 3.0.21 fails at 0% install | 2026-10-29 |
+| tursodatabase/turso | [#11040](https://github.com/tursodatabase/turso/issues/11040) | In the SQLite frontend, an inline column UNIQUE constraint name is dropped… | 2026-10-29 |
+| tursodatabase/turso | [#11039](https://github.com/tursodatabase/turso/issues/11039) | op_rename_table drops the declared spelling of the new table name | 2026-10-29 |
 | tursodatabase/turso | [#11035](https://github.com/tursodatabase/turso/issues/11035) | Root cause: Statement rollback undoes DDL pages but not the connection's in-memory schema | 2026-10-29 |
 | tursodatabase/turso | [#11033](https://github.com/tursodatabase/turso/issues/11033) | tursopg: chr(0) is accepted instead of failing with 54000 | 2026-10-29 |
 | tursodatabase/turso | [#11030](https://github.com/tursodatabase/turso/issues/11030) | INSERT ... VALUES with fewer values than the table has columns | 2026-10-29 |
@@ -14,11 +16,12 @@ Last run: **2026-10-29 16:46 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#10998](https://github.com/tursodatabase/turso/issues/10998) | Any VALUES list used as an operand of UNION/INTERSECT/EXCEPT in tursopg fails… | 2026-10-29 |
 | tursodatabase/turso | [#10997](https://github.com/tursodatabase/turso/issues/10997) | Index-method attachments keep the old table name after ALTER TABLE RENAME TO | 2026-10-29 |
 | tursodatabase/turso | [#10979](https://github.com/tursodatabase/turso/issues/10979) | postgres: COMMIT/ROLLBACK with no transaction should warn, not error | 2026-10-28 |
-| tursodatabase/turso | [#10975](https://github.com/tursodatabase/turso/issues/10975) | Statement rollback in an explicit transaction does not restore the connection… | 2026-10-28 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #24074: weak bug signal (1/4)
+- #24073: weak bug signal (1/4)
 - #24055: weak bug signal (0/4)
 - #23923: weak bug signal (1/4)
 - #23905: weak bug signal (1/4)
@@ -42,6 +45,7 @@ Last run: **2026-10-29 16:46 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #1920: weak bug signal (1/4)
 
 **tursodatabase/turso**
+- #11041: weak bug signal (1/4)
 - #11034: weak bug signal (1/4)
 - #11028: weak bug signal (0/4)
 - #11027: weak bug signal (1/4)
@@ -60,7 +64,5 @@ Last run: **2026-10-29 16:46 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #11000: weak bug signal (1/4)
 - #10981: weak bug signal (0/4)
 - #10977: weak bug signal (1/4)
-- #10976: weak bug signal (1/4)
-- #10973: weak bug signal (1/4)
 
 </details>
