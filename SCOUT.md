@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-30 15:13 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-30 20:01 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -15,14 +15,11 @@ Last run: **2026-10-30 15:13 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#11060](https://github.com/tursodatabase/turso/issues/11060) | tursopg: non-integer constant in ORDER BY is accepted | 2026-10-30 |
 | tursodatabase/turso | [#11059](https://github.com/tursodatabase/turso/issues/11059) | Code smell: Integer PRAGMAs reject quoted values and parse numbers differently from SQLite | 2026-10-30 |
 | tursodatabase/turso | [#11054](https://github.com/tursodatabase/turso/issues/11054) | Code smell: tursopg guesses SQLSTATE codes by searching error messages, which contain table names | 2026-10-30 |
-| tursodatabase/turso | [#11053](https://github.com/tursodatabase/turso/issues/11053) | duplicate column errors never map to 42701 duplicate_column | 2026-10-30 |
-| tursodatabase/turso | [#11051](https://github.com/tursodatabase/turso/issues/11051) | printf %c drops a NUL first character instead of writing it | 2026-10-30 |
-| tursodatabase/turso | [#11050](https://github.com/tursodatabase/turso/issues/11050) | Code smell: tursopg runs PostgreSQL regexes as Rust regexes and returns NULL on errors | 2026-10-30 |
-| tursodatabase/turso | [#11049](https://github.com/tursodatabase/turso/issues/11049) | Regex operators lowered to REGEXP return NULL for an invalid regex instead of… | 2026-10-30 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #24123: weak bug signal (1/4)
 - #24120: weak bug signal (0/4)
 - #24117: weak bug signal (1/4)
 - #24110: 1 open PR(s) already reference it
@@ -30,7 +27,7 @@ Last run: **2026-10-30 15:13 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #24055: weak bug signal (0/4)
 - #23923: weak bug signal (1/4)
 - #23905: weak bug signal (1/4)
-- #23840: 2 open PR(s) already reference it
+- #23840: 1 open PR(s) already reference it
 - #23761: 2 open PR(s) already reference it
 
 **projectdiscovery/katana**
@@ -45,6 +42,12 @@ Last run: **2026-10-30 15:13 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #1942: weak bug signal (0/4)
 
 **tursodatabase/turso**
+- #11106: weak bug signal (1/4)
+- #11104: weak bug signal (1/4)
+- #11103: weak bug signal (0/4)
+- #11102: weak bug signal (0/4)
+- #11101: weak bug signal (1/4)
+- #11100: weak bug signal (0/4)
 - #11093: weak bug signal (1/4)
 - #11092: weak bug signal (1/4)
 - #11091: weak bug signal (1/4)
@@ -55,11 +58,9 @@ Last run: **2026-10-30 15:13 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #11078: weak bug signal (1/4)
 - #11076: weak bug signal (1/4)
 - #11075: weak bug signal (1/4)
-- #11074: weak bug signal (1/4)
 - #11067: weak bug signal (1/4)
 - #11064: weak bug signal (1/4)
 - #11057: weak bug signal (1/4)
 - #11056: weak bug signal (1/4)
-- #11052: 1 open PR(s) already reference it
 
 </details>
