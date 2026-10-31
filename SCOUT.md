@@ -1,26 +1,27 @@
 # Bounty scout
 
-Last run: **2026-10-31 05:21 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-31 11:05 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
 | BasedHardware/omi | [#23940](https://github.com/BasedHardware/omi/issues/23940) | bug(firmware): CV1 OTA update from 3.0.18 to 3.0.21 fails at 0% install | 2026-10-29 |
+| tursodatabase/turso | [#11167](https://github.com/tursodatabase/turso/issues/11167) | Code smell: ON CONFLICT DO UPDATE skips or misorders checks that plain UPDATE gets right | 2026-10-31 |
+| tursodatabase/turso | [#11163](https://github.com/tursodatabase/turso/issues/11163) | A database whose sqlite_sequence has a NULL name cannot be opened after… | 2026-10-31 |
+| tursodatabase/turso | [#11148](https://github.com/tursodatabase/turso/issues/11148) | Python binding raises InterfaceError or DatabaseError where sqlite3 raises… | 2026-10-31 |
+| tursodatabase/turso | [#11147](https://github.com/tursodatabase/turso/issues/11147) | executemany() rejects INSERT/UPDATE/DELETE that start with a WITH clause | 2026-10-31 |
+| tursodatabase/turso | [#11145](https://github.com/tursodatabase/turso/issues/11145) | FTS: the default tokenizer silently drops tokens of 40+ bytes, so full git SHAs can't be found | 2026-10-31 |
+| tursodatabase/turso | [#11133](https://github.com/tursodatabase/turso/issues/11133) | Python: SQL ROLLBACK through execute fails while a DML ... … | 2026-10-31 |
+| tursodatabase/turso | [#11132](https://github.com/tursodatabase/turso/issues/11132) | turso.aio: assigning an invalid isolation_level does not raise and the getter… | 2026-10-31 |
+| tursodatabase/turso | [#11131](https://github.com/tursodatabase/turso/issues/11131) | Python Connection methods work on a closed connection instead of raising… | 2026-10-31 |
 | tursodatabase/turso | [#11119](https://github.com/tursodatabase/turso/issues/11119) | Python: reading from a cursor after its connection is closed raises… | 2026-10-31 |
-| tursodatabase/turso | [#11086](https://github.com/tursodatabase/turso/issues/11086) | UNION/INTERSECT keep the last-seen value's storage class (0 vs 0.0), diverging from SQLite and from DISTINCT | 2026-10-30 |
-| tursodatabase/turso | [#11084](https://github.com/tursodatabase/turso/issues/11084) | REAL→TEXT loses precision: CAST(x AS TEXT) emits ~15 significant digits and does not round-trip | 2026-10-30 |
-| tursodatabase/turso | [#11065](https://github.com/tursodatabase/turso/issues/11065) | Partial index WHERE rejects deterministic date/time functions like date(a) | 2026-10-30 |
-| tursodatabase/turso | [#11063](https://github.com/tursodatabase/turso/issues/11063) | CREATE INDEX term validation uses generic messages and a different error order… | 2026-10-30 |
-| tursodatabase/turso | [#11062](https://github.com/tursodatabase/turso/issues/11062) | Code smell: INSERT OR FAIL keeps rows after errors that should roll back the whole statement | 2026-10-30 |
-| tursodatabase/turso | [#11061](https://github.com/tursodatabase/turso/issues/11061) | A STRICT type-mismatch error uses the statement's OR FAIL resolution and keeps… | 2026-10-30 |
-| tursodatabase/turso | [#11060](https://github.com/tursodatabase/turso/issues/11060) | tursopg: non-integer constant in ORDER BY is accepted | 2026-10-30 |
-| tursodatabase/turso | [#11059](https://github.com/tursodatabase/turso/issues/11059) | Code smell: Integer PRAGMAs reject quoted values and parse numbers differently from SQLite | 2026-10-30 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #24158: weak bug signal (1/4)
+- #24157: weak bug signal (1/4)
 - #24123: weak bug signal (1/4)
 - #24120: weak bug signal (0/4)
-- #24117: weak bug signal (1/4)
 - #24110: 1 open PR(s) already reference it
 - #24100: weak bug signal (1/4)
 - #24055: weak bug signal (0/4)
@@ -38,26 +39,26 @@ Last run: **2026-10-31 05:21 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #1953: weak bug signal (0/4)
 
 **tursodatabase/turso**
+- #11166: weak bug signal (1/4)
+- #11165: weak bug signal (1/4)
+- #11162: weak bug signal (1/4)
+- #11161: weak bug signal (1/4)
+- #11160: weak bug signal (1/4)
+- #11159: weak bug signal (0/4)
+- #11149: weak bug signal (1/4)
+- #11146: weak bug signal (1/4)
+- #11141: weak bug signal (1/4)
+- #11140: weak bug signal (1/4)
+- #11138: weak bug signal (0/4)
+- #11137: weak bug signal (1/4)
+- #11134: weak bug signal (0/4)
+- #11125: 1 open PR(s) already reference it
+- #11124: weak bug signal (0/4)
 - #11118: weak bug signal (1/4)
 - #11106: weak bug signal (1/4)
 - #11104: weak bug signal (1/4)
-- #11103: weak bug signal (0/4)
 - #11102: weak bug signal (0/4)
 - #11101: weak bug signal (1/4)
 - #11100: weak bug signal (0/4)
-- #11093: weak bug signal (1/4)
-- #11092: weak bug signal (1/4)
-- #11091: weak bug signal (1/4)
-- #11089: 1 open PR(s) already reference it
-- #11083: weak bug signal (1/4)
-- #11081: weak bug signal (1/4)
-- #11080: weak bug signal (0/4)
-- #11078: weak bug signal (1/4)
-- #11076: weak bug signal (1/4)
-- #11075: weak bug signal (1/4)
-- #11067: weak bug signal (1/4)
-- #11064: weak bug signal (1/4)
-- #11057: weak bug signal (1/4)
-- #11056: weak bug signal (1/4)
 
 </details>
