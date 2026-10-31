@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-10-31 16:15 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-31 20:12 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -14,6 +14,7 @@ Last run: **2026-10-31 16:15 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#11133](https://github.com/tursodatabase/turso/issues/11133) | Python: SQL ROLLBACK through execute fails while a DML ... … | 2026-10-31 |
 | tursodatabase/turso | [#11132](https://github.com/tursodatabase/turso/issues/11132) | turso.aio: assigning an invalid isolation_level does not raise and the getter… | 2026-10-31 |
 | tursodatabase/turso | [#11131](https://github.com/tursodatabase/turso/issues/11131) | Python Connection methods work on a closed connection instead of raising… | 2026-10-31 |
+| tursodatabase/turso | [#11125](https://github.com/tursodatabase/turso/issues/11125) | Code smell: json_each and json_tree show JSON5 \v in a key as \u0009 in fullkey and path | 2026-10-31 |
 | tursodatabase/turso | [#11119](https://github.com/tursodatabase/turso/issues/11119) | Python: reading from a cursor after its connection is closed raises… | 2026-10-31 |
 
 <details><summary>Filter log</summary>
@@ -43,6 +44,8 @@ Last run: **2026-10-31 16:15 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #1953: weak bug signal (0/4)
 
 **tursodatabase/turso**
+- #11188: weak bug signal (1/4)
+- #11187: weak bug signal (0/4)
 - #11173: weak bug signal (1/4)
 - #11166: weak bug signal (1/4)
 - #11165: weak bug signal (1/4)
@@ -57,11 +60,8 @@ Last run: **2026-10-31 16:15 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #11138: weak bug signal (0/4)
 - #11137: weak bug signal (1/4)
 - #11134: weak bug signal (0/4)
-- #11125: 1 open PR(s) already reference it
-- #11124: weak bug signal (0/4)
 - #11118: weak bug signal (1/4)
 - #11106: weak bug signal (1/4)
 - #11104: weak bug signal (1/4)
-- #11102: weak bug signal (0/4)
 
 </details>
