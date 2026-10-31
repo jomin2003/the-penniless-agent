@@ -1,10 +1,11 @@
 # Bounty scout
 
-Last run: **2026-10-31 11:05 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-10-31 16:15 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
 | BasedHardware/omi | [#23940](https://github.com/BasedHardware/omi/issues/23940) | bug(firmware): CV1 OTA update from 3.0.18 to 3.0.21 fails at 0% install | 2026-10-29 |
+| tursodatabase/turso | [#11174](https://github.com/tursodatabase/turso/issues/11174) | Code smell: ALTER TABLE ADD COLUMN checks existing rows differently from integrity_check | 2026-10-31 |
 | tursodatabase/turso | [#11167](https://github.com/tursodatabase/turso/issues/11167) | Code smell: ON CONFLICT DO UPDATE skips or misorders checks that plain UPDATE gets right | 2026-10-31 |
 | tursodatabase/turso | [#11163](https://github.com/tursodatabase/turso/issues/11163) | A database whose sqlite_sequence has a NULL name cannot be opened after… | 2026-10-31 |
 | tursodatabase/turso | [#11148](https://github.com/tursodatabase/turso/issues/11148) | Python binding raises InterfaceError or DatabaseError where sqlite3 raises… | 2026-10-31 |
@@ -18,6 +19,9 @@ Last run: **2026-10-31 11:05 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #24179: 1 open PR(s) already reference it
+- #24170: weak bug signal (1/4)
+- #24169: weak bug signal (1/4)
 - #24158: weak bug signal (1/4)
 - #24157: weak bug signal (1/4)
 - #24123: weak bug signal (1/4)
@@ -39,6 +43,7 @@ Last run: **2026-10-31 11:05 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #1953: weak bug signal (0/4)
 
 **tursodatabase/turso**
+- #11173: weak bug signal (1/4)
 - #11166: weak bug signal (1/4)
 - #11165: weak bug signal (1/4)
 - #11162: weak bug signal (1/4)
@@ -58,7 +63,5 @@ Last run: **2026-10-31 11:05 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #11106: weak bug signal (1/4)
 - #11104: weak bug signal (1/4)
 - #11102: weak bug signal (0/4)
-- #11101: weak bug signal (1/4)
-- #11100: weak bug signal (0/4)
 
 </details>
