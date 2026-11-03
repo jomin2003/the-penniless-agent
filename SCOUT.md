@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-11-03 16:54 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-03 22:14 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#24523](https://github.com/BasedHardware/omi/issues/24523) | [loop-c] main CI red: gha-[N;1m echo "FAIL: backend unit shard N took ${elapsed}s, over its ${BACKEND_UNIT_STEP_BUDGET_SECONDS}s regression budge | 2026-11-03 |
 | BasedHardware/omi | [#24460](https://github.com/BasedHardware/omi/issues/24460) | Signing out of the Windows desktop app permanently deletes the entire local Rewind history (index reset, then the retention sweep silently mass-deletes every frame image) | 2026-11-03 |
 | BasedHardware/omi | [#24431](https://github.com/BasedHardware/omi/issues/24431) | fix(listen): ignore failures from retired visible-preview dials | 2026-11-02 |
 | BasedHardware/omi | [#24191](https://github.com/BasedHardware/omi/issues/24191) | Custom Live STT floods logs with 'Unsupported message type: String' when Omi controls reach audio-only socket | 2026-10-31 |
@@ -12,11 +13,11 @@ Last run: **2026-11-03 16:54 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#11270](https://github.com/tursodatabase/turso/issues/11270) | pyturso: SQL errors are raised as DatabaseError where sqlite3 raises OperationalError | 2026-11-02 |
 | tursodatabase/turso | [#11254](https://github.com/tursodatabase/turso/issues/11254) | Code smell: Column type checks ignore the (n) part of a declared type, unlike SQLite | 2026-11-02 |
 | tursodatabase/turso | [#11246](https://github.com/tursodatabase/turso/issues/11246) | Code smell: json_tree gives the wrong key and path for its first row with a root path | 2026-11-02 |
-| tursodatabase/turso | [#11243](https://github.com/tursodatabase/turso/issues/11243) | simulator: attached table missing expected rows on main (seed 3299883907165918223) | 2026-11-02 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #24530: weak bug signal (1/4)
 - #24512: weak bug signal (1/4)
 - #24358: weak bug signal (1/4)
 - #24314: weak bug signal (1/4)
@@ -26,9 +27,10 @@ Last run: **2026-11-03 16:54 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #24157: weak bug signal (1/4)
 
 **projectdiscovery/katana**
-- #1978: weak bug signal (0/4)
+- #1982: weak bug signal (0/4)
 
 **tursodatabase/turso**
+- #11314: 4 open PR(s) already reference it
 - #11296: 2 open PR(s) already reference it
 - #11291: weak bug signal (1/4)
 - #11285: weak bug signal (1/4)
