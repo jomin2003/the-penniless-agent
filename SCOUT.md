@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-11-03 08:30 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-03 16:54 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -17,7 +17,7 @@ Last run: **2026-11-03 08:30 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #24456: weak bug signal (1/4)
+- #24512: weak bug signal (1/4)
 - #24358: weak bug signal (1/4)
 - #24314: weak bug signal (1/4)
 - #24302: weak bug signal (0/4)
@@ -26,9 +26,10 @@ Last run: **2026-11-03 08:30 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #24157: weak bug signal (1/4)
 
 **projectdiscovery/katana**
+- #1978: weak bug signal (0/4)
 
 **tursodatabase/turso**
-- #11296: 1 open PR(s) already reference it
+- #11296: 2 open PR(s) already reference it
 - #11291: weak bug signal (1/4)
 - #11285: weak bug signal (1/4)
 - #11283: weak bug signal (0/4)
