@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-11-02 18:44 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-03 01:28 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#24431](https://github.com/BasedHardware/omi/issues/24431) | fix(listen): ignore failures from retired visible-preview dials | 2026-11-02 |
 | BasedHardware/omi | [#24191](https://github.com/BasedHardware/omi/issues/24191) | Custom Live STT floods logs with 'Unsupported message type: String' when Omi controls reach audio-only socket | 2026-10-31 |
 | tursodatabase/turso | [#11276](https://github.com/tursodatabase/turso/issues/11276) | Panic in SetCookie: DDL in a transaction after an unfinished pragma_table_info statement | 2026-11-02 |
 | tursodatabase/turso | [#11274](https://github.com/tursodatabase/turso/issues/11274) | json_set with $[#] does not append to an array | 2026-11-02 |
@@ -16,17 +17,13 @@ Last run: **2026-11-02 18:44 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #24376: weak bug signal (1/4)
+- #24439: weak bug signal (1/4)
 - #24358: weak bug signal (1/4)
 - #24314: weak bug signal (1/4)
 - #24302: weak bug signal (0/4)
 - #24179: 1 open PR(s) already reference it
 - #24158: weak bug signal (1/4)
 - #24157: weak bug signal (1/4)
-- #24123: weak bug signal (1/4)
-- #24120: weak bug signal (0/4)
-- #24110: 1 open PR(s) already reference it
-- #24100: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 
