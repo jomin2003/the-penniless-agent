@@ -1,9 +1,13 @@
 # Bounty scout
 
-Last run: **2026-11-06 02:06 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-06 09:43 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#24768](https://github.com/BasedHardware/omi/issues/24768) | iOS phone-only recordings stay on Recording or Transcribing without a transcript | 2026-11-06 |
+| BasedHardware/omi | [#24766](https://github.com/BasedHardware/omi/issues/24766) | [loop-c] main CI red: gha-[N;1m echo "FAIL: backend unit shard N took ${elapsed}s, over its ${BACKEND_UNIT_STEP_BUDGET_SECONDS}s regression budge | 2026-11-06 |
+| BasedHardware/omi | [#24765](https://github.com/BasedHardware/omi/issues/24765) | macOS desktop: Screen analysis turns itself back on after being disabled (settings sync overrides the toggle) | 2026-11-06 |
+| BasedHardware/omi | [#24762](https://github.com/BasedHardware/omi/issues/24762) | iOS pendant Pause/Resume controls disappear after app relaunch | 2026-11-06 |
 | BasedHardware/omi | [#24728](https://github.com/BasedHardware/omi/issues/24728) | iOS: pendant recordings stuck Processing after Nov 5 app/firmware update; empty transcripts in both modes | 2026-11-05 |
 | BasedHardware/omi | [#24723](https://github.com/BasedHardware/omi/issues/24723) | iOS app creation: AI helper returns to prompts without preview; manual Submit App stays disabled | 2026-11-05 |
 | BasedHardware/omi | [#24722](https://github.com/BasedHardware/omi/issues/24722) | Mac/web memories stop at Oct 21 or appear empty: truncated reads still render as complete-empty history | 2026-11-05 |
@@ -16,17 +20,16 @@ Last run: **2026-11-06 02:06 UTC** — fresh (≤72h), unclaimed, reproducible b
 | BasedHardware/omi | [#24663](https://github.com/BasedHardware/omi/issues/24663) | iOS/app: legacy SD-card sync runs on ring-buffer firmware, lists a phantom recording from the ring status, and retries it forever | 2026-11-05 |
 | BasedHardware/omi | [#24559](https://github.com/BasedHardware/omi/issues/24559) | Clarify Parakeet v2 guard signal and low-sample exception | 2026-11-04 |
 | BasedHardware/omi | [#24556](https://github.com/BasedHardware/omi/issues/24556) | Parity PL-342: Postgres and simulator lose custody deferral episode backoff | 2026-11-04 |
-| tursodatabase/turso | [#11507](https://github.com/tursodatabase/turso/issues/11507) | MVCC: a dropped COMMIT that readers already saw is lost after a TRUNCATE checkpoint and restart | 2026-11-05 |
-| tursodatabase/turso | [#11502](https://github.com/tursodatabase/turso/issues/11502) | MVCC passive checkpoint: a write logged during the first checkpoint of a table keeps temporary ids, and the database fails to open with "Index with root page N not found" | 2026-11-05 |
-| tursodatabase/turso | [#11493](https://github.com/tursodatabase/turso/issues/11493) | MVCC log path drops the file extension, so different database files share one log (`app.1` and `app.2` both use `app.db-log`) | 2026-11-05 |
-| tursodatabase/turso | [#11490](https://github.com/tursodatabase/turso/issues/11490) | postgres: CREATE SEQUENCE and COPY FROM accept a repeated option instead of rejecting it | 2026-11-05 |
-| tursodatabase/turso | [#11489](https://github.com/tursodatabase/turso/issues/11489) | DISTINCT with GROUP BY and ORDER BY on an unselected column keeps a different duplicate than SQLite | 2026-11-05 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #24767: weak bug signal (1/4)
+- #24760: weak bug signal (1/4)
+- #24759: weak bug signal (1/4)
+- #24758: weak bug signal (1/4)
+- #24749: weak bug signal (1/4)
 - #24720: weak bug signal (1/4)
-- #24705: weak bug signal (1/4)
 - #24664: weak bug signal (1/4)
 - #24647: weak bug signal (0/4)
 - #24584: 1 open PR(s) already reference it
@@ -37,30 +40,6 @@ Last run: **2026-11-06 02:06 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #1985: weak bug signal (0/4)
 
 **tursodatabase/turso**
-- #11505: 1 open PR(s) already reference it
-- #11501: 1 open PR(s) already reference it
-- #11500: patch already attached
-- #11499: patch already attached
-- #11496: 1 open PR(s) already reference it
-- #11485: weak bug signal (1/4)
-- #11484: 1 open PR(s) already reference it
-- #11480: weak bug signal (1/4)
-- #11479: weak bug signal (1/4)
-- #11478: weak bug signal (1/4)
-- #11477: weak bug signal (1/4)
-- #11476: weak bug signal (0/4)
-- #11475: weak bug signal (0/4)
-- #11473: weak bug signal (1/4)
-- #11470: weak bug signal (1/4)
-- #11469: 1 open PR(s) already reference it
-- #11468: weak bug signal (1/4)
-- #11466: 1 open PR(s) already reference it
-- #11462: 1 open PR(s) already reference it
-- #11460: weak bug signal (0/4)
-- #11459: weak bug signal (1/4)
-- #11455: weak bug signal (1/4)
-- #11451: weak bug signal (1/4)
-- #11450: weak bug signal (1/4)
-- #11449: weak bug signal (1/4)
+- GitHub rate limit hit
 
 </details>
