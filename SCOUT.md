@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-11-05 21:50 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-06 02:06 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -16,9 +16,8 @@ Last run: **2026-11-05 21:50 UTC** — fresh (≤72h), unclaimed, reproducible b
 | BasedHardware/omi | [#24663](https://github.com/BasedHardware/omi/issues/24663) | iOS/app: legacy SD-card sync runs on ring-buffer firmware, lists a phantom recording from the ring status, and retries it forever | 2026-11-05 |
 | BasedHardware/omi | [#24559](https://github.com/BasedHardware/omi/issues/24559) | Clarify Parakeet v2 guard signal and low-sample exception | 2026-11-04 |
 | BasedHardware/omi | [#24556](https://github.com/BasedHardware/omi/issues/24556) | Parity PL-342: Postgres and simulator lose custody deferral episode backoff | 2026-11-04 |
-| BasedHardware/omi | [#24431](https://github.com/BasedHardware/omi/issues/24431) | fix(listen): ignore failures from retired visible-preview dials | 2026-11-02 |
+| tursodatabase/turso | [#11507](https://github.com/tursodatabase/turso/issues/11507) | MVCC: a dropped COMMIT that readers already saw is lost after a TRUNCATE checkpoint and restart | 2026-11-05 |
 | tursodatabase/turso | [#11502](https://github.com/tursodatabase/turso/issues/11502) | MVCC passive checkpoint: a write logged during the first checkpoint of a table keeps temporary ids, and the database fails to open with "Index with root page N not found" | 2026-11-05 |
-| tursodatabase/turso | [#11501](https://github.com/tursodatabase/turso/issues/11501) | MVCC passive checkpoint: recovery panics when a new table's temporary id -N equals a root page N that the checkpoint gave to another table | 2026-11-05 |
 | tursodatabase/turso | [#11493](https://github.com/tursodatabase/turso/issues/11493) | MVCC log path drops the file extension, so different database files share one log (`app.1` and `app.2` both use `app.db-log`) | 2026-11-05 |
 | tursodatabase/turso | [#11490](https://github.com/tursodatabase/turso/issues/11490) | postgres: CREATE SEQUENCE and COPY FROM accept a repeated option instead of rejecting it | 2026-11-05 |
 | tursodatabase/turso | [#11489](https://github.com/tursodatabase/turso/issues/11489) | DISTINCT with GROUP BY and ORDER BY on an unselected column keeps a different duplicate than SQLite | 2026-11-05 |
@@ -33,12 +32,13 @@ Last run: **2026-11-05 21:50 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #24584: 1 open PR(s) already reference it
 - #24546: 1 open PR(s) already reference it
 - #24530: weak bug signal (1/4)
-- #24358: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 - #1985: weak bug signal (0/4)
 
 **tursodatabase/turso**
+- #11505: 1 open PR(s) already reference it
+- #11501: 1 open PR(s) already reference it
 - #11500: patch already attached
 - #11499: patch already attached
 - #11496: 1 open PR(s) already reference it
@@ -62,7 +62,5 @@ Last run: **2026-11-05 21:50 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #11451: weak bug signal (1/4)
 - #11450: weak bug signal (1/4)
 - #11449: weak bug signal (1/4)
-- #11448: weak bug signal (1/4)
-- #11447: weak bug signal (1/4)
 
 </details>
