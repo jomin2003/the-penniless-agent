@@ -1,10 +1,9 @@
 # Bounty scout
 
-Last run: **2026-11-07 09:05 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-07 15:50 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#24802](https://github.com/BasedHardware/omi/issues/24802) | [loop-c] main CI red: gha-[N;1m echo "FAIL: backend unit shard N took ${elapsed}s, over its ${BACKEND_UNIT_STEP_BUDGET_SECONDS}s regression budge | 2026-11-06 |
 | BasedHardware/omi | [#24794](https://github.com/BasedHardware/omi/issues/24794) | Recurring spikes in recordings from a new Omi pendant | 2026-11-06 |
 | BasedHardware/omi | [#24768](https://github.com/BasedHardware/omi/issues/24768) | iOS phone-only recordings stay on Recording or Transcribing without a transcript | 2026-11-06 |
 | BasedHardware/omi | [#24728](https://github.com/BasedHardware/omi/issues/24728) | iOS: pendant recordings stuck Processing after Nov 5 app/firmware update; empty transcripts in both modes | 2026-11-05 |
@@ -17,7 +16,6 @@ Last run: **2026-11-07 09:05 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #24803: weak bug signal (1/4)
 - #24783: 1 open PR(s) already reference it
 - #24782: 1 open PR(s) already reference it
 - #24780: 1 open PR(s) already reference it
