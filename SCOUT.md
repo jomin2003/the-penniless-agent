@@ -1,10 +1,9 @@
 # Bounty scout
 
-Last run: **2026-11-08 18:01 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-08 22:21 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#24932](https://github.com/BasedHardware/omi/issues/24932) | [loop-c] main CI red: gha-[N;1m echo "FAIL: backend unit shard N took ${elapsed}s, over its ${BACKEND_UNIT_STEP_BUDGET_SECONDS}s regression budge | 2026-11-08 |
 | BasedHardware/omi | [#24794](https://github.com/BasedHardware/omi/issues/24794) | Recurring spikes in recordings from a new Omi pendant | 2026-11-06 |
 | BasedHardware/omi | [#24768](https://github.com/BasedHardware/omi/issues/24768) | iOS phone-only recordings stay on Recording or Transcribing without a transcript | 2026-11-06 |
 | BasedHardware/omi | [#24728](https://github.com/BasedHardware/omi/issues/24728) | iOS: pendant recordings stuck Processing after Nov 5 app/firmware update; empty transcripts in both modes | 2026-11-05 |
@@ -17,11 +16,8 @@ Last run: **2026-11-08 18:01 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #24933: weak bug signal (1/4)
 - #24926: weak bug signal (0/4)
 - #24920: weak bug signal (1/4)
-- #24915: weak bug signal (1/4)
-- #24914: weak bug signal (1/4)
 - #24913: weak bug signal (1/4)
 - #24783: 1 open PR(s) already reference it
 - #24782: 1 open PR(s) already reference it
@@ -38,6 +34,8 @@ Last run: **2026-11-08 18:01 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #24722: 1 open PR(s) already reference it
 - #24720: weak bug signal (1/4)
 - #24715: 1 open PR(s) already reference it
+- #24664: weak bug signal (1/4)
+- #24663: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
 - #1994: 1 open PR(s) already reference it
