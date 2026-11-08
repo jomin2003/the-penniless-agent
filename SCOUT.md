@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-11-07 23:49 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-08 05:22 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -33,12 +33,8 @@ Last run: **2026-11-07 23:49 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #24715: 1 open PR(s) already reference it
 - #24664: weak bug signal (1/4)
 - #24663: 1 open PR(s) already reference it
-- #24584: 1 open PR(s) already reference it
-- #24559: 1 open PR(s) already reference it
-- #24556: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
-- #1985: weak bug signal (0/4)
 
 **tursodatabase/turso**
 - GitHub rate limit hit
