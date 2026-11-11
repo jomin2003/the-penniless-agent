@@ -1,10 +1,9 @@
 # Bounty scout
 
-Last run: **2026-11-11 05:54 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-11 13:51 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#25091](https://github.com/BasedHardware/omi/issues/25091) | [loop-c] main CI red: gha-[N;1m echo "FAIL: backend unit shard N took ${elapsed}s, over its ${BACKEND_UNIT_STEP_BUDGET_SECONDS}s regression budge | 2026-11-11 |
 | BasedHardware/omi | [#25005](https://github.com/BasedHardware/omi/issues/25005) | Transcription inserts repeated video-outro text during reported silence | 2026-11-09 |
 | BasedHardware/omi | [#25004](https://github.com/BasedHardware/omi/issues/25004) | Speech Profile: native-language enrollment and reliable own-voice matching for Ukrainian/Russian | 2026-11-09 |
 | BasedHardware/omi | [#24992](https://github.com/BasedHardware/omi/issues/24992) | release(mobile): track store delivery of deletion fixes #24774 and #24980 | 2026-11-09 |
@@ -17,13 +16,11 @@ Last run: **2026-11-11 05:54 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#11633](https://github.com/tursodatabase/turso/issues/11633) | tursopg: json_object and jsonb_object do not read arrays of keys and values | 2026-11-10 |
 | tursodatabase/turso | [#11632](https://github.com/tursodatabase/turso/issues/11632) | tursopg: bytea does not read the hex input format | 2026-11-10 |
 | tursodatabase/turso | [#11629](https://github.com/tursodatabase/turso/issues/11629) | tursopg: CREATE INDEX refuses IMMUTABLE frontend functions such as quote_ident(), with a wrong error for a partial index | 2026-11-09 |
-| tursodatabase/turso | [#11627](https://github.com/tursodatabase/turso/issues/11627) | tursopg: integer // integer, integer = text and unknown + unknown run instead of failing | 2026-11-09 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #25092: weak bug signal (1/4)
-- #25064: weak bug signal (1/4)
+- #25115: weak bug signal (1/4)
 - #25025: 1 open PR(s) already reference it
 - #24960: 1 open PR(s) already reference it
 - #24958: title reads as proposal/question
@@ -32,6 +29,9 @@ Last run: **2026-11-11 05:54 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #11680: weak bug signal (1/4)
+- #11679: 1 open PR(s) already reference it
+- #11677: weak bug signal (0/4)
 - #11673: weak bug signal (1/4)
 - #11672: weak bug signal (1/4)
 - #11671: weak bug signal (0/4)
@@ -52,7 +52,5 @@ Last run: **2026-11-11 05:54 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #11635: weak bug signal (1/4)
 - #11634: weak bug signal (1/4)
 - #11631: 1 open PR(s) already reference it
-- #11628: weak bug signal (1/4)
-- #11626: 1 open PR(s) already reference it
 
 </details>
