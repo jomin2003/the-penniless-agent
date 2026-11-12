@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-11-11 21:08 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-12 02:24 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -22,16 +22,16 @@ Last run: **2026-11-11 21:08 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #25115: weak bug signal (1/4)
 - #25025: 1 open PR(s) already reference it
 - #24960: 1 open PR(s) already reference it
-- #24958: title reads as proposal/question
-- #24913: weak bug signal (1/4)
 
 **projectdiscovery/katana**
+- #2010: weak bug signal (1/4)
+- #2009: weak bug signal (0/4)
 
 **tursodatabase/turso**
+- #11726: weak bug signal (1/4)
 - #11714: weak bug signal (1/4)
 - #11713: weak bug signal (1/4)
 - #11711: 1 open PR(s) already reference it
-- #11704: 1 open PR(s) already reference it
 - #11700: weak bug signal (1/4)
 - #11699: weak bug signal (1/4)
 - #11680: weak bug signal (1/4)
