@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-11-13 14:51 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-13 21:18 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -17,15 +17,17 @@ Last run: **2026-11-13 14:51 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#11746](https://github.com/tursodatabase/turso/issues/11746) | bindings/rust: prepared statements run inside a dropped Transaction | 2026-11-12 |
 | tursodatabase/turso | [#11734](https://github.com/tursodatabase/turso/issues/11734) | .NET: Turso.EntityFrameworkCore.Sqlite is built but never published to NuGet (README install command fails) | 2026-11-12 |
 | tursodatabase/turso | [#11715](https://github.com/tursodatabase/turso/issues/11715) | Code smell: Non-superuser gets a permission error, not "does not exist", for missing objects | 2026-11-11 |
-| tursodatabase/turso | [#11701](https://github.com/tursodatabase/turso/issues/11701) | MVCC passive checkpoint: wal_checkpoint(TRUNCATE) does no work but returns 0/0/0 when another checkpoint is in progress | 2026-11-11 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #25237: weak bug signal (1/4)
+- #25230: weak bug signal (1/4)
+- #25229: weak bug signal (1/4)
+- #25223: weak bug signal (1/4)
 - #25207: weak bug signal (1/4)
 - #25206: weak bug signal (1/4)
 - #25203: weak bug signal (1/4)
-- #25200: weak bug signal (1/4)
 - #25181: weak bug signal (1/4)
 - #25177: weak bug signal (1/4)
 - #25163: weak bug signal (1/4)
@@ -36,6 +38,8 @@ Last run: **2026-11-13 14:51 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #2009: weak bug signal (0/4)
 
 **tursodatabase/turso**
+- #11829: weak bug signal (1/4)
+- #11828: weak bug signal (1/4)
 - #11811: weak bug signal (0/4)
 - #11804: weak bug signal (1/4)
 - #11796: 1 open PR(s) already reference it
@@ -53,6 +57,5 @@ Last run: **2026-11-13 14:51 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #11714: weak bug signal (1/4)
 - #11713: weak bug signal (1/4)
 - #11711: 1 open PR(s) already reference it
-- #11700: weak bug signal (1/4)
 
 </details>
