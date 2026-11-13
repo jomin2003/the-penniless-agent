@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-11-12 18:31 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-13 00:00 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#25160](https://github.com/BasedHardware/omi/issues/25160) | Limitless Pendant on iOS: offline recordings stuck on "Transcribing…" for 8 days, live capture drops after GATT error bursts (data loss) | 2026-11-12 |
 | BasedHardware/omi | [#25005](https://github.com/BasedHardware/omi/issues/25005) | Transcription inserts repeated video-outro text during reported silence | 2026-11-09 |
 | BasedHardware/omi | [#25004](https://github.com/BasedHardware/omi/issues/25004) | Speech Profile: native-language enrollment and reliable own-voice matching for Ukrainian/Russian | 2026-11-09 |
 | BasedHardware/omi | [#24992](https://github.com/BasedHardware/omi/issues/24992) | release(mobile): track store delivery of deletion fixes #24774 and #24980 | 2026-11-09 |
@@ -24,6 +25,7 @@ Last run: **2026-11-12 18:31 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #25163: weak bug signal (1/4)
 - #25148: weak bug signal (0/4)
 - #25025: 1 open PR(s) already reference it
 - #24960: 1 open PR(s) already reference it
@@ -33,6 +35,7 @@ Last run: **2026-11-12 18:31 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #2009: weak bug signal (0/4)
 
 **tursodatabase/turso**
+- #11804: weak bug signal (1/4)
 - #11796: 1 open PR(s) already reference it
 - #11777: weak bug signal (1/4)
 - #11776: weak bug signal (0/4)
@@ -51,6 +54,5 @@ Last run: **2026-11-12 18:31 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #11699: weak bug signal (1/4)
 - #11680: weak bug signal (1/4)
 - #11679: 1 open PR(s) already reference it
-- #11677: weak bug signal (0/4)
 
 </details>
