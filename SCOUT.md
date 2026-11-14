@@ -1,13 +1,12 @@
 # Bounty scout
 
-Last run: **2026-11-13 21:18 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-14 01:38 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
 | BasedHardware/omi | [#25202](https://github.com/BasedHardware/omi/issues/25202) | [loop-c] main CI red: gha-[N;1m echo "FAIL: backend unit shard N took ${elapsed}s, over its ${BACKEND_UNIT_STEP_BUDGET_SECONDS}s regression budge | 2026-11-13 |
 | BasedHardware/omi | [#25160](https://github.com/BasedHardware/omi/issues/25160) | Limitless Pendant on iOS: offline recordings stuck on "Transcribing…" for 8 days, live capture drops after GATT error bursts (data loss) | 2026-11-12 |
 | tursodatabase/turso | [#11814](https://github.com/tursodatabase/turso/issues/11814) | Table-valued PRAGMAs treat a schema-only constraint as the table argument | 2026-11-13 |
-| tursodatabase/turso | [#11812](https://github.com/tursodatabase/turso/issues/11812) | Regression: upsert corrupts database when CDC is enabled | 2026-11-13 |
 | tursodatabase/turso | [#11792](https://github.com/tursodatabase/turso/issues/11792) | Flaky test: turso sync::tests::test_sync_partial_segment_size | 2026-11-12 |
 | tursodatabase/turso | [#11778](https://github.com/tursodatabase/turso/issues/11778) | Code smell: tursopg reports some unsupported statements as syntax errors, not 0A000 | 2026-11-12 |
 | tursodatabase/turso | [#11775](https://github.com/tursodatabase/turso/issues/11775) | differential fuzzer correlated-subqueries failure seed 17723369911931380827 | 2026-11-12 |
@@ -17,6 +16,7 @@ Last run: **2026-11-13 21:18 UTC** — fresh (≤72h), unclaimed, reproducible b
 | tursodatabase/turso | [#11746](https://github.com/tursodatabase/turso/issues/11746) | bindings/rust: prepared statements run inside a dropped Transaction | 2026-11-12 |
 | tursodatabase/turso | [#11734](https://github.com/tursodatabase/turso/issues/11734) | .NET: Turso.EntityFrameworkCore.Sqlite is built but never published to NuGet (README install command fails) | 2026-11-12 |
 | tursodatabase/turso | [#11715](https://github.com/tursodatabase/turso/issues/11715) | Code smell: Non-superuser gets a permission error, not "does not exist", for missing objects | 2026-11-11 |
+| tursodatabase/turso | [#11701](https://github.com/tursodatabase/turso/issues/11701) | MVCC passive checkpoint: wal_checkpoint(TRUNCATE) does no work but returns 0/0/0 when another checkpoint is in progress | 2026-11-11 |
 
 <details><summary>Filter log</summary>
 
@@ -38,7 +38,6 @@ Last run: **2026-11-13 21:18 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #2009: weak bug signal (0/4)
 
 **tursodatabase/turso**
-- #11829: weak bug signal (1/4)
 - #11828: weak bug signal (1/4)
 - #11811: weak bug signal (0/4)
 - #11804: weak bug signal (1/4)
@@ -57,5 +56,6 @@ Last run: **2026-11-13 21:18 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #11714: weak bug signal (1/4)
 - #11713: weak bug signal (1/4)
 - #11711: 1 open PR(s) already reference it
+- #11700: weak bug signal (1/4)
 
 </details>
