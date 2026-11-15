@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-11-15 07:40 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-15 15:29 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#25375](https://github.com/BasedHardware/omi/issues/25375) | Android CV1 3.0.21 shown as up-to-date despite published 3.0.24 (firmware lookup error masked) | 2026-11-15 |
 | BasedHardware/omi | [#25202](https://github.com/BasedHardware/omi/issues/25202) | [loop-c] main CI red: gha-[N;1m echo "FAIL: backend unit shard N took ${elapsed}s, over its ${BACKEND_UNIT_STEP_BUDGET_SECONDS}s regression budge | 2026-11-13 |
 | BasedHardware/omi | [#25160](https://github.com/BasedHardware/omi/issues/25160) | Limitless Pendant on iOS: offline recordings stuck on "Transcribing…" for 8 days, live capture drops after GATT error bursts (data loss) | 2026-11-12 |
 | tursodatabase/turso | [#11814](https://github.com/tursodatabase/turso/issues/11814) | Table-valued PRAGMAs treat a schema-only constraint as the table argument | 2026-11-13 |
@@ -48,8 +49,8 @@ Last run: **2026-11-15 07:40 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #11776: weak bug signal (0/4)
 - #11768: weak bug signal (1/4)
 - #11767: weak bug signal (0/4)
-- #11753: 1 open PR(s) already reference it
-- #11751: 1 open PR(s) already reference it
+- #11753: 2 open PR(s) already reference it
+- #11751: 2 open PR(s) already reference it
 - #11750: 1 open PR(s) already reference it
 - #11749: 1 open PR(s) already reference it
 - #11735: weak bug signal (1/4)
