@@ -1,18 +1,19 @@
 # Bounty scout
 
-Last run: **2026-11-17 10:31 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-17 19:41 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#25584](https://github.com/BasedHardware/omi/issues/25584) | [loop-c] main CI red: gha-[N;1m echo "FAIL: backend unit shard N took ${elapsed}s, over its ${BACKEND_UNIT_STEP_BUDGET_SECONDS}s regression budge | 2026-11-17 |
 | projectdiscovery/katana | [#2025](https://github.com/projectdiscovery/katana/issues/2025) | -host-rate-limit counts every request under the seed's hostname, not the request's host | 2026-11-16 |
-| tursodatabase/turso | [#11919](https://github.com/tursodatabase/turso/issues/11919) | Flaky test: turso sync::tests::test_sync_cancelled_operations_lose_no_rows | 2026-11-17 |
+| tursodatabase/turso | [#12005](https://github.com/tursodatabase/turso/issues/12005) | MVCC: a dropped FULL COMMIT seen by a reader is lost after power loss | 2026-11-17 |
+| tursodatabase/turso | [#12000](https://github.com/tursodatabase/turso/issues/12000) | MVCC: a group-commit waiter that rolls back after the leader wrote its record comes back after restart | 2026-11-17 |
+| tursodatabase/turso | [#11999](https://github.com/tursodatabase/turso/issues/11999) | sqltest: the CLI backend counts a tursodb panic as an expected error | 2026-11-17 |
+| tursodatabase/turso | [#11998](https://github.com/tursodatabase/turso/issues/11998) | MVCC: a read-only open fails after a passive checkpoint and a clean close | 2026-11-17 |
+| tursodatabase/turso | [#11992](https://github.com/tursodatabase/turso/issues/11992) | MVCC: clear the whole MvStore at the end of a blocking checkpoint, without GC rules | 2026-11-17 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #25585: weak bug signal (1/4)
-- #25574: weak bug signal (1/4)
 - #25431: 1 open PR(s) already reference it
 - #25375: 2 open PR(s) already reference it
 - #25361: weak bug signal (0/4)
@@ -23,34 +24,30 @@ Last run: **2026-11-17 10:31 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
-- #11953: weak bug signal (1/4)
-- #11952: weak bug signal (1/4)
-- #11948: weak bug signal (1/4)
-- #11947: weak bug signal (1/4)
-- #11946: weak bug signal (1/4)
-- #11945: weak bug signal (1/4)
-- #11944: weak bug signal (1/4)
-- #11943: weak bug signal (0/4)
-- #11942: weak bug signal (1/4)
-- #11940: weak bug signal (1/4)
-- #11939: weak bug signal (1/4)
-- #11938: weak bug signal (0/4)
-- #11937: weak bug signal (1/4)
-- #11936: weak bug signal (1/4)
-- #11935: weak bug signal (1/4)
-- #11933: weak bug signal (0/4)
-- #11932: weak bug signal (1/4)
-- #11931: 1 open PR(s) already reference it
-- #11927: weak bug signal (1/4)
-- #11926: weak bug signal (1/4)
-- #11925: weak bug signal (1/4)
-- #11924: 1 open PR(s) already reference it
-- #11923: 1 open PR(s) already reference it
-- #11922: weak bug signal (1/4)
-- #11921: weak bug signal (1/4)
-- #11918: weak bug signal (1/4)
-- #11917: weak bug signal (0/4)
-- #11915: weak bug signal (1/4)
-- #11914: weak bug signal (1/4)
+- #12012: weak bug signal (1/4)
+- #12010: weak bug signal (0/4)
+- #12008: weak bug signal (0/4)
+- #12003: weak bug signal (1/4)
+- #12002: weak bug signal (1/4)
+- #12001: weak bug signal (1/4)
+- #11997: weak bug signal (1/4)
+- #11996: weak bug signal (1/4)
+- #11995: weak bug signal (1/4)
+- #11994: weak bug signal (1/4)
+- #11993: weak bug signal (1/4)
+- #11991: weak bug signal (0/4)
+- #11987: weak bug signal (1/4)
+- #11986: weak bug signal (0/4)
+- #11985: weak bug signal (1/4)
+- #11983: weak bug signal (1/4)
+- #11981: weak bug signal (1/4)
+- #11980: weak bug signal (1/4)
+- #11979: weak bug signal (0/4)
+- #11978: weak bug signal (0/4)
+- #11977: weak bug signal (0/4)
+- #11976: weak bug signal (1/4)
+- #11973: weak bug signal (1/4)
+- #11972: weak bug signal (1/4)
+- #11971: weak bug signal (1/4)
 
 </details>
