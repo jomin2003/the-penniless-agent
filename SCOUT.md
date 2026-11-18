@@ -1,11 +1,12 @@
 # Bounty scout
 
-Last run: **2026-11-18 02:14 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-18 10:33 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#25638](https://github.com/BasedHardware/omi/issues/25638) | [loop-c] main CI red: gha-[N;1m echo "FAIL: backend unit shard N took ${elapsed}s, over its ${BACKEND_UNIT_STEP_BUDGET_SECONDS}s regression budge | 2026-11-17 |
-| projectdiscovery/katana | [#2025](https://github.com/projectdiscovery/katana/issues/2025) | -host-rate-limit counts every request under the seed's hostname, not the request's host | 2026-11-16 |
+| BasedHardware/omi | [#25653](https://github.com/BasedHardware/omi/issues/25653) | iOS: Transfer to Phone can show 0% while the selected recording reports a changing transfer speed | 2026-11-18 |
+| tursodatabase/turso | [#12035](https://github.com/tursodatabase/turso/issues/12035) | MVCC: rows deleted by a committed transaction still match the same WHERE predicate afterwards (limbo_sim DeleteSelect, simple_mvcc seed 9) | 2026-11-18 |
+| tursodatabase/turso | [#12028](https://github.com/tursodatabase/turso/issues/12028) | Code smell: tursopg runs and lists SQLite-only functions such as datetime() and typeof() | 2026-11-18 |
 | tursodatabase/turso | [#12005](https://github.com/tursodatabase/turso/issues/12005) | MVCC: a dropped FULL COMMIT seen by a reader is lost after power loss | 2026-11-17 |
 | tursodatabase/turso | [#12000](https://github.com/tursodatabase/turso/issues/12000) | MVCC: a group-commit waiter that rolls back after the leader wrote its record comes back after restart | 2026-11-17 |
 | tursodatabase/turso | [#11999](https://github.com/tursodatabase/turso/issues/11999) | sqltest: the CLI backend counts a tursodb panic as an expected error | 2026-11-17 |
@@ -15,7 +16,7 @@ Last run: **2026-11-18 02:14 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
-- #25639: weak bug signal (1/4)
+- #25663: weak bug signal (1/4)
 - #25431: 1 open PR(s) already reference it
 - #25375: 2 open PR(s) already reference it
 - #25361: weak bug signal (0/4)
@@ -23,8 +24,18 @@ Last run: **2026-11-18 02:14 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #25353: weak bug signal (1/4)
 
 **projectdiscovery/katana**
+- #2025: 1 open PR(s) already reference it
 
 **tursodatabase/turso**
+- #12032: weak bug signal (1/4)
+- #12031: weak bug signal (1/4)
+- #12030: weak bug signal (0/4)
+- #12029: weak bug signal (1/4)
+- #12025: weak bug signal (0/4)
+- #12024: weak bug signal (1/4)
+- #12023: weak bug signal (1/4)
+- #12020: weak bug signal (1/4)
+- #12015: weak bug signal (1/4)
 - #12012: weak bug signal (1/4)
 - #12010: weak bug signal (0/4)
 - #12008: weak bug signal (0/4)
@@ -33,22 +44,11 @@ Last run: **2026-11-18 02:14 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #12001: weak bug signal (1/4)
 - #11997: weak bug signal (1/4)
 - #11996: weak bug signal (1/4)
-- #11995: weak bug signal (1/4)
 - #11994: weak bug signal (1/4)
 - #11993: weak bug signal (1/4)
 - #11991: weak bug signal (0/4)
 - #11987: weak bug signal (1/4)
 - #11986: weak bug signal (0/4)
 - #11985: weak bug signal (1/4)
-- #11983: weak bug signal (1/4)
-- #11981: weak bug signal (1/4)
-- #11980: weak bug signal (1/4)
-- #11979: weak bug signal (0/4)
-- #11978: weak bug signal (0/4)
-- #11977: weak bug signal (0/4)
-- #11976: weak bug signal (1/4)
-- #11973: weak bug signal (1/4)
-- #11972: weak bug signal (1/4)
-- #11971: weak bug signal (1/4)
 
 </details>
