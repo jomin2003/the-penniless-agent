@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-11-17 19:41 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-18 02:14 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| BasedHardware/omi | [#25638](https://github.com/BasedHardware/omi/issues/25638) | [loop-c] main CI red: gha-[N;1m echo "FAIL: backend unit shard N took ${elapsed}s, over its ${BACKEND_UNIT_STEP_BUDGET_SECONDS}s regression budge | 2026-11-17 |
 | projectdiscovery/katana | [#2025](https://github.com/projectdiscovery/katana/issues/2025) | -host-rate-limit counts every request under the seed's hostname, not the request's host | 2026-11-16 |
 | tursodatabase/turso | [#12005](https://github.com/tursodatabase/turso/issues/12005) | MVCC: a dropped FULL COMMIT seen by a reader is lost after power loss | 2026-11-17 |
 | tursodatabase/turso | [#12000](https://github.com/tursodatabase/turso/issues/12000) | MVCC: a group-commit waiter that rolls back after the leader wrote its record comes back after restart | 2026-11-17 |
@@ -14,12 +15,12 @@ Last run: **2026-11-17 19:41 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #25639: weak bug signal (1/4)
 - #25431: 1 open PR(s) already reference it
 - #25375: 2 open PR(s) already reference it
 - #25361: weak bug signal (0/4)
 - #25354: weak bug signal (1/4)
 - #25353: weak bug signal (1/4)
-- #25256: weak bug signal (1/4)
 
 **projectdiscovery/katana**
 
