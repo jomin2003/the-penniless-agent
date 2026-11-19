@@ -1,10 +1,9 @@
 # Bounty scout
 
-Last run: **2026-11-19 01:22 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-19 09:16 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#25653](https://github.com/BasedHardware/omi/issues/25653) | iOS: Transfer to Phone can show 0% while the selected recording reports a changing transfer speed | 2026-11-18 |
 | tursodatabase/turso | [#12092](https://github.com/tursodatabase/turso/issues/12092) | tursopg: json_each() returns a rewritten number and drops whitespace in nested values | 2026-11-18 |
 | tursodatabase/turso | [#12091](https://github.com/tursodatabase/turso/issues/12091) | differential fuzzer balanced failure seed 6351614546750905398 | 2026-11-18 |
 | tursodatabase/turso | [#12062](https://github.com/tursodatabase/turso/issues/12062) | MVCC: a passive checkpoint inside the TxID rewrite window after CommitEnd leaks row versions that GC never drops | 2026-11-18 |
@@ -18,6 +17,7 @@ Last run: **2026-11-19 01:22 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #25736: weak bug signal (1/4)
 - #25735: 1 open PR(s) already reference it
 - #25728: weak bug signal (1/4)
+- #25653: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
 
