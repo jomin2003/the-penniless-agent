@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-11-20 08:59 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-20 17:43 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -9,15 +9,23 @@ Last run: **2026-11-20 08:59 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #25881: weak bug signal (1/4)
+- #25872: weak bug signal (1/4)
+- #25870: 1 open PR(s) already reference it
 - #25850: weak bug signal (1/4)
-- #25847: weak bug signal (1/4)
 - #25822: weak bug signal (0/4)
 - #25728: weak bug signal (1/4)
-- #25653: 1 open PR(s) already reference it
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #12185: 2 open PR(s) already reference it
+- #12176: 1 open PR(s) already reference it
+- #12174: weak bug signal (1/4)
+- #12173: weak bug signal (0/4)
+- #12172: weak bug signal (1/4)
+- #12170: weak bug signal (1/4)
+- #12167: weak bug signal (1/4)
 - #12161: weak bug signal (0/4)
 - #12159: weak bug signal (1/4)
 - #12158: weak bug signal (0/4)
@@ -40,12 +48,5 @@ Last run: **2026-11-20 08:59 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #12104: weak bug signal (0/4)
 - #12100: weak bug signal (1/4)
 - #12099: weak bug signal (1/4)
-- #12091: 1 open PR(s) already reference it
-- #12085: weak bug signal (1/4)
-- #12067: 1 open PR(s) already reference it
-- #12065: weak bug signal (1/4)
-- #12063: 1 open PR(s) already reference it
-- #12062: 1 open PR(s) already reference it
-- #12060: weak bug signal (0/4)
 
 </details>
