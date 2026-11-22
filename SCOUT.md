@@ -1,13 +1,14 @@
 # Bounty scout
 
-Last run: **2026-11-22 08:38 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-22 16:58 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
-| BasedHardware/omi | [#25956](https://github.com/BasedHardware/omi/issues/25956) | Failed code-generation runs are reported as successful and pushed | 2026-11-21 |
+| BasedHardware/omi | [#26043](https://github.com/BasedHardware/omi/issues/26043) | [loop-c] main CI red: gha-[N;1m echo "FAIL: backend unit shard N took ${elapsed}s, over its ${BACKEND_UNIT_STEP_BUDGET_SECONDS}s regression budge | 2026-11-22 |
+| BasedHardware/omi | [#26033](https://github.com/BasedHardware/omi/issues/26033) | release(app): verify Android firmware-check fix delivery (#25375) | 2026-11-22 |
 | BasedHardware/omi | [#25955](https://github.com/BasedHardware/omi/issues/25955) | Incomplete agentic implementation is committed and pushed as a success | 2026-11-21 |
 | BasedHardware/omi | [#25930](https://github.com/BasedHardware/omi/issues/25930) | macOS 0.12.574: Apple sign-in stops with “Sign up not completed” | 2026-11-21 |
-| BasedHardware/omi | [#25922](https://github.com/BasedHardware/omi/issues/25922) | A saved pendant voice answer can miss push dispatch when the voice stream closes at its done frame | 2026-11-21 |
+| tursodatabase/turso | [#12267](https://github.com/tursodatabase/turso/issues/12267) | whopper mvcc swarm fail | 2026-11-22 |
 | tursodatabase/turso | [#12248](https://github.com/tursodatabase/turso/issues/12248) | differential fuzzer writes failure seed 4645067235183416599 | 2026-11-21 |
 | tursodatabase/turso | [#12227](https://github.com/tursodatabase/turso/issues/12227) | Code smell: tursopg treats bytea array elements as nested arrays in //, unnest and output | 2026-11-21 |
 | tursodatabase/turso | [#12215](https://github.com/tursodatabase/turso/issues/12215) | `0 AND RAISE(IGNORE)` outside a trigger fails in Turso but returns 0 in SQLite | 2026-11-21 |
@@ -16,6 +17,8 @@ Last run: **2026-11-22 08:38 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #26060: weak bug signal (1/4)
+- #26044: weak bug signal (1/4)
 - #25987: weak bug signal (0/4)
 - #25986: weak bug signal (0/4)
 - #25949: weak bug signal (1/4)
@@ -60,6 +63,5 @@ Last run: **2026-11-22 08:38 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #12204: weak bug signal (0/4)
 - #12185: 1 open PR(s) already reference it
 - #12174: weak bug signal (1/4)
-- #12172: weak bug signal (1/4)
 
 </details>
