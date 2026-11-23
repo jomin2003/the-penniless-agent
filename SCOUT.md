@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-11-23 02:59 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-23 12:14 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -8,15 +8,17 @@ Last run: **2026-11-23 02:59 UTC** — fresh (≤72h), unclaimed, reproducible b
 | BasedHardware/omi | [#25955](https://github.com/BasedHardware/omi/issues/25955) | Incomplete agentic implementation is committed and pushed as a success | 2026-11-21 |
 | BasedHardware/omi | [#25930](https://github.com/BasedHardware/omi/issues/25930) | macOS 0.12.574: Apple sign-in stops with “Sign up not completed” | 2026-11-21 |
 | BasedHardware/omi | [#25870](https://github.com/BasedHardware/omi/issues/25870) | bug(ios): push registration remains absent after recovery release; failures missing from diagnostic export | 2026-11-20 |
+| tursodatabase/turso | [#12301](https://github.com/tursodatabase/turso/issues/12301) | tursopg: numeric % numeric with a fractional operand truncates (7.5 % 2 gives 1.0, 0.5 % 3.5 gives 0) | 2026-11-23 |
+| tursodatabase/turso | [#12289](https://github.com/tursodatabase/turso/issues/12289) | differential fuzzer balanced failure seed 17999543996454037945 | 2026-11-23 |
 | tursodatabase/turso | [#12267](https://github.com/tursodatabase/turso/issues/12267) | whopper mvcc swarm fail | 2026-11-22 |
 | tursodatabase/turso | [#12248](https://github.com/tursodatabase/turso/issues/12248) | differential fuzzer writes failure seed 4645067235183416599 | 2026-11-21 |
 | tursodatabase/turso | [#12227](https://github.com/tursodatabase/turso/issues/12227) | Code smell: tursopg treats bytea array elements as nested arrays in //, unnest and output | 2026-11-21 |
 | tursodatabase/turso | [#12215](https://github.com/tursodatabase/turso/issues/12215) | `0 AND RAISE(IGNORE)` outside a trigger fails in Turso but returns 0 in SQLite | 2026-11-21 |
-| tursodatabase/turso | [#12201](https://github.com/tursodatabase/turso/issues/12201) | differential fuzzer ordered-aggregates failure seed 4256219412202273819 | 2026-11-20 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #26102: weak bug signal (1/4)
 - #26061: weak bug signal (1/4)
 - #26060: weak bug signal (1/4)
 - #25987: weak bug signal (0/4)
@@ -34,9 +36,15 @@ Last run: **2026-11-23 02:59 UTC** — fresh (≤72h), unclaimed, reproducible b
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #12300: 2 open PR(s) already reference it
+- #12295: weak bug signal (1/4)
+- #12294: weak bug signal (1/4)
+- #12293: weak bug signal (1/4)
+- #12292: weak bug signal (1/4)
+- #12291: weak bug signal (1/4)
+- #12286: weak bug signal (1/4)
+- #12283: weak bug signal (1/4)
 - #12274: patch already attached
-- #12259: weak bug signal (0/4)
-- #12256: weak bug signal (0/4)
 - #12255: weak bug signal (0/4)
 - #12252: 1 open PR(s) already reference it
 - #12249: weak bug signal (1/4)
@@ -52,12 +60,5 @@ Last run: **2026-11-23 02:59 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #12213: weak bug signal (0/4)
 - #12212: weak bug signal (1/4)
 - #12211: weak bug signal (0/4)
-- #12209: weak bug signal (1/4)
-- #12208: weak bug signal (1/4)
-- #12207: weak bug signal (1/4)
-- #12206: weak bug signal (0/4)
-- #12205: weak bug signal (0/4)
-- #12204: weak bug signal (0/4)
-- #12185: 1 open PR(s) already reference it
 
 </details>
