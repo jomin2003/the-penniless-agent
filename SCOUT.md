@@ -1,6 +1,6 @@
 # Bounty scout
 
-Last run: **2026-11-22 22:24 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-23 02:59 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
@@ -27,11 +27,9 @@ Last run: **2026-11-22 22:24 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #25927: weak bug signal (0/4)
 - #25926: weak bug signal (1/4)
 - #25918: weak bug signal (1/4)
-- #25902: weak bug signal (1/4)
 - #25881: weak bug signal (1/4)
 - #25872: weak bug signal (1/4)
 - #25850: weak bug signal (1/4)
-- #25822: weak bug signal (0/4)
 
 **projectdiscovery/katana**
 
