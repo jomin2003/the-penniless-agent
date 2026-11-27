@@ -1,16 +1,24 @@
 # Bounty scout
 
-Last run: **2026-11-27 01:52 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-27 10:40 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| tursodatabase/turso | [#12599](https://github.com/tursodatabase/turso/issues/12599) | Python: threads writing through one connection abort the process with "end_write_tx called while write lock not held" | 2026-11-27 |
 | tursodatabase/turso | [#12560](https://github.com/tursodatabase/turso/issues/12560) | Flaky test: turso sync::tests::test_sync_dropping_a_started_operation_releases_the_gate | 2026-11-26 |
 | tursodatabase/turso | [#12554](https://github.com/tursodatabase/turso/issues/12554) | MVCC logical pull fails on a remote DROP COLUMN plus a RENAME COLUMN to the dropped name | 2026-11-26 |
-| tursodatabase/turso | [#12529](https://github.com/tursodatabase/turso/issues/12529) | MVCC: prev() after a failed exists() panics with "invalid last state" | 2026-11-26 |
 
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #26500: weak bug signal (0/4)
+- #26498: weak bug signal (0/4)
+- #26496: weak bug signal (1/4)
+- #26489: weak bug signal (0/4)
+- #26486: weak bug signal (1/4)
+- #26482: weak bug signal (0/4)
+- #26481: weak bug signal (0/4)
+- #26478: weak bug signal (0/4)
 - #26471: weak bug signal (0/4)
 - #26469: weak bug signal (0/4)
 - #26460: weak bug signal (0/4)
@@ -33,19 +41,15 @@ Last run: **2026-11-27 01:52 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #26393: weak bug signal (0/4)
 - #26392: weak bug signal (0/4)
 - #26391: weak bug signal (0/4)
-- #26388: weak bug signal (1/4)
-- #26387: weak bug signal (0/4)
-- #26386: weak bug signal (1/4)
-- #26385: weak bug signal (0/4)
-- #26384: weak bug signal (0/4)
-- #26377: weak bug signal (0/4)
-- #26375: weak bug signal (0/4)
-- #26374: weak bug signal (0/4)
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
-- #12587: patch already attached
+- #12600: weak bug signal (0/4)
+- #12598: weak bug signal (0/4)
+- #12596: weak bug signal (1/4)
+- #12595: weak bug signal (1/4)
+- #12594: weak bug signal (1/4)
 - #12584: weak bug signal (1/4)
 - #12583: weak bug signal (1/4)
 - #12579: weak bug signal (1/4)
@@ -68,9 +72,5 @@ Last run: **2026-11-27 01:52 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #12540: weak bug signal (0/4)
 - #12539: weak bug signal (0/4)
 - #12538: weak bug signal (1/4)
-- #12536: weak bug signal (1/4)
-- #12535: weak bug signal (0/4)
-- #12531: weak bug signal (0/4)
-- #12530: weak bug signal (0/4)
 
 </details>
