@@ -1,9 +1,10 @@
 # Bounty scout
 
-Last run: **2026-11-27 19:50 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
+Last run: **2026-11-28 02:32 UTC** — fresh (≤72h), unclaimed, reproducible bugs on repos with verifiable payout history.
 
 | Repo | Issue | Title | Opened |
 |---|---|---|---|
+| tursodatabase/turso | [#12628](https://github.com/tursodatabase/turso/issues/12628) | differential fuzzer ddl failure seed 7116562677037991430 | 2026-11-27 |
 | tursodatabase/turso | [#12620](https://github.com/tursodatabase/turso/issues/12620) | MVCC: opening a cursor scans the whole root map (O(tables + indexes) per cursor open) | 2026-11-27 |
 | tursodatabase/turso | [#12615](https://github.com/tursodatabase/turso/issues/12615) | Code smell: Multiprocess WAL: reopen after a crash returns a commit with damaged WAL frames | 2026-11-27 |
 | tursodatabase/turso | [#12554](https://github.com/tursodatabase/turso/issues/12554) | MVCC logical pull fails on a remote DROP COLUMN plus a RENAME COLUMN to the dropped name | 2026-11-26 |
@@ -11,6 +12,9 @@ Last run: **2026-11-27 19:50 UTC** — fresh (≤72h), unclaimed, reproducible b
 <details><summary>Filter log</summary>
 
 **BasedHardware/omi**
+- #26557: title reads as proposal/question
+- #26556: weak bug signal (1/4)
+- #26551: weak bug signal (1/4)
 - #26536: weak bug signal (1/4)
 - #26534: title reads as proposal/question
 - #26533: weak bug signal (1/4)
@@ -38,13 +42,13 @@ Last run: **2026-11-27 19:50 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #26460: weak bug signal (0/4)
 - #26457: weak bug signal (0/4)
 - #26456: weak bug signal (0/4)
-- #26451: weak bug signal (0/4)
-- #26445: weak bug signal (0/4)
-- #26442: weak bug signal (0/4)
 
 **projectdiscovery/katana**
 
 **tursodatabase/turso**
+- #12637: weak bug signal (1/4)
+- #12636: weak bug signal (1/4)
+- #12629: weak bug signal (0/4)
 - #12623: 1 open PR(s) already reference it
 - #12600: weak bug signal (0/4)
 - #12599: 1 open PR(s) already reference it
@@ -68,9 +72,5 @@ Last run: **2026-11-27 19:50 UTC** — fresh (≤72h), unclaimed, reproducible b
 - #12550: 1 open PR(s) already reference it
 - #12548: 1 open PR(s) already reference it
 - #12547: 1 open PR(s) already reference it
-- #12546: 2 open PR(s) already reference it
-- #12545: weak bug signal (1/4)
-- #12542: weak bug signal (1/4)
-- #12541: weak bug signal (1/4)
 
 </details>
